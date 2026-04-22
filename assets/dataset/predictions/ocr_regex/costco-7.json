@@ -1,0 +1,31 @@
+{
+  "receipt_id": "costco-7",
+  "image_file": "costco-7.jpg",
+  "fields": {
+    "merchant_name": "COSTCO",
+    "date": "2019-03-31",
+    "time": null,
+    "subtotal": null,
+    "tax": null,
+    "total": 38.48,
+    "payment_method": "card",
+    "card_last4": "8124",
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "XXXXXXXXXXXX8124",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 22.1
+    },
+    {
+      "line_id": 2,
+      "name": "AMCUNT: $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 38.48
+    }
+  ]
+}

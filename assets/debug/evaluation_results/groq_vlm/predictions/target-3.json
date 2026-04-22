@@ -1,0 +1,24 @@
+{
+  "receipt_id": "target-3",
+  "image_file": "target-3.jpeg",
+  "fields": {
+    "merchant_name": "Target",
+    "date": "2021-07-25",
+    "time": null,
+    "subtotal": 169.99,
+    "tax": 9.69,
+    "total": 171.18,
+    "payment_method": "other",
+    "card_last4": null,
+    "receipt_number": "087164340"
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "TRA TITAN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 169.99
+    }
+  ]
+}

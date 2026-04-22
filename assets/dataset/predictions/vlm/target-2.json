@@ -1,0 +1,52 @@
+{
+  "receipt_id": "target-2",
+  "image_file": "target-2.jpg",
+  "fields": {
+    "merchant_name": "Target",
+    "date": "2021-02-01",
+    "time": null,
+    "subtotal": 96.6,
+    "tax": 9.27,
+    "total": 101.04,
+    "payment_method": "other",
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "EVERSPRING",
+      "quantity": 1.0,
+      "unit_price": 2.79,
+      "item_total": 2.79
+    },
+    {
+      "line_id": 2,
+      "name": "COMMAND",
+      "quantity": 1.0,
+      "unit_price": 11.99,
+      "item_total": 11.99
+    },
+    {
+      "line_id": 3,
+      "name": "BRIGHT BOX",
+      "quantity": 1.0,
+      "unit_price": 4.99,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 4,
+      "name": "DAWN",
+      "quantity": 1.0,
+      "unit_price": 10.89,
+      "item_total": 10.89
+    },
+    {
+      "line_id": 5,
+      "name": "UTILITY TUB",
+      "quantity": 4.0,
+      "unit_price": 10.99,
+      "item_total": 43.96
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "receipt_id": "costco-4",
+  "image_file": "costco-4.jpg",
+  "fields": {
+    "merchant_name": "COSTCO WHOLESALE",
+    "date": null,
+    "time": null,
+    "subtotal": 327.75,
+    "tax": 15.2,
+    "total": 342.95,
+    "payment_method": null,
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "PEPSI COLA",
+      "quantity": 1.0,
+      "unit_price": 10.99,
+      "item_total": 10.99
+    },
+    {
+      "line_id": 2,
+      "name": "SWIFR WET 64",
+      "quantity": 1.0,
+      "unit_price": 15.79,
+      "item_total": 15.79
+    },
+    {
+      "line_id": 3,
+      "name": "KS FAB SOFT",
+      "quantity": 1.0,
+      "unit_price": 8.99,
+      "item_total": 8.99
+    },
+    {
+      "line_id": 4,
+      "name": "DAWN PLATINM",
+      "quantity": 1.0,
+      "unit_price": 9.99,
+      "item_total": 9.99
+    },
+    {
+      "line_id": 5,
+      "name": "TIDEOXIPODS",
+      "quantity": 1.0,
+      "unit_price": 24.49,
+      "item_total": 24.49
+    },
+    {
+      "line_id": 6,
+      "name": "WOODBRG MERL",
+      "quantity": 1.0,
+      "unit_price": 53.94,
+      "item_total": 53.94
+    },
+    {
+      "line_id": 7,
+      "name": "WHOLE MILK",
+      "quantity": 2.0,
+      "unit_price": 3.35,
+      "item_total": 6.7
+    },
+    {
+      "line_id": 8,
+      "name": "KS ORG EVOO",
+      "quantity": 1.0,
+      "unit_price": 9.49,
+      "item_total": 9.49
+    },
+    {
+      "line_id": 9,
+      "name": "10LB SUGAR",
+      "quantity": 2.0,
+      "unit_price": 5.59,
+      "item_total": 11.18
+    },
+    {
+      "line_id": 10,
+      "name": "DM GRN BEAN",
+      "quantity": 1.0,
+      "unit_price": 9.69,
+      "item_total": 9.69
+    },
+    {
+      "line_id": 11,
+      "name": "ORG STRAWBRY",
+      "quantity": 1.0,
+      "unit_price": 8.99,
+      "item_total": 8.99
+    },
+    {
+      "line_id": 12,
+      "name": "VIENNA SAUSG",
+      "quantity": 2.0,
+      "unit_price": 7.99,
+      "item_total": 15.98
+    },
+    {
+      "line_id": 13,
+      "name": "CHOC3PKBAR",
+      "quantity": 1.0,
+      "unit_price": 5.99,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 14,
+      "name": "BOUNCE 320CT",
+      "quantity": 1.0,
+      "unit_price": 9.99,
+      "item_total": 9.99
+    },
+    {
+      "line_id": 15,
+      "name": "NAE POT PIE",
+      "quantity": 1.0,
+      "unit_price": 10.89,
+      "item_total": 10.89
+    },
+    {
+      "line_id": 16,
+      "name": "KS CAGE FREE",
+      "quantity": 1.0,
+      "unit_price": 3.39,
+      "item_total": 3.39
+    },
+    {
+      "line_id": 17,
+      "name": "VIENNA SAUSG",
+      "quantity": 1.0,
+      "unit_price": 7.99,
+      "item_total": 7.99
+    },
+    {
+      "line_id": 18,
+      "name": "PANTENESHAMP",
+      "quantity": 1.0,
+      "unit_price": 9.99,
+      "item_total": 9.99
+    }
+  ]
+}

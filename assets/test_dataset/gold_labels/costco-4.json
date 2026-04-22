@@ -1,0 +1,248 @@
+{
+    "receipt_id": "costco-4",
+    "image_file": "costco-4.jpg",
+    "fields": {
+        "merchant_name": "COSTCO WHOLESALE",
+        "date": null,
+        "time": null,
+        "subtotal": 327.75,
+        "tax": 15.20,
+        "total": 342.95,
+        "payment_method": null,
+        "card_last4": null,
+        "receipt_number": null
+    },
+    "items": [
+        {
+            "line_id": 1,
+            "name": "*PEPSI COLA*",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 10.99
+        },
+        {
+            "line_id": 2,
+            "name": "SWIFR WET 64",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 15.79
+        },
+        {
+            "line_id": 3,
+            "name": "KS FAB SOFT",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 8.99
+        },
+        {
+            "line_id": 4,
+            "name": "DAWN PLATINM",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 9.99
+        },
+        {
+            "line_id": 5,
+            "name": "TIDEOXIPODS",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 24.49
+        },
+        {
+            "line_id": 6,
+            "name": "WOODBRG MERL",
+            "quantity": 6,
+            "unit_price": 8.99,
+            "item_total": 53.94
+        },
+        {
+            "line_id": 7,
+            "name": "3 WHOLE MILK",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 3.35
+        },
+        {
+            "line_id": 8,
+            "name": "3 WHOLE MILK",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 3.35
+        },
+        {
+            "line_id": 9,
+            "name": "KS ORG EVOO",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 9.49
+        },
+        {
+            "line_id": 10,
+            "name": "10LB SUGAR",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 5.59
+        },
+        {
+            "line_id": 11,
+            "name": "10LB SUGAR",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 5.59
+        },
+        {
+            "line_id": 12,
+            "name": "DM GRN BEAN",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 9.69
+        },
+        {
+            "line_id": 13,
+            "name": "ORG STRAWBRY",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 8.99
+        },
+        {
+            "line_id": 14,
+            "name": "VIENNA SAUSG",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 7.99
+        },
+        {
+            "line_id": 15,
+            "name": "CHOC3PKBAR",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 5.99
+        },
+        {
+            "line_id": 16,
+            "name": "BOUNCE 320CT",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 9.99
+        },
+        {
+            "line_id": 17,
+            "name": "NAE POT PIE",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 10.89
+        },
+        {
+            "line_id": 18,
+            "name": "KS CAGE FREE",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 3.39
+        },
+        {
+            "line_id": 19,
+            "name": "VIENNA SAUSG",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 7.99
+        },
+        {
+            "line_id": 20,
+            "name": "PANTENESHAMP",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 9.99
+        },
+        {
+            "line_id": 21,
+            "name": "POLSKA KIELB",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 11.79
+        },
+        {
+            "line_id": 22,
+            "name": "PANTENE COND",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 9.99
+        },
+        {
+            "line_id": 23,
+            "name": "KS CRMB BCN",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 8.89
+        },
+        {
+            "line_id": 24,
+            "name": "MIXED VEGG",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 5.89
+        },
+        {
+            "line_id": 25,
+            "name": "KS SLCD HAM",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 8.99
+        },
+        {
+            "line_id": 26,
+            "name": "RUMMO-8PK",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 9.99
+        },
+        {
+            "line_id": 27,
+            "name": "CREST SCOPE",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 12.99
+        },
+        {
+            "line_id": 28,
+            "name": "ORAL-B CROSS",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 14.99
+        },
+        {
+            "line_id": 29,
+            "name": "KS GRD PEPPR",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 3.99
+        },
+        {
+            "line_id": 30,
+            "name": "KS IBU 2X500",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 9.99
+        },
+        {
+            "line_id": 31,
+            "name": "FR ONIONSOUP",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 9.99
+        },
+        {
+            "line_id": 32,
+            "name": "VRTYMIXFRUIT",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 7.99
+        }
+    ],
+    "evaluation_metadata": {
+        "currency": "USD",
+        "visible_payment_info": false,
+        "has_discounts_or_coupons": true,
+        "quality": "moderate",
+        "notes": "The bottom of the receipt is cut off, so date, time, payment method, and receipt number are unavailable. Discounts were excluded from items but reflected in the total."
+    }
+}

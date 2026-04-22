@@ -1,0 +1,80 @@
+{
+    "receipt_id": "costco-8",
+    "image_file": "costco-8.jpg",
+    "fields": {
+        "merchant_name": "COSTCO WHOLESALE",
+        "date": "2018-10-12",
+        "time": "12:10 PM",
+        "subtotal": 79.34,
+        "tax": 0.0,
+        "total": 79.34,
+        "payment_method": "card",
+        "card_last4": "7000",
+        "receipt_number": "1125 7 96 812"
+    },
+    "items": [
+        {
+            "line_id": 1,
+            "name": "OG CHRY ALMD",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 6.99
+        },
+        {
+            "line_id": 2,
+            "name": "ORG. BANANA",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 1.94
+        },
+        {
+            "line_id": 3,
+            "name": "CHICALFREDO",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 18.36
+        },
+        {
+            "line_id": 4,
+            "name": "CHEDDAR SLCS",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 6.99
+        },
+        {
+            "line_id": 5,
+            "name": "MINI PEPPER",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 5.49
+        },
+        {
+            "line_id": 6,
+            "name": "VAR. MUFFIN",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 7.99
+        },
+        {
+            "line_id": 7,
+            "name": "PUMPKIN PIE",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 5.99
+        },
+        {
+            "line_id": 8,
+            "name": "PORK BACKRIB",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 31.42
+        }
+    ],
+    "evaluation_metadata": {
+        "currency": "USD",
+        "visible_payment_info": true,
+        "has_discounts_or_coupons": true,
+        "quality": "clean",
+        "notes": "Final subtotal and total used after fuel discount application. Time 12:10 normalized to 12:10 PM."
+    }
+}

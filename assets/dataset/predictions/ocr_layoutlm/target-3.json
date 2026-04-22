@@ -1,0 +1,16 @@
+{
+  "receipt_id": "target-3",
+  "image_file": "target-3.jpeg",
+  "fields": {
+    "merchant_name": "Bel Air-410-638-7532",
+    "date": "07/25/2021",
+    "time": null,
+    "subtotal": 169.99,
+    "tax": 9.69,
+    "total": 171.18,
+    "payment_method": "card",
+    "card_last4": "0219",
+    "receipt_number": null
+  },
+  "items": []
+}

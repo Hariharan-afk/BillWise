@@ -1,0 +1,234 @@
+{
+  "receipt_id": "costco-4",
+  "image_file": "costco-4.jpg",
+  "fields": {
+    "merchant_name": "COSTCO",
+    "date": null,
+    "time": null,
+    "subtotal": 327.75,
+    "tax": 15.2,
+    "total": 342.95,
+    "payment_method": null,
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "577MPEPSI COLA*",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 10.99
+    },
+    {
+      "line_id": 2,
+      "name": "1218574 SWIFR VET 64",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 15.79
+    },
+    {
+      "line_id": 3,
+      "name": "561348 KS FABSOFT",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 8.99
+    },
+    {
+      "line_id": 4,
+      "name": "990929 DAWN PLATINM",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.99
+    },
+    {
+      "line_id": 5,
+      "name": "2247023 TIDEOXIPODS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 24.49
+    },
+    {
+      "line_id": 6,
+      "name": "3WHOLE MILK",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.35
+    },
+    {
+      "line_id": 7,
+      "name": "3WHOLE MILK",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.35
+    },
+    {
+      "line_id": 8,
+      "name": "692731 KS ORG EVO0",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.49
+    },
+    {
+      "line_id": 9,
+      "name": "140514 10LBSUGAR",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.59
+    },
+    {
+      "line_id": 10,
+      "name": "140614 10LB SUGAR",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.59
+    },
+    {
+      "line_id": 11,
+      "name": "477103 DM GRN BEAN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.69
+    },
+    {
+      "line_id": 12,
+      "name": "512515 ORG STRAWBRY",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 8.99
+    },
+    {
+      "line_id": 13,
+      "name": "704329 VIENNA SAUSG",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 7.99
+    },
+    {
+      "line_id": 14,
+      "name": "1463123 CHOC3PKBAR",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 15,
+      "name": "1006152 BOUNCE 320CT",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.99
+    },
+    {
+      "line_id": 16,
+      "name": "1355725 NAE POT PIE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 10.89
+    },
+    {
+      "line_id": 17,
+      "name": "637598 KS CAGE FREE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.39
+    },
+    {
+      "line_id": 18,
+      "name": "704329 VIENNA SAUSG",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 7.99
+    },
+    {
+      "line_id": 19,
+      "name": "1376911 PANTENESHAMP",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.99
+    },
+    {
+      "line_id": 20,
+      "name": "967354 POLSKA KIELB",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 11.79
+    },
+    {
+      "line_id": 21,
+      "name": "1376912 PANTENE COND",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.99
+    },
+    {
+      "line_id": 22,
+      "name": "279783 KS CRMB BCN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 8.89
+    },
+    {
+      "line_id": 23,
+      "name": "1449634 MIXED VEGG",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.89
+    },
+    {
+      "line_id": 24,
+      "name": "1075316 KS SLCD HAM",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 8.99
+    },
+    {
+      "line_id": 25,
+      "name": "1341359 RUMMO-8PK",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.99
+    },
+    {
+      "line_id": 26,
+      "name": "1216715 CREST SCOPE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 12.99
+    },
+    {
+      "line_id": 27,
+      "name": "3355625 ORAL-B CROSS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 14.99
+    },
+    {
+      "line_id": 28,
+      "name": "164998 KS GRD PEPPR",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 29,
+      "name": "808082 KS IBU 2X500",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.99
+    },
+    {
+      "line_id": 30,
+      "name": "169730 FR ONIONSOUP",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.99
+    },
+    {
+      "line_id": 31,
+      "name": "195364 VRTYMIXFRUIT",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 7.99
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "receipt_id": "traderjoes-3",
+  "image_file": "traderjoes-3.jpg",
+  "fields": {
+    "merchant_name": "TRADER JOE'S",
+    "date": null,
+    "time": null,
+    "subtotal": 111.36,
+    "tax": 1.54,
+    "total": 128.42,
+    "payment_method": "card",
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "CHOC SNACKY CLUSTERS",
+      "quantity": 1.0,
+      "unit_price": 3.99,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 2,
+      "name": "TORTILLA CHIPS TRULY",
+      "quantity": 1.0,
+      "unit_price": 2.99,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 3,
+      "name": "CRACKERS SAVORY SQUARES",
+      "quantity": 1.0,
+      "unit_price": 3.99,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 4,
+      "name": "TRADER JOSE S LAGER BEER",
+      "quantity": 1.0,
+      "unit_price": 7.49,
+      "item_total": 7.49
+    },
+    {
+      "line_id": 5,
+      "name": "SAVORY THIN MULTI SEEDED CR",
+      "quantity": 1.0,
+      "unit_price": 3.99,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 6,
+      "name": "PARMESAN GRATED CHEESE",
+      "quantity": 1.0,
+      "unit_price": 3.49,
+      "item_total": 3.49
+    },
+    {
+      "line_id": 7,
+      "name": "HOT SWEET JALAPENOS",
+      "quantity": 1.0,
+      "unit_price": 3.29,
+      "item_total": 3.29
+    },
+    {
+      "line_id": 8,
+      "name": "SHORTBREAD SANDWICH RASP",
+      "quantity": 1.0,
+      "unit_price": 5.98,
+      "item_total": 5.98
+    },
+    {
+      "line_id": 9,
+      "name": "SHREDDED SHARP CHEDDAR",
+      "quantity": 1.0,
+      "unit_price": 3.99,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 10,
+      "name": "SHREDDED LITE MEXICAN BL",
+      "quantity": 1.0,
+      "unit_price": 3.99,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 11,
+      "name": "RIDGE CUT POTATO CHIPS S",
+      "quantity": 1.0,
+      "unit_price": 3.99,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 12,
+      "name": "GUMMY SPRING",
+      "quantity": 1.0,
+      "unit_price": 3.49,
+      "item_total": 3.49
+    },
+    {
+      "line_id": 13,
+      "name": "SP NACH SOUR CREAM DIP",
+      "quantity": 1.0,
+      "unit_price": 3.99,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 14,
+      "name": "SALSA AUTENTICA",
+      "quantity": 1.0,
+      "unit_price": 2.29,
+      "item_total": 2.29
+    },
+    {
+      "line_id": 15,
+      "name": "R GRAPES HONEY PEARLS 2L",
+      "quantity": 1.0,
+      "unit_price": 7.99,
+      "item_total": 7.99
+    },
+    {
+      "line_id": 16,
+      "name": "TAMBA PEANUT SNACKS",
+      "quantity": 1.0,
+      "unit_price": 1.79,
+      "item_total": 1.79
+    },
+    {
+      "line_id": 17,
+      "name": "ESPIRAL VINHO VERDE",
+      "quantity": 1.0,
+      "unit_price": 4.99,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 18,
+      "name": "THE PUPPET CHILLABLE RED",
+      "quantity": 1.0,
+      "unit_price": 7.99,
+      "item_total": 7.99
+    }
+  ],
+  "review_required": true,
+  "review_reasons": [
+    "missing_date",
+    "total_arithmetic_inconsistency",
+    "item_semantic_disagreement"
+  ],
+  "field_sources": {
+    "merchant_name": "vlm",
+    "date": "ocr_layoutlm",
+    "receipt_number": "ocr_layoutlm",
+    "time": "vlm",
+    "subtotal": "vlm",
+    "tax": "ocr_layoutlm",
+    "total": "ocr_layoutlm",
+    "card_last4": "none",
+    "payment_method": "ocr_layoutlm"
+  },
+  "item_source": "vlm",
+  "ocr_layoutlm_status": "ok",
+  "vlm_status": "ok"
+}

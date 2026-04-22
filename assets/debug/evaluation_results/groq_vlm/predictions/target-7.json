@@ -1,0 +1,38 @@
+{
+  "receipt_id": "target-7",
+  "image_file": "target-7.jpg",
+  "fields": {
+    "merchant_name": "Target",
+    "date": "2018-08-17",
+    "time": null,
+    "subtotal": 27.34,
+    "tax": 2.76,
+    "total": 30.1,
+    "payment_method": "card",
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "Lysol",
+      "quantity": 1.0,
+      "unit_price": 5.99,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 2,
+      "name": "Tide 2X",
+      "quantity": 3.0,
+      "unit_price": 11.99,
+      "item_total": 35.97
+    },
+    {
+      "line_id": 3,
+      "name": "Tide 2X",
+      "quantity": 1.0,
+      "unit_price": 9.19,
+      "item_total": 9.19
+    }
+  ]
+}

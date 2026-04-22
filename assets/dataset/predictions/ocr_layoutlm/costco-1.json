@@ -1,0 +1,129 @@
+{
+  "receipt_id": "costco-1",
+  "image_file": "costco-1.jpg",
+  "fields": {
+    "merchant_name": "COSTCO",
+    "date": null,
+    "time": "12:46",
+    "subtotal": 211.27,
+    "tax": 5.79,
+    "total": 217.06,
+    "payment_method": null,
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "24311 VAR,MUFFIN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.99
+    },
+    {
+      "line_id": 2,
+      "name": "87745 ROTISSERIE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 3,
+      "name": "11545 STREET TACOS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 15.76
+    },
+    {
+      "line_id": 4,
+      "name": "1239521 KSULTRALIQ",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 17.99
+    },
+    {
+      "line_id": 5,
+      "name": "88744 KS MEATBALLS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 19.99
+    },
+    {
+      "line_id": 6,
+      "name": "1221092 ARTISANROLL",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 7,
+      "name": "990551 BASIL PESTO",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.49
+    },
+    {
+      "line_id": 8,
+      "name": "1474436 KS TRAIL MIX",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 12.69
+    },
+    {
+      "line_id": 9,
+      "name": "1234826RA0'S2PK",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 11.89
+    },
+    {
+      "line_id": 10,
+      "name": "878137 18CT EGGS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 12.87
+    },
+    {
+      "line_id": 11,
+      "name": "34423COOKIES24CT",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.99
+    },
+    {
+      "line_id": 12,
+      "name": "384881KS BUTTER",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 10.39
+    },
+    {
+      "line_id": 13,
+      "name": "1364698 KSORG 2%MK",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 10.47
+    },
+    {
+      "line_id": 14,
+      "name": "1641293KSBEEFLSGN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 18.89
+    },
+    {
+      "line_id": 15,
+      "name": "512599 KSTOWEL",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 19.89
+    },
+    {
+      "line_id": 16,
+      "name": "6262016KSBATH",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 19.99
+    }
+  ]
+}

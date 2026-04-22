@@ -1,0 +1,99 @@
+{
+  "receipt_id": "costco-3",
+  "image_file": "costco-3.jpg",
+  "fields": {
+    "merchant_name": "Costco Wholesale",
+    "date": "2018-05-07",
+    "time": null,
+    "subtotal": 85.61,
+    "tax": 3.52,
+    "total": 89.13,
+    "payment_method": null,
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "FF BS BREAST",
+      "quantity": 2.0,
+      "unit_price": 23.99,
+      "item_total": 47.98
+    },
+    {
+      "line_id": 2,
+      "name": "KS DICED TOM",
+      "quantity": 1.0,
+      "unit_price": 6.49,
+      "item_total": 6.49
+    },
+    {
+      "line_id": 3,
+      "name": "JACKORGSALSA",
+      "quantity": 1.0,
+      "unit_price": 2.97,
+      "item_total": 2.97
+    },
+    {
+      "line_id": 4,
+      "name": "18CT EGGS",
+      "quantity": 3.0,
+      "unit_price": 4.29,
+      "item_total": 12.87
+    },
+    {
+      "line_id": 5,
+      "name": "GRAPE TOMATO",
+      "quantity": 1.0,
+      "unit_price": 6.29,
+      "item_total": 6.29
+    },
+    {
+      "line_id": 6,
+      "name": "ECO HALF PAN",
+      "quantity": 1.0,
+      "unit_price": 18.47,
+      "item_total": 18.47
+    },
+    {
+      "line_id": 7,
+      "name": "GRND TURKEY",
+      "quantity": 1.0,
+      "unit_price": null,
+      "item_total": null
+    },
+    {
+      "line_id": 8,
+      "name": "CHPD ONION 2",
+      "quantity": 1.0,
+      "unit_price": 3.59,
+      "item_total": 3.59
+    },
+    {
+      "line_id": 9,
+      "name": "MONT JACK 2",
+      "quantity": 1.0,
+      "unit_price": 4.45,
+      "item_total": 4.45
+    }
+  ],
+  "review_required": true,
+  "review_reasons": [
+    "date_disagreement",
+    "item_semantic_disagreement"
+  ],
+  "field_sources": {
+    "merchant_name": "vlm",
+    "date": "vlm",
+    "receipt_number": "ocr_layoutlm",
+    "time": "vlm",
+    "subtotal": "ocr_layoutlm",
+    "tax": "ocr_layoutlm",
+    "total": "ocr_layoutlm",
+    "card_last4": "none",
+    "payment_method": "none"
+  },
+  "item_source": "vlm",
+  "ocr_layoutlm_status": "ok",
+  "vlm_status": "ok"
+}

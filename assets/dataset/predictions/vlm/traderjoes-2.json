@@ -1,0 +1,115 @@
+{
+  "receipt_id": "traderjoes-2",
+  "image_file": "traderjoes-2.jpg",
+  "fields": {
+    "merchant_name": "TRADER JOE'S",
+    "date": null,
+    "time": null,
+    "subtotal": 34.41,
+    "tax": 0.68,
+    "total": 41.98,
+    "payment_method": "other",
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "BANANA EACH",
+      "quantity": 7.0,
+      "unit_price": 0.23,
+      "item_total": 1.61
+    },
+    {
+      "line_id": 2,
+      "name": "BAREBELLS CHOCOLATE DOUG",
+      "quantity": 1.0,
+      "unit_price": 2.29,
+      "item_total": 2.29
+    },
+    {
+      "line_id": 3,
+      "name": "BAREBELLS CREAMY CRISP",
+      "quantity": 1.0,
+      "unit_price": 2.29,
+      "item_total": 2.29
+    },
+    {
+      "line_id": 4,
+      "name": "BAREBELLS CHOCOLATE DOUG",
+      "quantity": 1.0,
+      "unit_price": 2.29,
+      "item_total": 2.29
+    },
+    {
+      "line_id": 5,
+      "name": "BAREBELLS CARAMEL CASHEW",
+      "quantity": 2.0,
+      "unit_price": 2.29,
+      "item_total": 4.58
+    },
+    {
+      "line_id": 6,
+      "name": "BAREBELLS CREAMY CRISP",
+      "quantity": 1.0,
+      "unit_price": 2.29,
+      "item_total": 2.29
+    },
+    {
+      "line_id": 7,
+      "name": "SPINDRIFT ORANGE MANGO",
+      "quantity": 8.0,
+      "unit_price": 0.93,
+      "item_total": 7.49
+    },
+    {
+      "line_id": 8,
+      "name": "BOTTLE DEPOSIT",
+      "quantity": 8.0,
+      "unit_price": 0.05,
+      "item_total": 0.4
+    },
+    {
+      "line_id": 9,
+      "name": "MILK ORGANIC GALLON WHOL",
+      "quantity": 1.0,
+      "unit_price": 6.79,
+      "item_total": 6.79
+    },
+    {
+      "line_id": 10,
+      "name": "CLASSIC GREEK SALAD",
+      "quantity": 1.0,
+      "unit_price": 3.49,
+      "item_total": 3.49
+    },
+    {
+      "line_id": 11,
+      "name": "COBB SALAD",
+      "quantity": 1.0,
+      "unit_price": 5.99,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 12,
+      "name": "PEPPER BELL RED XL EACH",
+      "quantity": 1.0,
+      "unit_price": 1.29,
+      "item_total": 1.29
+    },
+    {
+      "line_id": 13,
+      "name": "BAG FEE",
+      "quantity": 1.0,
+      "unit_price": 0.25,
+      "item_total": 0.25
+    },
+    {
+      "line_id": 14,
+      "name": "BAG FEE",
+      "quantity": 1.0,
+      "unit_price": 0.25,
+      "item_total": 0.25
+    }
+  ]
+}

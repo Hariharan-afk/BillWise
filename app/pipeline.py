@@ -8,7 +8,7 @@ from ocr.paddle_ocr_engine import PaddleOCREngine
 from output.formatter import build_receipt_result
 
 
-def _run_prototype_core(image_path: str):
+def _run_ocr_layoutlm_core(image_path: str):
     ocr_engine = PaddleOCREngine()
     tokens, width, height = ocr_engine.predict(image_path)
 
@@ -42,9 +42,9 @@ def _run_prototype_core(image_path: str):
     }
 
 
-def run_prototype_pipeline(image_path: str):
-    return _run_prototype_core(image_path)["result"]
+def run_ocr_layoutlm_pipeline(image_path: str):
+    return _run_ocr_layoutlm_core(image_path)["result"]
 
 
-def run_prototype_debug_pipeline(image_path: str):
-    return _run_prototype_core(image_path)
+def run_ocr_layoutlm_debug_pipeline(image_path: str):
+    return _run_ocr_layoutlm_core(image_path)

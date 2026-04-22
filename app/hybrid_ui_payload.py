@@ -3,11 +3,11 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from app.pipeline import run_prototype_pipeline
+from app.pipeline import run_ocr_layoutlm_pipeline
 from evaluation.normalize import normalize_amount
-from methods.groq_vlm import GroqVLMMethod
+from methods.vlm import GroqVLMMethod
 from methods.hybrid_method import HybridMethod
-from methods.prototype_method import PrototypeMethod
+from methods.ocr_layoutlm import PrototypeMethod
 
 FIELD_ORDER = [
     "merchant_name",
@@ -78,7 +78,7 @@ def _lineitems_from_canonical(canonical_receipt) -> List[Dict[str, Any]]:
 def build_hybrid_ui_payload(image_path: str) -> Dict[str, Any]:
     receipt_id = _receipt_id_from_path(image_path)
 
-    proto_raw = run_prototype_pipeline(image_path)
+    proto_raw = run_ocr_layoutlm_pipeline(image_path)
     proto_method = PrototypeMethod()
     groq_method = GroqVLMMethod()
     hybrid_method = HybridMethod()
@@ -103,7 +103,7 @@ def build_hybrid_ui_payload(image_path: str) -> Dict[str, Any]:
         final_value = hybrid_fields.get(field_name)
         final_source = field_sources.get(field_name, None)
 
-        if final_source == "prototype" and proto_entry is not None:
+        if final_source == "ocr_layoutlm" and proto_entry is not None:
             final_confidence = proto_entry.get("confidence")
             final_bbox = proto_entry.get("bbox")
         else:
@@ -115,12 +115,12 @@ def build_hybrid_ui_payload(image_path: str) -> Dict[str, Any]:
             "final_source": final_source,
             "final_confidence": final_confidence,
             "final_bbox": final_bbox,
-            "prototype": proto_entry,
-            "groq": {
+            "ocr_layoutlm": proto_entry,
+            "vlm": {
                 "value": groq_value,
                 "confidence": None,
                 "bbox": None,
-                "source": "groq",
+                "source": "vlm",
             },
         }
 
@@ -131,12 +131,12 @@ def build_hybrid_ui_payload(image_path: str) -> Dict[str, Any]:
         "review_required": review_required,
         "review_reasons": review_reasons,
         "fields": fields_payload,
-        "prototype_items": _lineitems_from_proto(proto_raw),
-        "groq_items": _lineitems_from_canonical(groq_canonical),
+        "ocr_layoutlm_items": _lineitems_from_proto(proto_raw),
+        "vlm_items": _lineitems_from_canonical(groq_canonical),
         "hybrid_items": _lineitems_from_canonical(hybrid_canonical),
-        "prototype_raw_output": proto_raw.model_dump(),
-        "prototype_canonical_output": proto_canonical.model_dump(),
-        "groq_canonical_output": groq_canonical.model_dump(),
+        "ocr_layoutlm_raw_output": proto_raw.model_dump(),
+        "ocr_layoutlm_canonical_output": proto_canonical.model_dump(),
+        "vlm_canonical_output": groq_canonical.model_dump(),
         "hybrid_canonical_output": hybrid_canonical.model_dump(),
     }
 

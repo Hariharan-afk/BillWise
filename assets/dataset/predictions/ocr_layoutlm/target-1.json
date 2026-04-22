@@ -1,0 +1,59 @@
+{
+  "receipt_id": "target-1",
+  "image_file": "target-1.jpg",
+  "fields": {
+    "merchant_name": "TARGET",
+    "date": "12/09/2017",
+    "time": null,
+    "subtotal": 27.34,
+    "tax": 1.7,
+    "total": 29.04,
+    "payment_method": null,
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "KISSES",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.0
+    },
+    {
+      "line_id": 2,
+      "name": "BUTTERFINGER",
+      "quantity": 30.0,
+      "unit_price": null,
+      "item_total": 9.0
+    },
+    {
+      "line_id": 3,
+      "name": "FO0D COLOR",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 4,
+      "name": "CONAIR HEADB",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.5
+    },
+    {
+      "line_id": 5,
+      "name": "CONAIR CLIPS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.79
+    },
+    {
+      "line_id": 6,
+      "name": "CHAPSTICK 2",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.98
+    }
+  ]
+}

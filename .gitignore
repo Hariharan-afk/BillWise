@@ -12,6 +12,7 @@ env/
 .ipynb_checkpoints/
 .DS_Store
 Thumbs.db
-# assets/temp/
-# assets/debug/
-assets/
+*.zip
+*.rar
+*.tar
+*.7z

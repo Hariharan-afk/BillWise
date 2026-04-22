@@ -1,0 +1,18 @@
+{
+  "merchant_name": 0.875,
+  "date": 0.875,
+  "time": 0.1875,
+  "subtotal": 0.875,
+  "tax": 0.8125,
+  "total": 0.875,
+  "payment_method": 0.6875,
+  "card_last4": 0.4375,
+  "receipt_number": 0.4375,
+  "core_field_mean": 0.673611111111111,
+  "item_name_precision": 0.7383193195693196,
+  "item_name_recall": 0.7085948161315808,
+  "item_name_f1": 0.7166225380899294,
+  "pred_item_count": 6.4375,
+  "gold_item_count": 7.25,
+  "overall_score": 0.6865145392047566
+}

@@ -1,0 +1,45 @@
+{
+    "receipt_id": "costco-7",
+    "image_file": "costco-7.jpg",
+    "fields": {
+        "merchant_name": "COSTCO WHOLESALE",
+        "date": "2019-03-31",
+        "time": "10:31 AM",
+        "subtotal": 38.48,
+        "tax": 0.0,
+        "total": 38.48,
+        "payment_method": "card",
+        "card_last4": "8124",
+        "receipt_number": "1005 9 45 56"
+    },
+    "items": [
+        {
+            "line_id": 1,
+            "name": "BNLS/SL BRST",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 22.1
+        },
+        {
+            "line_id": 2,
+            "name": "GRAPE TOMATO",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 5.99
+        },
+        {
+            "line_id": 3,
+            "name": "KS BUTTER",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 10.39
+        }
+    ],
+    "evaluation_metadata": {
+        "currency": "USD",
+        "visible_payment_info": true,
+        "has_discounts_or_coupons": false,
+        "quality": "clean",
+        "notes": "Time 10:31 normalized to 10:31 AM."
+    }
+}

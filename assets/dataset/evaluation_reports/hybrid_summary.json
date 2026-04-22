@@ -1,0 +1,18 @@
+{
+  "merchant_name": 0.9655172413793104,
+  "date": 0.9655172413793104,
+  "time": 0.4482758620689655,
+  "subtotal": 0.8620689655172413,
+  "tax": 1.0,
+  "total": 1.0,
+  "payment_method": 0.7586206896551724,
+  "card_last4": 0.5862068965517241,
+  "receipt_number": 0.5172413793103449,
+  "core_field_mean": 0.789272030651341,
+  "item_name_precision": 0.7859780066676618,
+  "item_name_recall": 0.6404343246523057,
+  "item_name_f1": 0.6909834754387212,
+  "pred_item_count": 10.310344827586206,
+  "gold_item_count": 14.655172413793103,
+  "overall_score": 0.759785464087555
+}

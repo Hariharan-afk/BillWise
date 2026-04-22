@@ -1,0 +1,87 @@
+{
+  "receipt_id": "costco-3",
+  "image_file": "costco-3.jpg",
+  "fields": {
+    "merchant_name": "COSTCO",
+    "date": "2016-04-20",
+    "time": null,
+    "subtotal": null,
+    "tax": 8.5,
+    "total": 89.13,
+    "payment_method": "cash",
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "FF BS BREAST",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 23.99
+    },
+    {
+      "line_id": 2,
+      "name": "KS DICED TOM",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 6.49
+    },
+    {
+      "line_id": 3,
+      "name": "JACKORGSALSA",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.97
+    },
+    {
+      "line_id": 4,
+      "name": "18CT EGGS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 12.87
+    },
+    {
+      "line_id": 5,
+      "name": "GRAPE TOMATO",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 6.29
+    },
+    {
+      "line_id": 6,
+      "name": "ECO HALF PAN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 6.49
+    },
+    {
+      "line_id": 7,
+      "name": "GRND TURKEY",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 18.47
+    },
+    {
+      "line_id": 8,
+      "name": "CHPD ONION",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.59
+    },
+    {
+      "line_id": 9,
+      "name": "MONT JACK 2#",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.45
+    },
+    {
+      "line_id": 10,
+      "name": "Whse: 629 Trm:4 Trn: 172 OP:14",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.52
+    }
+  ]
+}

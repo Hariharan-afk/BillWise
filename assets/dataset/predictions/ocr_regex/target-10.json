@@ -1,0 +1,73 @@
+{
+  "receipt_id": "target-10",
+  "image_file": "target-10.jpg",
+  "fields": {
+    "merchant_name": "Myrtle Beach 17 and 544 - 843-294-6571",
+    "date": "2024-02-03",
+    "time": "03:45 PM",
+    "subtotal": null,
+    "tax": 8.0,
+    "total": 195.82,
+    "payment_method": "card",
+    "card_last4": "2061",
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "T $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 12.5
+    },
+    {
+      "line_id": 2,
+      "name": "T $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 18.99
+    },
+    {
+      "line_id": 3,
+      "name": "NF $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.79
+    },
+    {
+      "line_id": 4,
+      "name": "NF $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 12.99
+    },
+    {
+      "line_id": 5,
+      "name": "NF $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.29
+    },
+    {
+      "line_id": 6,
+      "name": "T $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.0
+    },
+    {
+      "line_id": 7,
+      "name": "$ ea",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.0
+    },
+    {
+      "line_id": 8,
+      "name": "T $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 20.49
+    }
+  ]
+}

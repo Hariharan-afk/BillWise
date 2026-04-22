@@ -1,0 +1,73 @@
+{
+  "receipt_id": "target-4",
+  "image_file": "target-4.jpg",
+  "fields": {
+    "merchant_name": "HOME",
+    "date": null,
+    "time": null,
+    "subtotal": null,
+    "tax": 6.0,
+    "total": 28.88,
+    "payment_method": "card",
+    "card_last4": "4065",
+    "receipt_number": "CARD"
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "off $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.94
+    },
+    {
+      "line_id": 2,
+      "name": "$ ea",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.84
+    },
+    {
+      "line_id": 3,
+      "name": "PHOTO ALBUM T",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.0
+    },
+    {
+      "line_id": 4,
+      "name": "GLADE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 5,
+      "name": "Refund Value $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.25
+    },
+    {
+      "line_id": 6,
+      "name": "GLADE PISO",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.89
+    },
+    {
+      "line_id": 7,
+      "name": "Refund Value $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.4
+    },
+    {
+      "line_id": 8,
+      "name": "Cartwheel",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.23
+    }
+  ]
+}

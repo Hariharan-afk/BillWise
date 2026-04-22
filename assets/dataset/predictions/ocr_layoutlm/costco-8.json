@@ -1,0 +1,66 @@
+{
+  "receipt_id": "costco-8",
+  "image_file": "costco-8.jpg",
+  "fields": {
+    "merchant_name": "COSTCO",
+    "date": "10/12/2018",
+    "time": null,
+    "subtotal": 85.17,
+    "tax": 0.0,
+    "total": 79.34,
+    "payment_method": "card",
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "2619 ORG.BANANA",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.94
+    },
+    {
+      "line_id": 2,
+      "name": "40249 CHICALFREDO",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 18.36
+    },
+    {
+      "line_id": 3,
+      "name": "CHEDDAR SLCS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 6.99
+    },
+    {
+      "line_id": 4,
+      "name": "202193 MINI PEPPER",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.49
+    },
+    {
+      "line_id": 5,
+      "name": "24311VAR.MUFFIN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 7.99
+    },
+    {
+      "line_id": 6,
+      "name": "60809 PUMPKIN PIE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 7,
+      "name": "33936PORK BACKRIB",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 31.42
+    }
+  ]
+}

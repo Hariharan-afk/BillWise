@@ -1,0 +1,94 @@
+{
+  "receipt_id": "target-8",
+  "image_file": "target-8.jpg",
+  "fields": {
+    "merchant_name": "Target",
+    "date": "2009-08-31",
+    "time": null,
+    "subtotal": null,
+    "tax": 0.32,
+    "total": 0.33,
+    "payment_method": "card",
+    "card_last4": null,
+    "receipt_number": "REC#2-9243-1455-0072-8211-6"
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "REN 2FLOZ 2 < 1.52",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.04
+    },
+    {
+      "line_id": 2,
+      "name": "PURINA DOG MFR COUPON",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.69
+    },
+    {
+      "line_id": 3,
+      "name": "PURINA MFR COUPON",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.69
+    },
+    {
+      "line_id": 4,
+      "name": "DOVE COUPON",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.29
+    },
+    {
+      "line_id": 5,
+      "name": "TRIDENT AF ARTISAN",
+      "quantity": null,
+      "unit_price": 0.99,
+      "item_total": 0.99
+    },
+    {
+      "line_id": 6,
+      "name": "TRIDENT AF ARTISAN",
+      "quantity": null,
+      "unit_price": 0.99,
+      "item_total": 0.99
+    },
+    {
+      "line_id": 7,
+      "name": "TRIDENT AF ARTISAN",
+      "quantity": null,
+      "unit_price": 0.99,
+      "item_total": 0.99
+    },
+    {
+      "line_id": 8,
+      "name": "TRIDENT AF ARTISAN",
+      "quantity": null,
+      "unit_price": 0.99,
+      "item_total": 0.99
+    },
+    {
+      "line_id": 9,
+      "name": "POST BABY 11.7 LBS",
+      "quantity": null,
+      "unit_price": 1.66,
+      "item_total": 1.93
+    },
+    {
+      "line_id": 10,
+      "name": "MP CHEESE",
+      "quantity": null,
+      "unit_price": 0.8,
+      "item_total": 2.4
+    },
+    {
+      "line_id": 11,
+      "name": "HEALTH ITEM",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.33
+    }
+  ]
+}

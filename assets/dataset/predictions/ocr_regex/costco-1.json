@@ -1,0 +1,122 @@
+{
+  "receipt_id": "costco-1",
+  "image_file": "costco-1.jpg",
+  "fields": {
+    "merchant_name": "COSTCO",
+    "date": "2042-10-31",
+    "time": null,
+    "subtotal": null,
+    "tax": null,
+    "total": 217.06,
+    "payment_method": "card",
+    "card_last4": "1234",
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "ROTISSERIE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.99
+    },
+    {
+      "line_id": 2,
+      "name": "STREET TACOS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 15.76
+    },
+    {
+      "line_id": 3,
+      "name": "KS ULTRA LIQ",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 17.99
+    },
+    {
+      "line_id": 4,
+      "name": "KS MEATBALLS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 19.99
+    },
+    {
+      "line_id": 5,
+      "name": "ARTISAN ROLL",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 6,
+      "name": "BASIL PESTO",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.49
+    },
+    {
+      "line_id": 7,
+      "name": "KS TRAIL MIX",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 12.69
+    },
+    {
+      "line_id": 8,
+      "name": "RAO'S 2PK",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 11.89
+    },
+    {
+      "line_id": 9,
+      "name": "18CT EGGS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 12.87
+    },
+    {
+      "line_id": 10,
+      "name": "COOKIES 24CT",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.99
+    },
+    {
+      "line_id": 11,
+      "name": "KS BUTTER",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 10.39
+    },
+    {
+      "line_id": 12,
+      "name": "KS ORG 2% MK",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 10.47
+    },
+    {
+      "line_id": 13,
+      "name": "KS BEEF LSGN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 18.89
+    },
+    {
+      "line_id": 14,
+      "name": "KS TOWEL",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 19.89
+    },
+    {
+      "line_id": 15,
+      "name": "KS BATH",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 19.99
+    }
+  ]
+}

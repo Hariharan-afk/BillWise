@@ -1,0 +1,199 @@
+{
+  "receipt_id": "costco-5",
+  "image_file": "costco-5.jpg",
+  "fields": {
+    "merchant_name": "COSTCO",
+    "date": null,
+    "time": null,
+    "subtotal": 228.02,
+    "tax": 5.8,
+    "total": 233.82,
+    "payment_method": "card",
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "1358822 CHARMIN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 22.49
+    },
+    {
+      "line_id": 2,
+      "name": "9462 ORANGES",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 12.99
+    },
+    {
+      "line_id": 3,
+      "name": "83424 HONEYDEW",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 4,
+      "name": "8789 GOLDEN PINE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 5,
+      "name": "660212DOVE16CT",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 15.99
+    },
+    {
+      "line_id": 6,
+      "name": "949985ADIDAS SOCK",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 12.99
+    },
+    {
+      "line_id": 7,
+      "name": "949985ADIDAS SOCK",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 12.99
+    },
+    {
+      "line_id": 8,
+      "name": "879104 SOUR DOUGH",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 6.99
+    },
+    {
+      "line_id": 9,
+      "name": "858187OATNUTBREAD",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.79
+    },
+    {
+      "line_id": 10,
+      "name": "31865 BAGELS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 11,
+      "name": "14368 COUNTRYFR2",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 12,
+      "name": "24587ORGROMAINE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.79
+    },
+    {
+      "line_id": 13,
+      "name": "31865 BAGELS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 14,
+      "name": "36285 KS WALNUT 3#",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 10.89
+    },
+    {
+      "line_id": 15,
+      "name": "568915 ORGANICCUKE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 16,
+      "name": "1292274 SAFE CATCH",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 11.99
+    },
+    {
+      "line_id": 17,
+      "name": "56366 RASPBERRIES",
+      "quantity": 2.0,
+      "unit_price": null,
+      "item_total": 5.49
+    },
+    {
+      "line_id": 18,
+      "name": "27003 STRAWBERRIES",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 13.98
+    },
+    {
+      "line_id": 19,
+      "name": "72904BLACKBERRIES",
+      "quantity": 2.0,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 20,
+      "name": "57554 BLUEBERRIES",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 8.98
+    },
+    {
+      "line_id": 21,
+      "name": "1068080PASTUREEGGS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 7.49
+    },
+    {
+      "line_id": 22,
+      "name": "9904832%0RGY0GURT",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.79
+    },
+    {
+      "line_id": 23,
+      "name": "40532 PHL CRM CHSE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 8.49
+    },
+    {
+      "line_id": 24,
+      "name": "18600 CLEMENTINES",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 25,
+      "name": "1100521 RAWHONEY",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 13.49
+    },
+    {
+      "line_id": 26,
+      "name": "10182490RGATAULFO",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 6.49
+    }
+  ]
+}

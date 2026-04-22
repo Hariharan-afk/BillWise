@@ -1,0 +1,45 @@
+{
+  "receipt_id": "target-1",
+  "image_file": "target-1.jpg",
+  "fields": {
+    "merchant_name": "TARGET",
+    "date": "2017-12-09",
+    "time": "12:16 PM",
+    "subtotal": null,
+    "tax": 7.0,
+    "total": 29.04,
+    "payment_method": "card",
+    "card_last4": "4548",
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "BUTTERFINGER FT $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.0
+    },
+    {
+      "line_id": 2,
+      "name": "$ ea",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.0
+    },
+    {
+      "line_id": 3,
+      "name": "CONAIR HEADB",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 4,
+      "name": "CHAPSTICK 2 T",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.98
+    }
+  ]
+}

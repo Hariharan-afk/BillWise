@@ -1,0 +1,80 @@
+{
+  "receipt_id": "costco-3",
+  "image_file": "costco-3.jpg",
+  "fields": {
+    "merchant_name": "COSTCO WHOLESALE",
+    "date": "04/20/2016",
+    "time": null,
+    "subtotal": 85.61,
+    "tax": 3.52,
+    "total": 89.13,
+    "payment_method": null,
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "673919 FF BS BREAST",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 23.99
+    },
+    {
+      "line_id": 2,
+      "name": "633561KS DICED TOM",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 6.49
+    },
+    {
+      "line_id": 3,
+      "name": "967596 JACKORGSALSA",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.97
+    },
+    {
+      "line_id": 4,
+      "name": "87813718CT EGGS",
+      "quantity": 3.0,
+      "unit_price": 4.29,
+      "item_total": 12.87
+    },
+    {
+      "line_id": 5,
+      "name": "77053 GRAPE TOMATO",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 6.29
+    },
+    {
+      "line_id": 6,
+      "name": "404609 ECO HALF PAN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 6.49
+    },
+    {
+      "line_id": 7,
+      "name": "55992 GRND TURKEY",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 18.47
+    },
+    {
+      "line_id": 8,
+      "name": "263423 CHPD ONION",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.59
+    },
+    {
+      "line_id": 9,
+      "name": "22101 MONT JACK 2#",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.45
+    }
+  ]
+}

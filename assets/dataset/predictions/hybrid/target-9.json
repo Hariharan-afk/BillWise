@@ -1,0 +1,34 @@
+{
+  "receipt_id": "target-9",
+  "image_file": "target-9.jpg",
+  "fields": {
+    "merchant_name": "Target",
+    "date": "2024-05-03",
+    "time": null,
+    "subtotal": 3.39,
+    "tax": 0.25,
+    "total": 3.3,
+    "payment_method": "cash",
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [],
+  "review_required": true,
+  "review_reasons": [
+    "total_arithmetic_inconsistency"
+  ],
+  "field_sources": {
+    "merchant_name": "vlm",
+    "date": "vlm",
+    "receipt_number": "ocr_layoutlm",
+    "time": "vlm",
+    "subtotal": "ocr_layoutlm",
+    "tax": "ocr_layoutlm",
+    "total": "ocr_layoutlm",
+    "card_last4": "none",
+    "payment_method": "vlm"
+  },
+  "item_source": "ocr_layoutlm",
+  "ocr_layoutlm_status": "ok",
+  "vlm_status": "ok"
+}

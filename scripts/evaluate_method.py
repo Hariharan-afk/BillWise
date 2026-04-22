@@ -324,7 +324,7 @@ def canonicalize_gold(raw: Dict[str, Any]) -> Dict[str, Any]:
     return canonical
 
 
-def adapt_google_regex(raw: Dict[str, Any], receipt_id: str, image_file: str) -> Dict[str, Any]:
+def adapt_ocr_regex(raw: Dict[str, Any], receipt_id: str, image_file: str) -> Dict[str, Any]:
     canonical = to_empty_canonical(receipt_id, image_file)
 
     store = raw.get("store")
@@ -373,7 +373,7 @@ def adapt_google_regex(raw: Dict[str, Any], receipt_id: str, image_file: str) ->
     return canonical
 
 
-def adapt_groq(raw: Dict[str, Any], receipt_id: str, image_file: str) -> Dict[str, Any]:
+def adapt_vlm(raw: Dict[str, Any], receipt_id: str, image_file: str) -> Dict[str, Any]:
     canonical = to_empty_canonical(receipt_id, image_file)
 
     card_last4 = raw.get("card_last4")
@@ -409,7 +409,7 @@ def adapt_groq(raw: Dict[str, Any], receipt_id: str, image_file: str) -> Dict[st
     return canonical
 
 
-def adapt_prototype(raw: Dict[str, Any], receipt_id: str, image_file: str) -> Dict[str, Any]:
+def adapt_ocr_layoutlm(raw: Dict[str, Any], receipt_id: str, image_file: str) -> Dict[str, Any]:
     canonical = to_empty_canonical(receipt_id, image_file)
 
     field_map: Dict[str, Any] = {}
@@ -453,9 +453,9 @@ def adapt_prototype(raw: Dict[str, Any], receipt_id: str, image_file: str) -> Di
 
 
 ADAPTERS: Dict[str, Callable[[Dict[str, Any], str, str], Dict[str, Any]]] = {
-    "google_regex": adapt_google_regex,
-    "groq": adapt_groq,
-    "prototype": adapt_prototype,
+    "ocr_regex": adapt_ocr_regex,
+    "vlm": adapt_vlm,
+    "ocr_layoutlm": adapt_ocr_layoutlm,
     "canonical": lambda raw, receipt_id, image_file: canonicalize_gold(raw),
 }
 
@@ -796,7 +796,7 @@ def main() -> None:
         action="append",
         required=True,
         help="Prediction spec in the form method_name=pred_dir:adapter_name. "
-             "Adapter options: google_regex, groq, prototype, canonical",
+             "Adapter options: ocr_regex, vlm, ocr_layoutlm, canonical",
     )
     parser.add_argument("--output-dir", default="evaluation_output", help="Folder to write evaluation artifacts.")
     args = parser.parse_args()

@@ -1,0 +1,87 @@
+{
+  "receipt_id": "traderjoes-8",
+  "image_file": "traderjoes-8.jpg",
+  "fields": {
+    "merchant_name": "TRADER JOE'S",
+    "date": null,
+    "time": null,
+    "subtotal": null,
+    "tax": null,
+    "total": 46.6,
+    "payment_method": "card",
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "POUND PLUS BITTERSWEET A",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 2,
+      "name": "NUTRITIONAL YEAST",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 3,
+      "name": "NUTRITIONAL YEAST",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 4,
+      "name": "GIANT PERUVIAN INCA CORN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.97
+    },
+    {
+      "line_id": 5,
+      "name": "SLICED LITE JARLSBERG",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 6,
+      "name": "A-GARLIC EACH",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.49
+    },
+    {
+      "line_id": 7,
+      "name": "BLUEBERRIES ORG 18OZ",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 7.99
+    },
+    {
+      "line_id": 8,
+      "name": "TOMATOES GRAPE MINI PEAR",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 9,
+      "name": "CUCUMBERS HOTHOUSE EACH",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.69
+    },
+    {
+      "line_id": 10,
+      "name": "MILK QUART WHOLE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.69
+    }
+  ]
+}

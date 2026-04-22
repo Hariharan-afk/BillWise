@@ -1,0 +1,52 @@
+{
+  "receipt_id": "target-6",
+  "image_file": "target-6.jpg",
+  "fields": {
+    "merchant_name": "OTARGET",
+    "date": "2014-02-21",
+    "time": "04:18 PM",
+    "subtotal": null,
+    "tax": 6.75,
+    "total": 100.65,
+    "payment_method": "card",
+    "card_last4": "7453",
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "T $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 2,
+      "name": "T $ +",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.49
+    },
+    {
+      "line_id": 3,
+      "name": "COLGAT TOOTH T",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 4,
+      "name": "COLGAT MANUA T",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.99
+    },
+    {
+      "line_id": 5,
+      "name": "UP ISOPROPL T $ +",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.24
+    }
+  ]
+}

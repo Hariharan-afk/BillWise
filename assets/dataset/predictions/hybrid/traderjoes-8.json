@@ -1,0 +1,113 @@
+{
+  "receipt_id": "traderjoes-8",
+  "image_file": "traderjoes-8.jpg",
+  "fields": {
+    "merchant_name": "Trader Joe's",
+    "date": null,
+    "time": null,
+    "subtotal": null,
+    "tax": null,
+    "total": 46.6,
+    "payment_method": "card",
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "YOGURT GREEK PLAIN LOW F",
+      "quantity": 2.0,
+      "unit_price": 3.29,
+      "item_total": 6.58
+    },
+    {
+      "line_id": 2,
+      "name": "POUND PLUS BITTERSWEET A",
+      "quantity": 1.0,
+      "unit_price": 5.99,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 3,
+      "name": "NUTRITIONAL YEAST",
+      "quantity": 2.0,
+      "unit_price": 2.99,
+      "item_total": 5.98
+    },
+    {
+      "line_id": 4,
+      "name": "GIANT PERUVIAN INCA CORN 3 1 99",
+      "quantity": 1.0,
+      "unit_price": 5.97,
+      "item_total": 5.97
+    },
+    {
+      "line_id": 5,
+      "name": "SLICED LITE JARLSBERG A GARLIC EACH",
+      "quantity": 1.0,
+      "unit_price": 4.99,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 6,
+      "name": "BLUEBERRIES ORG 18 OZ",
+      "quantity": 1.0,
+      "unit_price": 7.99,
+      "item_total": 7.99
+    },
+    {
+      "line_id": 7,
+      "name": "TOMATOES GRAPE MINI PEAR",
+      "quantity": 1.0,
+      "unit_price": 2.99,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 8,
+      "name": "CUCUMBERS HOTHOUSE EACH",
+      "quantity": 1.0,
+      "unit_price": 1.69,
+      "item_total": 1.69
+    },
+    {
+      "line_id": 9,
+      "name": "MILK QUART WHOLE",
+      "quantity": 1.0,
+      "unit_price": 1.69,
+      "item_total": 1.69
+    },
+    {
+      "line_id": 10,
+      "name": "SALAD ARUGULA WILD 7 OZ",
+      "quantity": 1.0,
+      "unit_price": 2.29,
+      "item_total": 2.29
+    },
+    {
+      "line_id": 11,
+      "name": "REUSABLE BAG CREDIT",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": -0.05
+    }
+  ],
+  "review_required": true,
+  "review_reasons": [
+    "missing_date",
+    "item_semantic_disagreement"
+  ],
+  "field_sources": {
+    "merchant_name": "vlm",
+    "date": "ocr_layoutlm",
+    "receipt_number": "ocr_layoutlm",
+    "time": "vlm",
+    "subtotal": "vlm",
+    "tax": "vlm",
+    "total": "ocr_layoutlm",
+    "card_last4": "none",
+    "payment_method": "ocr_layoutlm"
+  },
+  "item_source": "vlm",
+  "ocr_layoutlm_status": "ok",
+  "vlm_status": "ok"
+}

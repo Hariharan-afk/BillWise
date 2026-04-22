@@ -1,0 +1,199 @@
+{
+  "receipt_id": "costco-5",
+  "image_file": "costco-5.jpg",
+  "fields": {
+    "merchant_name": "COSTCO",
+    "date": "2019-02-08",
+    "time": null,
+    "subtotal": null,
+    "tax": null,
+    "total": 233.82,
+    "payment_method": "card",
+    "card_last4": "5881",
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "ORANGES",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 22.49
+    },
+    {
+      "line_id": 2,
+      "name": "HONEYDEW",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 3,
+      "name": "GOLDEN PINE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 4,
+      "name": "DOVE16CT",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 15.99
+    },
+    {
+      "line_id": 5,
+      "name": "ADIDAS SOCK",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 12.99
+    },
+    {
+      "line_id": 6,
+      "name": "ADIDAS SOCK",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 12.99
+    },
+    {
+      "line_id": 7,
+      "name": "SOUR DOUGH",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 6.99
+    },
+    {
+      "line_id": 8,
+      "name": "OATNUT BREAD",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.79
+    },
+    {
+      "line_id": 9,
+      "name": "BAGELS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 10,
+      "name": "COUNTRY FR 2",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 11,
+      "name": "ORG ROMAINE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.79
+    },
+    {
+      "line_id": 12,
+      "name": "BAGELS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 13,
+      "name": "KS WALNUT 3#",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 10.89
+    },
+    {
+      "line_id": 14,
+      "name": "ORGANIC CUKE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 15,
+      "name": "SAFE CATCH",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 11.99
+    },
+    {
+      "line_id": 16,
+      "name": "RASPBERRIES",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.49
+    },
+    {
+      "line_id": 17,
+      "name": "STRAWBERRIES",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 13.98
+    },
+    {
+      "line_id": 18,
+      "name": "BLACKBERRIES",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 19,
+      "name": "BLUEBERRIES",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 8.98
+    },
+    {
+      "line_id": 20,
+      "name": "E 1068080 PASTURE EGGS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 7.49
+    },
+    {
+      "line_id": 21,
+      "name": "E 990483 2%ORG YOGURT",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.79
+    },
+    {
+      "line_id": 22,
+      "name": "PHL CRM CHSE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 8.49
+    },
+    {
+      "line_id": 23,
+      "name": "CLEMENTINES",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 24,
+      "name": "RAW HONEY",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 13.49
+    },
+    {
+      "line_id": 25,
+      "name": "E 1018249 ORG ATAULFO",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 6.49
+    },
+    {
+      "line_id": 26,
+      "name": "Seq# 11913",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 233.82
+    }
+  ]
+}

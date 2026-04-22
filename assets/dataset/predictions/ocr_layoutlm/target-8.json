@@ -1,0 +1,115 @@
+{
+  "receipt_id": "target-8",
+  "image_file": "target-8.jpg",
+  "fields": {
+    "merchant_name": "TARGET",
+    "date": "08/31/2009",
+    "time": null,
+    "subtotal": 0.32,
+    "tax": 0.01,
+    "total": 0.33,
+    "payment_method": null,
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "BUDDIES",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.0
+    },
+    {
+      "line_id": 2,
+      "name": "AF ARTISAN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 99.0
+    },
+    {
+      "line_id": 3,
+      "name": "AF ARTISAN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.0
+    },
+    {
+      "line_id": 4,
+      "name": "AF ARTISAN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.0
+    },
+    {
+      "line_id": 5,
+      "name": "AF ARTISAN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.0
+    },
+    {
+      "line_id": 6,
+      "name": "AF ARTISAN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.0
+    },
+    {
+      "line_id": 7,
+      "name": "POST",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.66
+    },
+    {
+      "line_id": 8,
+      "name": "BANANA",
+      "quantity": 1.17,
+      "unit_price": null,
+      "item_total": 0.27
+    },
+    {
+      "line_id": 9,
+      "name": "MP CHEESE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.8
+    },
+    {
+      "line_id": 10,
+      "name": "MP CHEESE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.8
+    },
+    {
+      "line_id": 11,
+      "name": "MP CHEESE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.8
+    },
+    {
+      "line_id": 12,
+      "name": "PURINA DOG",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.69
+    },
+    {
+      "line_id": 13,
+      "name": "PURINA DOG",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.0
+    },
+    {
+      "line_id": 14,
+      "name": "RENU 2FLOZ",
+      "quantity": 21.52,
+      "unit_price": null,
+      "item_total": 3.04
+    }
+  ]
+}

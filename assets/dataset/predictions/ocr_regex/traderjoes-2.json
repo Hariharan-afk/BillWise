@@ -1,0 +1,108 @@
+{
+  "receipt_id": "traderjoes-2",
+  "image_file": "traderjoes-2.jpg",
+  "fields": {
+    "merchant_name": "TRADER JOE'S",
+    "date": null,
+    "time": "8:00AM",
+    "subtotal": null,
+    "tax": 7.89,
+    "total": 41.98,
+    "payment_method": "cash",
+    "card_last4": null,
+    "receipt_number": "BANANA"
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "BANANA EACH",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.61
+    },
+    {
+      "line_id": 2,
+      "name": "BAREBELLS CHOCOLATE DOUG",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.29
+    },
+    {
+      "line_id": 3,
+      "name": "BAREBELLS CREAMY CRISP",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.29
+    },
+    {
+      "line_id": 4,
+      "name": "BAREBELLS CHOCOLATE DOUG",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.29
+    },
+    {
+      "line_id": 5,
+      "name": "BAREBELLS CREAMY CRISP",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.29
+    },
+    {
+      "line_id": 6,
+      "name": "T SPINDRIFT ORANGE MANGO 8",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 7.49
+    },
+    {
+      "line_id": 7,
+      "name": "T Bottle Deposit",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.4
+    },
+    {
+      "line_id": 8,
+      "name": "MILK ORGANIC GALLON WHOL",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 6.79
+    },
+    {
+      "line_id": 9,
+      "name": "CLASSIC GREEK SALAD",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.49
+    },
+    {
+      "line_id": 10,
+      "name": "COBB SALAD",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 11,
+      "name": "PEPPER BELL RED XL EACH",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.29
+    },
+    {
+      "line_id": 12,
+      "name": "BAG FEE.",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.25
+    },
+    {
+      "line_id": 13,
+      "name": "BAG FEE.",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.25
+    }
+  ]
+}

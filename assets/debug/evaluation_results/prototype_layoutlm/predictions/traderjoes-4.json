@@ -1,0 +1,24 @@
+{
+  "receipt_id": "traderjoes-4",
+  "image_file": "traderjoes-4.jpg",
+  "fields": {
+    "merchant_name": "TRADER JOE'S",
+    "date": "11-12-2005",
+    "time": "12:04PM",
+    "subtotal": 3.99,
+    "tax": 0.33,
+    "total": 4.32,
+    "payment_method": null,
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "PREMIUM POJLTRY DRY CAT FOOD",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.99
+    }
+  ]
+}

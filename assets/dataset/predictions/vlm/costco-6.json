@@ -1,0 +1,101 @@
+{
+  "receipt_id": "costco-6",
+  "image_file": "costco-6.jpg",
+  "fields": {
+    "merchant_name": "COSTCO WHOLESALE",
+    "date": "2025-02-18",
+    "time": null,
+    "subtotal": 167.52,
+    "tax": 9.75,
+    "total": 177.27,
+    "payment_method": "other",
+    "card_last4": null,
+    "receipt_number": "010329"
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "SPRING MIX",
+      "quantity": null,
+      "unit_price": 4.99,
+      "item_total": null
+    },
+    {
+      "line_id": 2,
+      "name": "ORG ARUGULA",
+      "quantity": null,
+      "unit_price": 4.99,
+      "item_total": null
+    },
+    {
+      "line_id": 3,
+      "name": "SHALLOTS",
+      "quantity": null,
+      "unit_price": 5.99,
+      "item_total": null
+    },
+    {
+      "line_id": 4,
+      "name": "SWEET POTATO",
+      "quantity": null,
+      "unit_price": 6.99,
+      "item_total": null
+    },
+    {
+      "line_id": 5,
+      "name": "KS PURE SALT",
+      "quantity": null,
+      "unit_price": 4.99,
+      "item_total": null
+    },
+    {
+      "line_id": 6,
+      "name": "SUNRISE TOFU",
+      "quantity": null,
+      "unit_price": 13.99,
+      "item_total": null
+    },
+    {
+      "line_id": 7,
+      "name": "SWISS DARK",
+      "quantity": null,
+      "unit_price": 25.99,
+      "item_total": null
+    },
+    {
+      "line_id": 8,
+      "name": "KS PRTN BAR",
+      "quantity": null,
+      "unit_price": 29.99,
+      "item_total": null
+    },
+    {
+      "line_id": 9,
+      "name": "GRASS BUTTER",
+      "quantity": null,
+      "unit_price": 8.99,
+      "item_total": null
+    },
+    {
+      "line_id": 10,
+      "name": "RASPBERRIES",
+      "quantity": null,
+      "unit_price": 8.99,
+      "item_total": null
+    },
+    {
+      "line_id": 11,
+      "name": "SALMON FILET",
+      "quantity": null,
+      "unit_price": 32.63,
+      "item_total": null
+    },
+    {
+      "line_id": 12,
+      "name": "KS PARCHMENT",
+      "quantity": null,
+      "unit_price": 18.99,
+      "item_total": null
+    }
+  ]
+}

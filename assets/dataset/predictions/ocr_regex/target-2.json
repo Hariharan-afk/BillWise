@@ -1,0 +1,66 @@
+{
+  "receipt_id": "target-2",
+  "image_file": "target-2.jpg",
+  "fields": {
+    "merchant_name": "OTARGET",
+    "date": "2021-02-01",
+    "time": "11:24 AM",
+    "subtotal": 96.6,
+    "tax": 10.1,
+    "total": 101.04,
+    "payment_method": "card",
+    "card_last4": "1000",
+    "receipt_number": "action"
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "Everspring",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.79
+    },
+    {
+      "line_id": 2,
+      "name": "Command",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 11.99
+    },
+    {
+      "line_id": 3,
+      "name": "DAWN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 10.89
+    },
+    {
+      "line_id": 4,
+      "name": "UTILITY TUB",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 10.99
+    },
+    {
+      "line_id": 5,
+      "name": "T $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 10.99
+    },
+    {
+      "line_id": 6,
+      "name": "T $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 10.99
+    },
+    {
+      "line_id": 7,
+      "name": "UTILITY TUB MI $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 10.99
+    }
+  ]
+}

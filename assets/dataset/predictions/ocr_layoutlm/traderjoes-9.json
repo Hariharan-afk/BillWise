@@ -1,0 +1,276 @@
+{
+  "receipt_id": "traderjoes-9",
+  "image_file": "traderjoes-9.jpg",
+  "fields": {
+    "merchant_name": "TRADER JOE'S",
+    "date": null,
+    "time": null,
+    "subtotal": 109.03,
+    "tax": 2.18,
+    "total": 111.21,
+    "payment_method": null,
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "BROWN RICE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.29
+    },
+    {
+      "line_id": 2,
+      "name": "FZN ORGANIC GREEN BEANS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 3,
+      "name": "PIE CRUSTS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 4,
+      "name": "TAQUITOS BLACK BEAN &CHEESE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 5,
+      "name": "TEMPURA CHICKEN SWEET & SOUR",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 6,
+      "name": "SWEET POTATO FRIES",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 7,
+      "name": "ORGANIC SILVER DOLLARPANCAKES",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.29
+    },
+    {
+      "line_id": 8,
+      "name": "BREADED CHICKEN TENDERLOIN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 7.99
+    },
+    {
+      "line_id": 9,
+      "name": "SHREDDED SHARP CHEDDAR",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 10,
+      "name": "YOGURT ORG VANILLA QUART WHOLE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.49
+    },
+    {
+      "line_id": 11,
+      "name": "MILK HALF GALLONWHOLE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.79
+    },
+    {
+      "line_id": 12,
+      "name": "SHREDDED MOZZARELLA",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 13,
+      "name": "HOT DOG BEEF ORG APPLEGATE100",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 14,
+      "name": "BROCCOLIFLORETS12OZ",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.29
+    },
+    {
+      "line_id": 15,
+      "name": "SALAD SW CHOPPED 13.60Z",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.29
+    },
+    {
+      "line_id": 16,
+      "name": "MUSHROOMSWHITEBUTTON 10OZ",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.58
+    },
+    {
+      "line_id": 17,
+      "name": "SALADSPINACH BABY60Z",
+      "quantity": 20.0,
+      "unit_price": null,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 18,
+      "name": "UNSWEETENEDAPPLESAUCE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 19,
+      "name": "ORG VEGETARIAN CHILI",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.29
+    },
+    {
+      "line_id": 20,
+      "name": "PIZZA SAUCE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 21,
+      "name": "TOMATO BASIL MARINARA",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.79
+    },
+    {
+      "line_id": 22,
+      "name": "ORG KETCHUP",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 23,
+      "name": "CUCUMBERS HOTHOUSE EACH",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.98
+    },
+    {
+      "line_id": 24,
+      "name": "BLACKBERRIES12OZ",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 25,
+      "name": "EGGS LARGE WHITE DOZEN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.78
+    },
+    {
+      "line_id": 26,
+      "name": "BANANA EACH",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.33
+    },
+    {
+      "line_id": 27,
+      "name": "APPLEBAGORGFUJI2LB",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 28,
+      "name": "SALSA AUTENTICA",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 29,
+      "name": "ORG VEGETARIAN CHILI",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.29
+    },
+    {
+      "line_id": 30,
+      "name": "ORG BLACK BEANS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.99
+    },
+    {
+      "line_id": 31,
+      "name": "ORG APPLE SAUCE 4PK",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 32,
+      "name": "PASTA ORG VEGETABLE RADIATORE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 33,
+      "name": "PEPPERS BELL TRICOLOR ORG3PK",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.49
+    },
+    {
+      "line_id": 34,
+      "name": "ORG WHOLE WHEAT SPAGHETTI",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.49
+    },
+    {
+      "line_id": 35,
+      "name": "CIABATTA DEMI BAGUETTE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.29
+    },
+    {
+      "line_id": 36,
+      "name": "ORGANIC CORN CHIP DIPPERS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 37,
+      "name": "WHOLE WHEAT PITA",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.49
+    }
+  ]
+}

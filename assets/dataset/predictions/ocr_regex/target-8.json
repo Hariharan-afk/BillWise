@@ -1,0 +1,129 @@
+{
+  "receipt_id": "target-8",
+  "image_file": "target-8.jpg",
+  "fields": {
+    "merchant_name": "OTARGET",
+    "date": "2009-08-31",
+    "time": "11:21 AM",
+    "subtotal": null,
+    "tax": 4.47,
+    "total": 0.33,
+    "payment_method": "card",
+    "card_last4": "3198",
+    "receipt_number": "your"
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "FU",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.0
+    },
+    {
+      "line_id": 2,
+      "name": "AF ARTISAN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.0
+    },
+    {
+      "line_id": 3,
+      "name": "AF ARTISAN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.0
+    },
+    {
+      "line_id": 4,
+      "name": "LB",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.66
+    },
+    {
+      "line_id": 5,
+      "name": "FD",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.99
+    },
+    {
+      "line_id": 6,
+      "name": "FD",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.0
+    },
+    {
+      "line_id": 7,
+      "name": "FD  4",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.66
+    },
+    {
+      "line_id": 8,
+      "name": "BANANA",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.0
+    },
+    {
+      "line_id": 9,
+      "name": "LBS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.17
+    },
+    {
+      "line_id": 10,
+      "name": "MP CHEESE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.8
+    },
+    {
+      "line_id": 11,
+      "name": "MP CHEESE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 20.4
+    },
+    {
+      "line_id": 12,
+      "name": "MP CHEESE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.4
+    },
+    {
+      "line_id": 13,
+      "name": "HEALTH-BEAUTY-COSMETICS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.8
+    },
+    {
+      "line_id": 14,
+      "name": "DOVE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.29
+    },
+    {
+      "line_id": 15,
+      "name": "PURINA DOG",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.69
+    },
+    {
+      "line_id": 16,
+      "name": "T  +",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.04
+    }
+  ]
+}

@@ -12,6 +12,7 @@ python-dateutil
 regex
 
 matplotlib
+seaborn
 
 pytest
 

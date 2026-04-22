@@ -1,0 +1,419 @@
+[
+  {
+    "receipt_id": "costco-1",
+    "image_file": "costco-1.jpg",
+    "error": "Groq extraction failed: 1 validation error for BillExtractionLLM\nconfidence\n  Field required [type=missing, input_value={'store_name': 'COSTCO WH...9, 'item_total': None}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+  },
+  {
+    "receipt_id": "costco-2",
+    "image_file": "costco-2.png",
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 0.0,
+      "time": 0.0,
+      "subtotal": 0.0,
+      "tax": 0.0,
+      "total": 0.0,
+      "payment_method": 0.0,
+      "card_last4": 0.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.1111111111111111,
+      "item_name_precision": 0.0,
+      "item_name_recall": 0.0,
+      "item_name_f1": 0.0,
+      "pred_item_count": 0,
+      "gold_item_count": 3,
+      "overall_score": 0.07777777777777777
+    }
+  },
+  {
+    "receipt_id": "costco-3",
+    "image_file": "costco-3.jpg",
+    "error": "Groq extraction failed: 3 validation errors for BillExtractionLLM\nitems.9.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type\nitems.10.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type\nitems.11.name\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+  },
+  {
+    "receipt_id": "costco-4",
+    "image_file": "costco-4.jpg",
+    "error": "Groq extraction failed: 1 validation error for BillExtractionLLM\nconfidence\n  Field required [type=missing, input_value={'store_name': 'COSTCO WH..., 'item_total': 15.98}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+  },
+  {
+    "receipt_id": "costco-5",
+    "image_file": "costco-5.jpg",
+    "error": "Groq extraction failed: 2 validation errors for BillExtractionLLM\ncard_last4\n  Value error, card_last4 must be 4 digits or 'cash' [type=value_error, input_value='xxxx', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error\nconfidence\n  Field required [type=missing, input_value={'store_name': 'COSTCO WH...e, 'item_total': None}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+  },
+  {
+    "receipt_id": "costco-6",
+    "image_file": "costco-6.jpg",
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 0.0,
+      "card_last4": 0.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 0.6666666666666666,
+      "item_name_precision": 1.0,
+      "item_name_recall": 1.0,
+      "item_name_f1": 1.0,
+      "pred_item_count": 12,
+      "gold_item_count": 12,
+      "overall_score": 0.7666666666666666
+    }
+  },
+  {
+    "receipt_id": "costco-7",
+    "image_file": "costco-7.jpg",
+    "metrics": {
+      "merchant_name": 0.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.6666666666666666,
+      "item_name_precision": 1.0,
+      "item_name_recall": 1.0,
+      "item_name_f1": 1.0,
+      "pred_item_count": 3,
+      "gold_item_count": 3,
+      "overall_score": 0.7666666666666666
+    }
+  },
+  {
+    "receipt_id": "costco-8",
+    "image_file": "costco-8.jpg",
+    "error": "Groq extraction failed: 1 validation error for BillExtractionLLM\ncard_last4\n  Value error, card_last4 must be 4 digits or 'cash' [type=value_error, input_value='xxxx', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"
+  },
+  {
+    "receipt_id": "target-1",
+    "image_file": "target-1.jpg",
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.7777777777777778,
+      "item_name_precision": 0.2,
+      "item_name_recall": 0.14285714285714285,
+      "item_name_f1": 0.16666666666666666,
+      "pred_item_count": 5,
+      "gold_item_count": 7,
+      "overall_score": 0.5944444444444444
+    }
+  },
+  {
+    "receipt_id": "target-10",
+    "image_file": "target-10.jpg",
+    "metrics": {
+      "merchant_name": 0.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 0.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 0.6666666666666666,
+      "item_name_precision": 1.0,
+      "item_name_recall": 1.0,
+      "item_name_f1": 1.0,
+      "pred_item_count": 9,
+      "gold_item_count": 9,
+      "overall_score": 0.7666666666666666
+    }
+  },
+  {
+    "receipt_id": "target-2",
+    "image_file": "target-2.jpg",
+    "error": "Groq extraction failed: 1 validation error for BillExtractionLLM\ncard_last4\n  Value error, card_last4 must be 4 digits or 'cash' [type=value_error, input_value='????', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"
+  },
+  {
+    "receipt_id": "target-3",
+    "image_file": "target-3.jpeg",
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 0.0,
+      "card_last4": 0.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.5555555555555556,
+      "item_name_precision": 1.0,
+      "item_name_recall": 1.0,
+      "item_name_f1": 1.0,
+      "pred_item_count": 1,
+      "gold_item_count": 1,
+      "overall_score": 0.6888888888888889
+    }
+  },
+  {
+    "receipt_id": "target-4",
+    "image_file": "target-4.jpg",
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "subtotal": 1.0,
+      "tax": 0.0,
+      "total": 1.0,
+      "payment_method": 0.0,
+      "card_last4": 0.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.5555555555555556,
+      "item_name_precision": 0.3333333333333333,
+      "item_name_recall": 0.5,
+      "item_name_f1": 0.4,
+      "pred_item_count": 6,
+      "gold_item_count": 4,
+      "overall_score": 0.508888888888889
+    }
+  },
+  {
+    "receipt_id": "target-5",
+    "image_file": "target-5.jpg",
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 0.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.6666666666666666,
+      "item_name_precision": 1.0,
+      "item_name_recall": 1.0,
+      "item_name_f1": 1.0,
+      "pred_item_count": 4,
+      "gold_item_count": 4,
+      "overall_score": 0.7666666666666666
+    }
+  },
+  {
+    "receipt_id": "target-6",
+    "image_file": "target-6.jpg",
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 0.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.6666666666666666,
+      "item_name_precision": 0.6363636363636364,
+      "item_name_recall": 0.5833333333333334,
+      "item_name_f1": 0.6086956521739131,
+      "pred_item_count": 11,
+      "gold_item_count": 12,
+      "overall_score": 0.6492753623188405
+    }
+  },
+  {
+    "receipt_id": "target-7",
+    "image_file": "target-7.jpg",
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 0.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 0.7777777777777778,
+      "item_name_precision": 1.0,
+      "item_name_recall": 0.5,
+      "item_name_f1": 0.6666666666666666,
+      "pred_item_count": 3,
+      "gold_item_count": 6,
+      "overall_score": 0.7444444444444444
+    }
+  },
+  {
+    "receipt_id": "target-8",
+    "image_file": "target-8.jpg",
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 0.0,
+      "tax": 0.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 0.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.4444444444444444,
+      "item_name_precision": 0.09090909090909091,
+      "item_name_recall": 0.058823529411764705,
+      "item_name_f1": 0.07142857142857142,
+      "pred_item_count": 11,
+      "gold_item_count": 17,
+      "overall_score": 0.33253968253968247
+    }
+  },
+  {
+    "receipt_id": "target-9",
+    "image_file": "target-9.jpg",
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 0.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.6666666666666666,
+      "item_name_precision": 1.0,
+      "item_name_recall": 1.0,
+      "item_name_f1": 1.0,
+      "pred_item_count": 1,
+      "gold_item_count": 1,
+      "overall_score": 0.7666666666666666
+    }
+  },
+  {
+    "receipt_id": "traderjoes-1",
+    "image_file": "traderjoes-1.jpg",
+    "error": "Groq extraction failed: 1 validation error for BillExtractionLLM\nconfidence\n  Field required [type=missing, input_value={'store_name': \"Trader Jo...9, 'item_total': 1.69}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+  },
+  {
+    "receipt_id": "traderjoes-10",
+    "image_file": "traderjoes-10.jpg",
+    "error": "Groq extraction failed: 1 validation error for BillExtractionLLM\nconfidence\n  Field required [type=missing, input_value={'store_name': \"Trader Jo...9, 'item_total': 0.49}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+  },
+  {
+    "receipt_id": "traderjoes-11",
+    "image_file": "traderjoes-11.jpg",
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 0.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 0.7777777777777778,
+      "item_name_precision": 0.7777777777777778,
+      "item_name_recall": 0.7777777777777778,
+      "item_name_f1": 0.7777777777777778,
+      "pred_item_count": 9,
+      "gold_item_count": 9,
+      "overall_score": 0.7777777777777777
+    }
+  },
+  {
+    "receipt_id": "traderjoes-2",
+    "image_file": "traderjoes-2.jpg",
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 0.0,
+      "card_last4": 1.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 0.8888888888888888,
+      "item_name_precision": 0.9285714285714286,
+      "item_name_recall": 0.9285714285714286,
+      "item_name_f1": 0.9285714285714286,
+      "pred_item_count": 14,
+      "gold_item_count": 14,
+      "overall_score": 0.9007936507936507
+    }
+  },
+  {
+    "receipt_id": "traderjoes-3",
+    "image_file": "traderjoes-3.jpg",
+    "error": "Groq extraction failed: 1 validation error for BillExtractionLLM\nconfidence\n  Field required [type=missing, input_value={'store_name': \"Trader Jo...9, 'item_total': 2.29}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+  },
+  {
+    "receipt_id": "traderjoes-4",
+    "image_file": "traderjoes-4.jpg",
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 0.8888888888888888,
+      "item_name_precision": 1.0,
+      "item_name_recall": 1.0,
+      "item_name_f1": 1.0,
+      "pred_item_count": 1,
+      "gold_item_count": 1,
+      "overall_score": 0.922222222222222
+    }
+  },
+  {
+    "receipt_id": "traderjoes-5",
+    "image_file": "traderjoes-5.jpg",
+    "error": "Groq extraction failed: 1 validation error for BillExtractionLLM\nconfidence\n  Field required [type=missing, input_value={'store_name': \"Trader Jo...9, 'item_total': 2.99}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+  },
+  {
+    "receipt_id": "traderjoes-6",
+    "image_file": "traderjoes-6.jpg",
+    "error": "Groq extraction failed: 1 validation error for BillExtractionLLM\nconfidence\n  Field required [type=missing, input_value={'store_name': \"Trader Jo....1, 'item_total': 0.1}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+  },
+  {
+    "receipt_id": "traderjoes-7",
+    "image_file": "traderjoes-7.jpg",
+    "error": "Groq extraction failed: 1 validation error for BillExtractionLLM\nconfidence\n  Field required [type=missing, input_value={'store_name': \"Trader Jo...9, 'item_total': 2.99}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+  },
+  {
+    "receipt_id": "traderjoes-8",
+    "image_file": "traderjoes-8.jpg",
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 1.0,
+      "item_name_precision": 0.8461538461538461,
+      "item_name_recall": 0.8461538461538461,
+      "item_name_f1": 0.8461538461538461,
+      "pred_item_count": 13,
+      "gold_item_count": 13,
+      "overall_score": 0.9538461538461538
+    }
+  },
+  {
+    "receipt_id": "traderjoes-9",
+    "image_file": "traderjoes-9.jpg",
+    "error": "Groq extraction failed: 1 validation error for BillExtractionLLM\nconfidence\n  Field required [type=missing, input_value={'store_name': \"Trader Jo...9, 'item_total': 3.99}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/missing"
+  }
+]

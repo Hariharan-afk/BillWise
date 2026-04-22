@@ -1,0 +1,45 @@
+{
+  "receipt_id": "target-5",
+  "image_file": "target-5.jpg",
+  "fields": {
+    "merchant_name": "Target",
+    "date": "2025-08-27",
+    "time": null,
+    "subtotal": 16.96,
+    "tax": 1.61,
+    "total": 18.57,
+    "payment_method": "card",
+    "card_last4": null,
+    "receipt_number": "REC#2-5239-1952-0141-4292-1"
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "FILE FOLDER",
+      "quantity": 1.0,
+      "unit_price": 4.49,
+      "item_total": 4.49
+    },
+    {
+      "line_id": 2,
+      "name": "MAIL ENV AND",
+      "quantity": 1.0,
+      "unit_price": 3.49,
+      "item_total": 3.49
+    },
+    {
+      "line_id": 3,
+      "name": "GEL PEN",
+      "quantity": 1.0,
+      "unit_price": 4.49,
+      "item_total": 4.49
+    },
+    {
+      "line_id": 4,
+      "name": "3CT PILOT",
+      "quantity": 1.0,
+      "unit_price": 4.49,
+      "item_total": 4.49
+    }
+  ]
+}

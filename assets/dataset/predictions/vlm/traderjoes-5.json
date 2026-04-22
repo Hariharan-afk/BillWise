@@ -1,0 +1,143 @@
+{
+  "receipt_id": "traderjoes-5",
+  "image_file": "traderjoes-5.jpg",
+  "fields": {
+    "merchant_name": "Trader Joe's",
+    "date": "2015-12-18",
+    "time": null,
+    "subtotal": 102.87,
+    "tax": 0.76,
+    "total": 103.63,
+    "payment_method": "cash",
+    "card_last4": null,
+    "receipt_number": "0676 02 4852 7281"
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "APTZR PARMESAN PASTRY PUPS",
+      "quantity": 1.0,
+      "unit_price": 4.49,
+      "item_total": 4.49
+    },
+    {
+      "line_id": 2,
+      "name": "SPINACH ARTICHOKE DIP",
+      "quantity": 1.0,
+      "unit_price": 2.99,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 3,
+      "name": "SPICY CHICKEN SALAD REDUCED GUI",
+      "quantity": 1.0,
+      "unit_price": 4.49,
+      "item_total": 4.49
+    },
+    {
+      "line_id": 4,
+      "name": "SIDE CHICKEN SALAD WINE COUNTR",
+      "quantity": 1.0,
+      "unit_price": 4.49,
+      "item_total": 4.49
+    },
+    {
+      "line_id": 5,
+      "name": "ICE CREAM SPECULOOS COOKIE BUT",
+      "quantity": 1.0,
+      "unit_price": 1.99,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 6,
+      "name": "DESSERT BANANA BITES CHOC GONE",
+      "quantity": 1.0,
+      "unit_price": 3.99,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 7,
+      "name": "APTZR MOZZARELLA STICK BREADED",
+      "quantity": 1.0,
+      "unit_price": 2.99,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 8,
+      "name": "TJ S STRING CHEESE",
+      "quantity": 1.0,
+      "unit_price": 1.69,
+      "item_total": 1.69
+    },
+    {
+      "line_id": 9,
+      "name": "WHITE CHEDDAR POPCORN",
+      "quantity": 1.0,
+      "unit_price": 1.69,
+      "item_total": 1.69
+    },
+    {
+      "line_id": 10,
+      "name": "WHITE CHEDDAR POPCORN",
+      "quantity": 1.0,
+      "unit_price": 1.69,
+      "item_total": 1.69
+    },
+    {
+      "line_id": 11,
+      "name": "GF COOKIES CRISPY CHOC CHIP",
+      "quantity": 1.0,
+      "unit_price": 3.99,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 12,
+      "name": "HOT COCOA MIX ORGANIC INSTANT",
+      "quantity": 1.0,
+      "unit_price": 2.29,
+      "item_total": 2.29
+    },
+    {
+      "line_id": 13,
+      "name": "TJ S HONEY NUT O S CEREAL",
+      "quantity": 1.0,
+      "unit_price": 3.49,
+      "item_total": 3.49
+    },
+    {
+      "line_id": 14,
+      "name": "PEANUT BUTTER DOG BISCUITS TJ",
+      "quantity": 1.0,
+      "unit_price": 2.99,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 15,
+      "name": "COOKIE BROWNIE CRISP",
+      "quantity": 1.0,
+      "unit_price": 2.99,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 16,
+      "name": "GOLDEN ROUND CRACKERS",
+      "quantity": 1.0,
+      "unit_price": 1.99,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 17,
+      "name": "BAKING MIX BLONDIE BAR",
+      "quantity": 1.0,
+      "unit_price": 2.99,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 18,
+      "name": "MEX TACOS CHICKEN MINI",
+      "quantity": 1.0,
+      "unit_price": 4.29,
+      "item_total": 4.29
+    }
+  ]
+}

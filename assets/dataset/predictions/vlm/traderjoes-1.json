@@ -1,0 +1,136 @@
+{
+  "receipt_id": "traderjoes-1",
+  "image_file": "traderjoes-1.jpg",
+  "fields": {
+    "merchant_name": "TRADER JOE'S",
+    "date": null,
+    "time": null,
+    "subtotal": 64.04,
+    "tax": null,
+    "total": 64.04,
+    "payment_method": null,
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "HARVEST BREAD",
+      "quantity": 1.0,
+      "unit_price": 1.99,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 2,
+      "name": "PASTA WHOLE WHEAT PENNE ORGANI",
+      "quantity": 1.0,
+      "unit_price": 1.49,
+      "item_total": 1.49
+    },
+    {
+      "line_id": 3,
+      "name": "BANANAS",
+      "quantity": 12.0,
+      "unit_price": 0.19,
+      "item_total": 2.28
+    },
+    {
+      "line_id": 4,
+      "name": "MILK HALF GAL ALMOND UNSWEETEN",
+      "quantity": 1.0,
+      "unit_price": 2.99,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 5,
+      "name": "A LEMON BAG 1 LB",
+      "quantity": 1.0,
+      "unit_price": 1.49,
+      "item_total": 1.49
+    },
+    {
+      "line_id": 6,
+      "name": "ORGANIC LF VANILLA YOG 32 OZ",
+      "quantity": 1.0,
+      "unit_price": 3.29,
+      "item_total": 3.29
+    },
+    {
+      "line_id": 7,
+      "name": "R CARROTS CUT PEELED ORGANIC",
+      "quantity": 1.0,
+      "unit_price": 1.49,
+      "item_total": 1.49
+    },
+    {
+      "line_id": 8,
+      "name": "R STRAWBERRIES ORG 1 LB",
+      "quantity": 1.0,
+      "unit_price": 3.49,
+      "item_total": 3.49
+    },
+    {
+      "line_id": 9,
+      "name": "A AVOCADOS HASS BAG 4CT",
+      "quantity": 1.0,
+      "unit_price": 2.99,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 10,
+      "name": "UNSALTED BUTTER QUARTERS",
+      "quantity": 1.0,
+      "unit_price": 3.19,
+      "item_total": 3.19
+    },
+    {
+      "line_id": 11,
+      "name": "TJ S STRING CHEESE",
+      "quantity": 1.0,
+      "unit_price": 3.99,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 12,
+      "name": "VEG BROCCOLI FLORETS ORGANIC",
+      "quantity": 1.0,
+      "unit_price": 2.49,
+      "item_total": 2.49
+    },
+    {
+      "line_id": 13,
+      "name": "LENTILS RED SPLIT",
+      "quantity": 1.0,
+      "unit_price": 1.69,
+      "item_total": 1.69
+    },
+    {
+      "line_id": 14,
+      "name": "R SALAD ORGANIC BABY SPINACH 6",
+      "quantity": 1.0,
+      "unit_price": 1.99,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 15,
+      "name": "TJ S HONEY NUT O S CEREAL",
+      "quantity": 1.0,
+      "unit_price": 2.49,
+      "item_total": 2.49
+    },
+    {
+      "line_id": 16,
+      "name": "TJ S BNLS SNLS CHICKEN BREASTS",
+      "quantity": 1.0,
+      "unit_price": 4.22,
+      "item_total": 4.22
+    },
+    {
+      "line_id": 17,
+      "name": "A APPLE BAG JAZZ 2 LB",
+      "quantity": 1.0,
+      "unit_price": 2.69,
+      "item_total": 2.69
+    }
+  ]
+}

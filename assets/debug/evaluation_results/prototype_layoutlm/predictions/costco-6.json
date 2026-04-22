@@ -1,0 +1,80 @@
+{
+  "receipt_id": "costco-6",
+  "image_file": "costco-6.jpg",
+  "fields": {
+    "merchant_name": "COSTCO",
+    "date": "25/02/18",
+    "time": null,
+    "subtotal": 167.52,
+    "tax": 9.75,
+    "total": 177.27,
+    "payment_method": null,
+    "card_last4": "8730",
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "878209 SPRING MIX",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 2,
+      "name": "878199 ORG ARUGULA",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 3,
+      "name": "POTATO",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 6.99
+    },
+    {
+      "line_id": 4,
+      "name": "KS PURE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 5,
+      "name": "SUNRISE",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 13.99
+    },
+    {
+      "line_id": 6,
+      "name": "SWISS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 25.99
+    },
+    {
+      "line_id": 7,
+      "name": "KS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 29.99
+    },
+    {
+      "line_id": 8,
+      "name": "GRASS BUTTER",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 8.99
+    },
+    {
+      "line_id": 9,
+      "name": "RASPBERRIES",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 8.99
+    }
+  ]
+}

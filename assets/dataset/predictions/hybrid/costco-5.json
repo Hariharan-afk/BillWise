@@ -1,0 +1,170 @@
+{
+  "receipt_id": "costco-5",
+  "image_file": "costco-5.jpg",
+  "fields": {
+    "merchant_name": "Costco Wholesale",
+    "date": "2019-02-08",
+    "time": null,
+    "subtotal": 228.02,
+    "tax": 5.8,
+    "total": 233.82,
+    "payment_method": "card",
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "CHARMIN",
+      "quantity": 1.0,
+      "unit_price": 22.49,
+      "item_total": 22.49
+    },
+    {
+      "line_id": 2,
+      "name": "ORANGES",
+      "quantity": 1.0,
+      "unit_price": 12.99,
+      "item_total": 12.99
+    },
+    {
+      "line_id": 3,
+      "name": "HONEYDEW",
+      "quantity": 1.0,
+      "unit_price": 3.99,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 4,
+      "name": "GOLDEN PINE",
+      "quantity": 1.0,
+      "unit_price": 2.99,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 5,
+      "name": "DOVE16CT",
+      "quantity": 1.0,
+      "unit_price": 15.99,
+      "item_total": 15.99
+    },
+    {
+      "line_id": 6,
+      "name": "ADIDAS SOCK",
+      "quantity": 2.0,
+      "unit_price": 12.99,
+      "item_total": 25.98
+    },
+    {
+      "line_id": 7,
+      "name": "SOUR DOUGH",
+      "quantity": 1.0,
+      "unit_price": 6.99,
+      "item_total": 6.99
+    },
+    {
+      "line_id": 8,
+      "name": "OATNUT BREAD",
+      "quantity": 1.0,
+      "unit_price": 5.79,
+      "item_total": 5.79
+    },
+    {
+      "line_id": 9,
+      "name": "BAGELS",
+      "quantity": 2.0,
+      "unit_price": 5.99,
+      "item_total": 11.98
+    },
+    {
+      "line_id": 10,
+      "name": "COUNTRY FR 2",
+      "quantity": 1.0,
+      "unit_price": 5.99,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 11,
+      "name": "ORG ROMAINE",
+      "quantity": 1.0,
+      "unit_price": 3.79,
+      "item_total": 3.79
+    },
+    {
+      "line_id": 12,
+      "name": "BAGELS",
+      "quantity": 1.0,
+      "unit_price": 5.99,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 13,
+      "name": "KS WALNUT 3",
+      "quantity": 1.0,
+      "unit_price": 10.89,
+      "item_total": 10.89
+    },
+    {
+      "line_id": 14,
+      "name": "ORGANIC CUKE",
+      "quantity": 1.0,
+      "unit_price": 4.99,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 15,
+      "name": "SAFE CATCH",
+      "quantity": 1.0,
+      "unit_price": 11.99,
+      "item_total": 11.99
+    },
+    {
+      "line_id": 16,
+      "name": "RASPBERRIES",
+      "quantity": 1.0,
+      "unit_price": 5.49,
+      "item_total": 5.49
+    },
+    {
+      "line_id": 17,
+      "name": "STRAWBERRIES",
+      "quantity": 1.0,
+      "unit_price": 13.98,
+      "item_total": 13.98
+    },
+    {
+      "line_id": 18,
+      "name": "BLACKBERRIES",
+      "quantity": 1.0,
+      "unit_price": 5.99,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 19,
+      "name": "BLUEBERRIES",
+      "quantity": 1.0,
+      "unit_price": 8.98,
+      "item_total": 8.98
+    }
+  ],
+  "review_required": true,
+  "review_reasons": [
+    "merchant_name_disagreement",
+    "item_count_disagreement",
+    "item_semantic_disagreement"
+  ],
+  "field_sources": {
+    "merchant_name": "vlm",
+    "date": "vlm",
+    "receipt_number": "ocr_layoutlm",
+    "time": "vlm",
+    "subtotal": "ocr_layoutlm",
+    "tax": "ocr_layoutlm",
+    "total": "ocr_layoutlm",
+    "card_last4": "none",
+    "payment_method": "ocr_layoutlm"
+  },
+  "item_source": "vlm",
+  "ocr_layoutlm_status": "ok",
+  "vlm_status": "ok"
+}

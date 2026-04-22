@@ -1,11 +1,14 @@
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from evaluation.loaders import load_gold_receipt
 from evaluation.metrics import score_receipt, summarize_scores
-from methods.groq_vlm import GroqVLMMethod
+from methods.vlm import GroqVLMMethod
 
 
 def save_json(path: Path, data):

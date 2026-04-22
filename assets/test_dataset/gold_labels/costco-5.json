@@ -1,0 +1,206 @@
+{
+    "receipt_id": "costco-5",
+    "image_file": "costco-5.jpg",
+    "fields": {
+        "merchant_name": "COSTCO WHOLESALE",
+        "date": "2019-02-08",
+        "time": "12:10 PM",
+        "subtotal": 228.02,
+        "tax": 5.8,
+        "total": 233.82,
+        "payment_method": "card",
+        "card_last4": "5881",
+        "receipt_number": "143 11 72 50"
+    },
+    "items": [
+        {
+            "line_id": 1,
+            "name": "CHARMIN",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 22.49
+        },
+        {
+            "line_id": 2,
+            "name": "ORANGES",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 12.99
+        },
+        {
+            "line_id": 3,
+            "name": "HONEYDEW",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 3.99
+        },
+        {
+            "line_id": 4,
+            "name": "GOLDEN PINE",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 2.99
+        },
+        {
+            "line_id": 5,
+            "name": "DOVE16CT",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 15.99
+        },
+        {
+            "line_id": 6,
+            "name": "ADIDAS SOCK",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 12.99
+        },
+        {
+            "line_id": 7,
+            "name": "ADIDAS SOCK",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 12.99
+        },
+        {
+            "line_id": 8,
+            "name": "SOUR DOUGH",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 6.99
+        },
+        {
+            "line_id": 9,
+            "name": "OATNUT BREAD",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 5.79
+        },
+        {
+            "line_id": 10,
+            "name": "BAGELS",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 5.99
+        },
+        {
+            "line_id": 11,
+            "name": "COUNTRY FR 2",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 5.99
+        },
+        {
+            "line_id": 12,
+            "name": "ORG ROMAINE",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 3.79
+        },
+        {
+            "line_id": 13,
+            "name": "BAGELS",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 5.99
+        },
+        {
+            "line_id": 14,
+            "name": "KS WALNUT 3#",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 10.89
+        },
+        {
+            "line_id": 15,
+            "name": "ORGANIC CUKE",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 4.99
+        },
+        {
+            "line_id": 16,
+            "name": "SAFE CATCH",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 11.99
+        },
+        {
+            "line_id": 17,
+            "name": "RASPBERRIES",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 5.49
+        },
+        {
+            "line_id": 18,
+            "name": "STRAWBERRIES",
+            "quantity": 2,
+            "unit_price": 6.99,
+            "item_total": 13.98
+        },
+        {
+            "line_id": 19,
+            "name": "BLACKBERRIES",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 5.99
+        },
+        {
+            "line_id": 20,
+            "name": "BLUEBERRIES",
+            "quantity": 2,
+            "unit_price": 4.49,
+            "item_total": 8.98
+        },
+        {
+            "line_id": 21,
+            "name": "PASTURE EGGS",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 7.49
+        },
+        {
+            "line_id": 22,
+            "name": "2%ORG YOGURT",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 4.79
+        },
+        {
+            "line_id": 23,
+            "name": "PHL CRM CHSE",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 8.49
+        },
+        {
+            "line_id": 24,
+            "name": "CLEMENTINES",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 5.99
+        },
+        {
+            "line_id": 25,
+            "name": "RAW HONEY",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 13.49
+        },
+        {
+            "line_id": 26,
+            "name": "ORG ATAULFO",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 6.49
+        }
+    ],
+    "evaluation_metadata": {
+        "currency": "USD",
+        "visible_payment_info": true,
+        "has_discounts_or_coupons": false,
+        "quality": "clean",
+        "notes": "Time 12:10 normalized to 12:10 PM."
+    }
+}

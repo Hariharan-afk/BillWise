@@ -1,0 +1,16 @@
+{
+  "receipt_id": "target-9",
+  "image_file": "target-9.jpg",
+  "fields": {
+    "merchant_name": null,
+    "date": null,
+    "time": null,
+    "subtotal": 3.39,
+    "tax": 0.25,
+    "total": 3.3,
+    "payment_method": null,
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": []
+}

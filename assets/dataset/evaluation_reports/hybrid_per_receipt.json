@@ -1,0 +1,793 @@
+[
+  {
+    "receipt_id": "costco-1",
+    "image_file": "costco-1.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "merchant_name_disagreement",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.8888888888888888,
+      "item_name_precision": 1.0,
+      "item_name_recall": 1.0,
+      "item_name_f1": 1.0,
+      "pred_item_count": 16,
+      "gold_item_count": 16,
+      "overall_score": 0.922222222222222
+    }
+  },
+  {
+    "receipt_id": "costco-2",
+    "image_file": "costco-2.png",
+    "review_required": true,
+    "review_reasons": [
+      "merchant_name_disagreement",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 0.0,
+      "card_last4": 0.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.5555555555555556,
+      "item_name_precision": 0.0,
+      "item_name_recall": 0.0,
+      "item_name_f1": 0.0,
+      "pred_item_count": 3,
+      "gold_item_count": 3,
+      "overall_score": 0.3888888888888889
+    }
+  },
+  {
+    "receipt_id": "costco-3",
+    "image_file": "costco-3.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "date_disagreement",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 0.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 0.0,
+      "card_last4": 1.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.5555555555555556,
+      "item_name_precision": 0.8888888888888888,
+      "item_name_recall": 0.8888888888888888,
+      "item_name_f1": 0.8888888888888888,
+      "pred_item_count": 9,
+      "gold_item_count": 9,
+      "overall_score": 0.6555555555555556
+    }
+  },
+  {
+    "receipt_id": "costco-4",
+    "image_file": "costco-4.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "merchant_name_disagreement",
+      "missing_date",
+      "item_count_disagreement",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 1.0,
+      "item_name_precision": 0.8888888888888888,
+      "item_name_recall": 0.5,
+      "item_name_f1": 0.64,
+      "pred_item_count": 18,
+      "gold_item_count": 32,
+      "overall_score": 0.8919999999999999
+    }
+  },
+  {
+    "receipt_id": "costco-5",
+    "image_file": "costco-5.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "merchant_name_disagreement",
+      "item_count_disagreement",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 0.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.6666666666666666,
+      "item_name_precision": 1.0,
+      "item_name_recall": 0.7307692307692307,
+      "item_name_f1": 0.8444444444444443,
+      "pred_item_count": 19,
+      "gold_item_count": 26,
+      "overall_score": 0.72
+    }
+  },
+  {
+    "receipt_id": "costco-6",
+    "image_file": "costco-6.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "merchant_name_disagreement",
+      "date_disagreement",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 0.0,
+      "card_last4": 1.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 0.7777777777777778,
+      "item_name_precision": 1.0,
+      "item_name_recall": 1.0,
+      "item_name_f1": 1.0,
+      "pred_item_count": 12,
+      "gold_item_count": 12,
+      "overall_score": 0.8444444444444443
+    }
+  },
+  {
+    "receipt_id": "costco-7",
+    "image_file": "costco-7.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "merchant_name_disagreement",
+      "payment_method_disagreement",
+      "card_last4_disagreement",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 0.0,
+      "card_last4": 0.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.5555555555555556,
+      "item_name_precision": 1.0,
+      "item_name_recall": 1.0,
+      "item_name_f1": 1.0,
+      "pred_item_count": 3,
+      "gold_item_count": 3,
+      "overall_score": 0.6888888888888889
+    }
+  },
+  {
+    "receipt_id": "costco-8",
+    "image_file": "costco-8.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "merchant_name_disagreement",
+      "subtotal_disagreement",
+      "total_arithmetic_inconsistency",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 0.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.6666666666666666,
+      "item_name_precision": 0.5714285714285714,
+      "item_name_recall": 0.5,
+      "item_name_f1": 0.5333333333333333,
+      "pred_item_count": 7,
+      "gold_item_count": 8,
+      "overall_score": 0.6266666666666666
+    }
+  },
+  {
+    "receipt_id": "target-1",
+    "image_file": "target-1.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 0.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.6666666666666666,
+      "item_name_precision": 0.3333333333333333,
+      "item_name_recall": 0.2857142857142857,
+      "item_name_f1": 0.30769230769230765,
+      "pred_item_count": 6,
+      "gold_item_count": 7,
+      "overall_score": 0.5589743589743589
+    }
+  },
+  {
+    "receipt_id": "target-10",
+    "image_file": "target-10.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "item_count_disagreement",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 0.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 0.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 0.6666666666666666,
+      "item_name_precision": 1.0,
+      "item_name_recall": 1.0,
+      "item_name_f1": 1.0,
+      "pred_item_count": 9,
+      "gold_item_count": 9,
+      "overall_score": 0.7666666666666666
+    }
+  },
+  {
+    "receipt_id": "target-2",
+    "image_file": "target-2.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "total_arithmetic_inconsistency"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 0.0,
+      "card_last4": 0.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 0.6666666666666666,
+      "item_name_precision": 1.0,
+      "item_name_recall": 0.625,
+      "item_name_f1": 0.7692307692307693,
+      "pred_item_count": 5,
+      "gold_item_count": 8,
+      "overall_score": 0.6974358974358974
+    }
+  },
+  {
+    "receipt_id": "target-3",
+    "image_file": "target-3.jpeg",
+    "review_required": true,
+    "review_reasons": [
+      "merchant_name_disagreement",
+      "payment_method_disagreement",
+      "card_last4_disagreement",
+      "total_arithmetic_inconsistency",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 0.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 0.7777777777777778,
+      "item_name_precision": 1.0,
+      "item_name_recall": 1.0,
+      "item_name_f1": 1.0,
+      "pred_item_count": 1,
+      "gold_item_count": 1,
+      "overall_score": 0.8444444444444443
+    }
+  },
+  {
+    "receipt_id": "target-4",
+    "image_file": "target-4.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "tax_disagreement",
+      "missing_date",
+      "total_arithmetic_inconsistency"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 0.0,
+      "card_last4": 0.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.6666666666666666,
+      "item_name_precision": 0.6,
+      "item_name_recall": 0.75,
+      "item_name_f1": 0.6666666666666665,
+      "pred_item_count": 5,
+      "gold_item_count": 4,
+      "overall_score": 0.6666666666666665
+    }
+  },
+  {
+    "receipt_id": "target-5",
+    "image_file": "target-5.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "merchant_name_disagreement",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 0.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.6666666666666666,
+      "item_name_precision": 1.0,
+      "item_name_recall": 1.0,
+      "item_name_f1": 1.0,
+      "pred_item_count": 4,
+      "gold_item_count": 4,
+      "overall_score": 0.7666666666666666
+    }
+  },
+  {
+    "receipt_id": "target-6",
+    "image_file": "target-6.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 0.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.6666666666666666,
+      "item_name_precision": 0.5,
+      "item_name_recall": 0.4166666666666667,
+      "item_name_f1": 0.45454545454545453,
+      "pred_item_count": 10,
+      "gold_item_count": 12,
+      "overall_score": 0.603030303030303
+    }
+  },
+  {
+    "receipt_id": "target-7",
+    "image_file": "target-7.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "subtotal_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 0.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 0.7777777777777778,
+      "item_name_precision": 1.0,
+      "item_name_recall": 0.5,
+      "item_name_f1": 0.6666666666666666,
+      "pred_item_count": 3,
+      "gold_item_count": 6,
+      "overall_score": 0.7444444444444444
+    }
+  },
+  {
+    "receipt_id": "target-8",
+    "image_file": "target-8.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "tax_disagreement",
+      "item_count_disagreement",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 0.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.6666666666666666,
+      "item_name_precision": 0.5,
+      "item_name_recall": 0.11764705882352941,
+      "item_name_f1": 0.19047619047619047,
+      "pred_item_count": 4,
+      "gold_item_count": 17,
+      "overall_score": 0.5238095238095237
+    }
+  },
+  {
+    "receipt_id": "target-9",
+    "image_file": "target-9.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "total_arithmetic_inconsistency"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.7777777777777778,
+      "item_name_precision": 0.0,
+      "item_name_recall": 0.0,
+      "item_name_f1": 0.0,
+      "pred_item_count": 0,
+      "gold_item_count": 1,
+      "overall_score": 0.5444444444444444
+    }
+  },
+  {
+    "receipt_id": "traderjoes-1",
+    "image_file": "traderjoes-1.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "missing_date"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 1.0,
+      "item_name_precision": 0.9090909090909091,
+      "item_name_recall": 0.8,
+      "item_name_f1": 0.8510638297872342,
+      "pred_item_count": 22,
+      "gold_item_count": 25,
+      "overall_score": 0.9553191489361702
+    }
+  },
+  {
+    "receipt_id": "traderjoes-10",
+    "image_file": "traderjoes-10.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "item_count_disagreement",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.8888888888888888,
+      "item_name_precision": 0.6363636363636364,
+      "item_name_recall": 0.5,
+      "item_name_f1": 0.56,
+      "pred_item_count": 22,
+      "gold_item_count": 28,
+      "overall_score": 0.7902222222222222
+    }
+  },
+  {
+    "receipt_id": "traderjoes-11",
+    "image_file": "traderjoes-11.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "date_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 0.0,
+      "subtotal": 0.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 0.0,
+      "card_last4": 1.0,
+      "receipt_number": 0.0,
+      "core_field_mean": 0.5555555555555556,
+      "item_name_precision": 1.0,
+      "item_name_recall": 1.0,
+      "item_name_f1": 1.0,
+      "pred_item_count": 9,
+      "gold_item_count": 9,
+      "overall_score": 0.6888888888888889
+    }
+  },
+  {
+    "receipt_id": "traderjoes-2",
+    "image_file": "traderjoes-2.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "payment_method_disagreement",
+      "missing_date"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 1.0,
+      "item_name_precision": 0.9285714285714286,
+      "item_name_recall": 0.9285714285714286,
+      "item_name_f1": 0.9285714285714286,
+      "pred_item_count": 14,
+      "gold_item_count": 14,
+      "overall_score": 0.9785714285714285
+    }
+  },
+  {
+    "receipt_id": "traderjoes-3",
+    "image_file": "traderjoes-3.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "missing_date",
+      "total_arithmetic_inconsistency",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "subtotal": 0.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 0.8888888888888888,
+      "item_name_precision": 0.8333333333333334,
+      "item_name_recall": 0.4411764705882353,
+      "item_name_f1": 0.576923076923077,
+      "pred_item_count": 18,
+      "gold_item_count": 34,
+      "overall_score": 0.7952991452991452
+    }
+  },
+  {
+    "receipt_id": "traderjoes-4",
+    "image_file": "traderjoes-4.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 1.0,
+      "item_name_precision": 1.0,
+      "item_name_recall": 1.0,
+      "item_name_f1": 1.0,
+      "pred_item_count": 1,
+      "gold_item_count": 1,
+      "overall_score": 1.0
+    }
+  },
+  {
+    "receipt_id": "traderjoes-5",
+    "image_file": "traderjoes-5.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "item_count_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 1.0,
+      "item_name_precision": 0.8888888888888888,
+      "item_name_recall": 0.5517241379310345,
+      "item_name_f1": 0.6808510638297872,
+      "pred_item_count": 18,
+      "gold_item_count": 29,
+      "overall_score": 0.9042553191489361
+    }
+  },
+  {
+    "receipt_id": "traderjoes-6",
+    "image_file": "traderjoes-6.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "payment_method_disagreement",
+      "missing_date",
+      "item_count_disagreement",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "subtotal": 0.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 0.8888888888888888,
+      "item_name_precision": 0.6428571428571429,
+      "item_name_recall": 0.5,
+      "item_name_f1": 0.5625000000000001,
+      "pred_item_count": 14,
+      "gold_item_count": 18,
+      "overall_score": 0.7909722222222222
+    }
+  },
+  {
+    "receipt_id": "traderjoes-7",
+    "image_file": "traderjoes-7.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "missing_date",
+      "item_count_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 1.0,
+      "item_name_precision": 1.0,
+      "item_name_recall": 0.47368421052631576,
+      "item_name_f1": 0.6428571428571429,
+      "pred_item_count": 18,
+      "gold_item_count": 38,
+      "overall_score": 0.8928571428571428
+    }
+  },
+  {
+    "receipt_id": "traderjoes-8",
+    "image_file": "traderjoes-8.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "missing_date",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 1.0,
+      "item_name_precision": 0.7272727272727273,
+      "item_name_recall": 0.6153846153846154,
+      "item_name_f1": 0.6666666666666667,
+      "pred_item_count": 11,
+      "gold_item_count": 13,
+      "overall_score": 0.8999999999999999
+    }
+  },
+  {
+    "receipt_id": "traderjoes-9",
+    "image_file": "traderjoes-9.jpg",
+    "review_required": true,
+    "review_reasons": [
+      "missing_date",
+      "item_count_disagreement",
+      "item_semantic_disagreement"
+    ],
+    "metrics": {
+      "merchant_name": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "subtotal": 1.0,
+      "tax": 1.0,
+      "total": 1.0,
+      "payment_method": 1.0,
+      "card_last4": 1.0,
+      "receipt_number": 1.0,
+      "core_field_mean": 1.0,
+      "item_name_precision": 0.9444444444444444,
+      "item_name_recall": 0.4473684210526316,
+      "item_name_f1": 0.6071428571428572,
+      "pred_item_count": 18,
+      "gold_item_count": 38,
+      "overall_score": 0.8821428571428571
+    }
+  }
+]

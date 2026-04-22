@@ -14,8 +14,8 @@ from evaluation.normalize import (
     normalize_time,
 )
 from methods.base import BaseExtractionMethod
-from methods.groq_vlm import GroqVLMMethod
-from methods.prototype_method import PrototypeMethod
+from methods.vlm import GroqVLMMethod
+from methods.ocr_layoutlm import PrototypeMethod
 
 
 def _same_text(a: Optional[str], b: Optional[str]) -> bool:
@@ -58,7 +58,7 @@ def _item_name_set(items):
 
 
 class HybridMethod(BaseExtractionMethod):
-    name = "hybrid_proto_groq"
+    name = "hybrid"
 
     def __init__(self) -> None:
         self.prototype = PrototypeMethod()
@@ -82,21 +82,21 @@ class HybridMethod(BaseExtractionMethod):
 
         if proto is None and groq is None:
             raise RuntimeError(
-                f"Both hybrid components failed. prototype_error={proto_error}; groq_error={groq_error}"
+                f"Both hybrid components failed. ocr_layoutlm_error={proto_error}; vlm_error={groq_error}"
             )
 
         if proto is None:
             result = groq.model_copy(deep=True)
             result.review_required = True
-            result.review_reasons = [f"prototype_failed: {proto_error}"]
-            result.field_sources = {k: "groq" for k in result.fields.model_dump().keys()}
+            result.review_reasons = [f"ocr_layoutlm_failed: {proto_error}"]
+            result.field_sources = {k: "vlm" for k in result.fields.model_dump().keys()}
             return result
 
         if groq is None:
             result = proto.model_copy(deep=True)
             result.review_required = True
-            result.review_reasons = [f"groq_failed: {groq_error}"]
-            result.field_sources = {k: "prototype" for k in result.fields.model_dump().keys()}
+            result.review_reasons = [f"vlm_failed: {groq_error}"]
+            result.field_sources = {k: "ocr_layoutlm" for k in result.fields.model_dump().keys()}
             return result
 
         review_reasons = []
@@ -107,41 +107,41 @@ class HybridMethod(BaseExtractionMethod):
 
         # semantic-first
         merged.merchant_name = groq.fields.merchant_name or proto.fields.merchant_name
-        field_sources["merchant_name"] = "groq" if groq.fields.merchant_name else "prototype"
+        field_sources["merchant_name"] = "vlm" if groq.fields.merchant_name else "ocr_layoutlm"
 
         merged.date = groq.fields.date or proto.fields.date
-        field_sources["date"] = "groq" if groq.fields.date else "prototype"
+        field_sources["date"] = "vlm" if groq.fields.date else "ocr_layoutlm"
 
         merged.receipt_number = groq.fields.receipt_number or proto.fields.receipt_number
-        field_sources["receipt_number"] = "groq" if groq.fields.receipt_number else "prototype"
+        field_sources["receipt_number"] = "vlm" if groq.fields.receipt_number else "ocr_layoutlm"
 
         # structured-first
         merged.time = proto.fields.time or groq.fields.time
-        field_sources["time"] = "prototype" if proto.fields.time else "groq"
+        field_sources["time"] = "ocr_layoutlm" if proto.fields.time else "vlm"
 
         merged.subtotal = proto.fields.subtotal if proto.fields.subtotal is not None else groq.fields.subtotal
-        field_sources["subtotal"] = "prototype" if proto.fields.subtotal is not None else "groq"
+        field_sources["subtotal"] = "ocr_layoutlm" if proto.fields.subtotal is not None else "vlm"
 
         merged.tax = proto.fields.tax if proto.fields.tax is not None else groq.fields.tax
-        field_sources["tax"] = "prototype" if proto.fields.tax is not None else "groq"
+        field_sources["tax"] = "ocr_layoutlm" if proto.fields.tax is not None else "vlm"
 
         merged.total = proto.fields.total if proto.fields.total is not None else groq.fields.total
-        field_sources["total"] = "prototype" if proto.fields.total is not None else "groq"
+        field_sources["total"] = "ocr_layoutlm" if proto.fields.total is not None else "vlm"
 
         # payment arbitration
         if proto.fields.card_last4:
             merged.card_last4 = proto.fields.card_last4
-            field_sources["card_last4"] = "prototype"
+            field_sources["card_last4"] = "ocr_layoutlm"
         else:
             merged.card_last4 = groq.fields.card_last4
-            field_sources["card_last4"] = "groq" if groq.fields.card_last4 else "none"
+            field_sources["card_last4"] = "vlm" if groq.fields.card_last4 else "none"
 
         if proto.fields.payment_method:
             merged.payment_method = proto.fields.payment_method
-            field_sources["payment_method"] = "prototype"
+            field_sources["payment_method"] = "ocr_layoutlm"
         else:
             merged.payment_method = groq.fields.payment_method
-            field_sources["payment_method"] = "groq" if groq.fields.payment_method else "none"
+            field_sources["payment_method"] = "vlm" if groq.fields.payment_method else "none"
 
         # disagreement checks on important fields
         if not _same_text(proto.fields.merchant_name, groq.fields.merchant_name):
@@ -189,13 +189,13 @@ class HybridMethod(BaseExtractionMethod):
             if abs((merged.subtotal + merged.tax) - merged.total) > 0.05:
                 review_reasons.append("total_arithmetic_inconsistency")
 
-        # items: prefer groq, fallback to prototype
+        # items: prefer vlm, fallback to ocr_layoutlm
         if groq.items:
             items = groq.items
-            item_source = "groq"
+            item_source = "vlm"
         else:
             items = proto.items
-            item_source = "prototype"
+            item_source = "ocr_layoutlm"
 
         proto_names = _item_name_set(proto.items)
         groq_names = _item_name_set(groq.items)
@@ -224,7 +224,7 @@ class HybridMethod(BaseExtractionMethod):
         result.review_reasons = review_reasons
         result.field_sources = field_sources
         result.item_source = item_source
-        result.prototype_status = "ok"
-        result.groq_status = "ok"
+        result.ocr_layoutlm_status = "ok"
+        result.vlm_status = "ok"
 
         return result

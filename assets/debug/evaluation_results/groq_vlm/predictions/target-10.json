@@ -1,0 +1,80 @@
+{
+  "receipt_id": "target-10",
+  "image_file": "target-10.jpg",
+  "fields": {
+    "merchant_name": "Target",
+    "date": "2024-02-03",
+    "time": null,
+    "subtotal": 192.5,
+    "tax": 8.32,
+    "total": 200.82,
+    "payment_method": "card",
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "Ava & Viv",
+      "quantity": null,
+      "unit_price": 12.5,
+      "item_total": 12.5
+    },
+    {
+      "line_id": 2,
+      "name": "IN MY HEART",
+      "quantity": null,
+      "unit_price": 18.99,
+      "item_total": 18.99
+    },
+    {
+      "line_id": 3,
+      "name": "MP COFFEE",
+      "quantity": null,
+      "unit_price": 4.79,
+      "item_total": 4.79
+    },
+    {
+      "line_id": 4,
+      "name": "ALANI ENERGY",
+      "quantity": null,
+      "unit_price": 12.99,
+      "item_total": 12.99
+    },
+    {
+      "line_id": 5,
+      "name": "SKITTLES",
+      "quantity": null,
+      "unit_price": 6.49,
+      "item_total": 6.49
+    },
+    {
+      "line_id": 6,
+      "name": "PREMIER",
+      "quantity": null,
+      "unit_price": 7.64,
+      "item_total": 7.64
+    },
+    {
+      "line_id": 7,
+      "name": "YASSO",
+      "quantity": null,
+      "unit_price": 5.29,
+      "item_total": 5.29
+    },
+    {
+      "line_id": 8,
+      "name": "PAPER TRAY",
+      "quantity": 3.0,
+      "unit_price": 3.0,
+      "item_total": 9.0
+    },
+    {
+      "line_id": 9,
+      "name": "LEGO 60384",
+      "quantity": null,
+      "unit_price": 20.49,
+      "item_total": 20.49
+    }
+  ]
+}

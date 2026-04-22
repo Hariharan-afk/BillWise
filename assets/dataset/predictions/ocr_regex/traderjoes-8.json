@@ -1,0 +1,101 @@
+{
+  "receipt_id": "traderjoes-8",
+  "image_file": "traderjoes-8.jpg",
+  "fields": {
+    "merchant_name": "TRADER JOE'S",
+    "date": null,
+    "time": "8:00AM",
+    "subtotal": null,
+    "tax": null,
+    "total": 46.6,
+    "payment_method": "cash",
+    "card_last4": null,
+    "receipt_number": "YOGURT"
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "YOGURT GREEK PLAIN LOW F",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.29
+    },
+    {
+      "line_id": 2,
+      "name": "POUND PLUS BITTERSWEET A",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 3,
+      "name": "NUTRITIONAL YEAST",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 4,
+      "name": "NUTRITIONAL YEAST",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 5,
+      "name": "GIANT PERUVIAN INCA CORN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.97
+    },
+    {
+      "line_id": 6,
+      "name": "SLICED LITE JARLSBERG",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 7,
+      "name": "A-GARLIC EACH",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.49
+    },
+    {
+      "line_id": 8,
+      "name": "BLUEBERRIES ORG 18 OZ",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 7.99
+    },
+    {
+      "line_id": 9,
+      "name": "TOMATOES GRAPE MINI PEAR",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 10,
+      "name": "CUCUMBERS HOTHOUSE EACH",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.69
+    },
+    {
+      "line_id": 11,
+      "name": "SALAD ARUGULA WILD 7 OZ",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.69
+    },
+    {
+      "line_id": 12,
+      "name": "AMEX",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 46.6
+    }
+  ]
+}

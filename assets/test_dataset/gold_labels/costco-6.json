@@ -1,0 +1,108 @@
+{
+    "receipt_id": "costco-6",
+    "image_file": "costco-6.jpg",
+    "fields": {
+        "merchant_name": "COSTCO WHOLESALE",
+        "date": "2025-02-18",
+        "time": "09:48 AM",
+        "subtotal": 167.52,
+        "tax": 9.75,
+        "total": 177.27,
+        "payment_method": "null",
+        "card_last4": "8730",
+        "receipt_number": "010329"
+    },
+    "items": [
+        {
+            "line_id": 1,
+            "name": "SPRING MIX",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 4.99
+        },
+        {
+            "line_id": 2,
+            "name": "ORG ARUGULA",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 4.99
+        },
+        {
+            "line_id": 3,
+            "name": "SHALLOTS",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 5.99
+        },
+        {
+            "line_id": 4,
+            "name": "SWEET POTATO",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 6.99
+        },
+        {
+            "line_id": 5,
+            "name": "KS PURE SALT",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 4.99
+        },
+        {
+            "line_id": 6,
+            "name": "SUNRISE TOFU",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 13.99
+        },
+        {
+            "line_id": 7,
+            "name": "SWISS DARK",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 25.99
+        },
+        {
+            "line_id": 8,
+            "name": "KS PRTN BAR",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 29.99
+        },
+        {
+            "line_id": 9,
+            "name": "GRASS BUTTER",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 8.99
+        },
+        {
+            "line_id": 10,
+            "name": "RASPBERRIES",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 8.99
+        },
+        {
+            "line_id": 11,
+            "name": "SALMON FILET",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 32.63
+        },
+        {
+            "line_id": 12,
+            "name": "KS PARCHMENT",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 18.99
+        }
+    ],
+    "evaluation_metadata": {
+        "currency": "USD",
+        "visible_payment_info": true,
+        "has_discounts_or_coupons": false,
+        "quality": "clean",
+        "notes": null
+    }
+}

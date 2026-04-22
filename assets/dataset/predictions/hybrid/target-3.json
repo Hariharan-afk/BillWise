@@ -1,0 +1,46 @@
+{
+  "receipt_id": "target-3",
+  "image_file": "target-3.jpeg",
+  "fields": {
+    "merchant_name": "Target",
+    "date": "2021-07-25",
+    "time": null,
+    "subtotal": 169.99,
+    "tax": 9.69,
+    "total": 171.18,
+    "payment_method": "card",
+    "card_last4": "0219",
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "TRA TITAN",
+      "quantity": 1.0,
+      "unit_price": 169.99,
+      "item_total": 169.99
+    }
+  ],
+  "review_required": true,
+  "review_reasons": [
+    "merchant_name_disagreement",
+    "payment_method_disagreement",
+    "card_last4_disagreement",
+    "total_arithmetic_inconsistency",
+    "item_semantic_disagreement"
+  ],
+  "field_sources": {
+    "merchant_name": "vlm",
+    "date": "vlm",
+    "receipt_number": "ocr_layoutlm",
+    "time": "vlm",
+    "subtotal": "ocr_layoutlm",
+    "tax": "ocr_layoutlm",
+    "total": "ocr_layoutlm",
+    "card_last4": "ocr_layoutlm",
+    "payment_method": "ocr_layoutlm"
+  },
+  "item_source": "vlm",
+  "ocr_layoutlm_status": "ok",
+  "vlm_status": "ok"
+}

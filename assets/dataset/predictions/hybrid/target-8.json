@@ -1,0 +1,65 @@
+{
+  "receipt_id": "target-8",
+  "image_file": "target-8.jpg",
+  "fields": {
+    "merchant_name": "TARGET",
+    "date": "2009-08-31",
+    "time": null,
+    "subtotal": 0.32,
+    "tax": 0.01,
+    "total": 0.33,
+    "payment_method": "card",
+    "card_last4": null,
+    "receipt_number": "REC#2-9243-1455-0072-8211-6"
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "DOVE",
+      "quantity": 1.0,
+      "unit_price": 3.29,
+      "item_total": 3.29
+    },
+    {
+      "line_id": 2,
+      "name": "PURINA DOG",
+      "quantity": 2.0,
+      "unit_price": 4.69,
+      "item_total": 9.38
+    },
+    {
+      "line_id": 3,
+      "name": "RENU 2FL OZ",
+      "quantity": 1.0,
+      "unit_price": 3.04,
+      "item_total": 3.04
+    },
+    {
+      "line_id": 4,
+      "name": "HEALTH ITEM",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 0.33
+    }
+  ],
+  "review_required": true,
+  "review_reasons": [
+    "tax_disagreement",
+    "item_count_disagreement",
+    "item_semantic_disagreement"
+  ],
+  "field_sources": {
+    "merchant_name": "vlm",
+    "date": "vlm",
+    "receipt_number": "vlm",
+    "time": "vlm",
+    "subtotal": "ocr_layoutlm",
+    "tax": "ocr_layoutlm",
+    "total": "ocr_layoutlm",
+    "card_last4": "none",
+    "payment_method": "vlm"
+  },
+  "item_source": "vlm",
+  "ocr_layoutlm_status": "ok",
+  "vlm_status": "ok"
+}

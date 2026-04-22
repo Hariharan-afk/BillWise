@@ -1,0 +1,136 @@
+{
+  "receipt_id": "traderjoes-6",
+  "image_file": "traderjoes-6.jpg",
+  "fields": {
+    "merchant_name": "TRADER JOE'S",
+    "date": null,
+    "time": null,
+    "subtotal": 62.36,
+    "tax": 1.43,
+    "total": 63.79,
+    "payment_method": "card",
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "BATH TISSUE 6 DOUBLE ROL",
+      "quantity": 1.0,
+      "unit_price": 3.99,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 2,
+      "name": "PATON CLEMENTE TEMPRANIL",
+      "quantity": 1.0,
+      "unit_price": 4.99,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 3,
+      "name": "PATON CLEMENTE TEMPRANIL PASTA RIGATONI",
+      "quantity": 1.0,
+      "unit_price": 4.99,
+      "item_total": 4.99
+    },
+    {
+      "line_id": 4,
+      "name": "CHIA SEED ORGANIC BLACK",
+      "quantity": 1.0,
+      "unit_price": 0.99,
+      "item_total": 0.99
+    },
+    {
+      "line_id": 5,
+      "name": "PEANUT BUTTER CREAMY UNS MUL TI GRAIN PITA BITE CRA",
+      "quantity": 1.0,
+      "unit_price": 5.99,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 6,
+      "name": "CENTO ANCHOVIES IN OLIVE",
+      "quantity": 2.0,
+      "unit_price": 1.79,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 7,
+      "name": "LIGHTLY SMOKED ATLANTIC CHERRIES DARK SWEET PITT",
+      "quantity": 1.0,
+      "unit_price": 3.58,
+      "item_total": 3.58
+    },
+    {
+      "line_id": 8,
+      "name": "FZN BLUEBERRIES",
+      "quantity": 1.0,
+      "unit_price": 3.69,
+      "item_total": 3.69
+    },
+    {
+      "line_id": 9,
+      "name": "CAVE AGED BLUE YOGURT GREEK PLAIN 16 OZ",
+      "quantity": 1.0,
+      "unit_price": 3.79,
+      "item_total": 3.79
+    },
+    {
+      "line_id": 10,
+      "name": "A ONIONS JUMBO YELLOW EA",
+      "quantity": 1.0,
+      "unit_price": 3.68,
+      "item_total": 3.68
+    },
+    {
+      "line_id": 11,
+      "name": "A GARLIC EACH",
+      "quantity": 1.0,
+      "unit_price": 2.99,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 12,
+      "name": "EGGS LARGE CF NATURQX AN",
+      "quantity": 1.0,
+      "unit_price": 0.1,
+      "item_total": 0.1
+    },
+    {
+      "line_id": 13,
+      "name": "APPLE EACH ORG FUJI",
+      "quantity": 3.0,
+      "unit_price": 0.49,
+      "item_total": 1.47
+    },
+    {
+      "line_id": 14,
+      "name": "BAG FEE",
+      "quantity": 1.0,
+      "unit_price": 0.99,
+      "item_total": 0.99
+    }
+  ],
+  "review_required": true,
+  "review_reasons": [
+    "payment_method_disagreement",
+    "missing_date",
+    "item_count_disagreement",
+    "item_semantic_disagreement"
+  ],
+  "field_sources": {
+    "merchant_name": "vlm",
+    "date": "ocr_layoutlm",
+    "receipt_number": "ocr_layoutlm",
+    "time": "vlm",
+    "subtotal": "vlm",
+    "tax": "ocr_layoutlm",
+    "total": "ocr_layoutlm",
+    "card_last4": "none",
+    "payment_method": "ocr_layoutlm"
+  },
+  "item_source": "vlm",
+  "ocr_layoutlm_status": "ok",
+  "vlm_status": "ok"
+}

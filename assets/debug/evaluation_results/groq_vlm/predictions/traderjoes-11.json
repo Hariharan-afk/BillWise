@@ -1,0 +1,80 @@
+{
+  "receipt_id": "traderjoes-11",
+  "image_file": "traderjoes-11.jpg",
+  "fields": {
+    "merchant_name": "TRADER JOE'S",
+    "date": "2022-04-02",
+    "time": null,
+    "subtotal": null,
+    "tax": null,
+    "total": 28.97,
+    "payment_method": "cash",
+    "card_last4": null,
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "BLUEBERRIES 18 OZ",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 6.99
+    },
+    {
+      "line_id": 2,
+      "name": "HARVEST CHILI BUTTERNUT",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.69
+    },
+    {
+      "line_id": 3,
+      "name": "BANANA ORG EACH",
+      "quantity": 5.0,
+      "unit_price": 0.25,
+      "item_total": 1.25
+    },
+    {
+      "line_id": 4,
+      "name": "BAR DK CHOC TRUFFLE ORG",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 5,
+      "name": "BAR DK CHOC TRUFFLE ORG",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 6,
+      "name": "ORGANIC MANGO CHUNKS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 2.49
+    },
+    {
+      "line_id": 7,
+      "name": "VERY CHERRY BERRY BLEND",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 3.49
+    },
+    {
+      "line_id": 8,
+      "name": "ORGANIC ROASTED VEG PIZZ FZN",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.79
+    },
+    {
+      "line_id": 9,
+      "name": "BRUSSELS SPROUTS",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 1.29
+    }
+  ]
+}

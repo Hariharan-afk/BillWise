@@ -1,0 +1,24 @@
+{
+  "receipt_id": "costco-2",
+  "image_file": "costco-2.png",
+  "fields": {
+    "merchant_name": "Faker eiptFa",
+    "date": "1059-11-20",
+    "time": "5:29:39 PM",
+    "subtotal": null,
+    "tax": null,
+    "total": 39.59,
+    "payment_method": "cash",
+    "card_last4": null,
+    "receipt_number": "Faker"
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "beip",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 22.2
+    }
+  ]
+}

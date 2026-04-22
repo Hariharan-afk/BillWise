@@ -1,0 +1,45 @@
+{
+    "receipt_id": "costco-2",
+    "image_file": "costco-2.png",
+    "fields": {
+        "merchant_name": "COSTCO WHOLESALE",
+        "date": "2019-11-20",
+        "time": "11:09 AM",
+        "subtotal": 39.59,
+        "tax": 0.0,
+        "total": 39.59,
+        "payment_method": "card",
+        "card_last4": "4922",
+        "receipt_number": "62845289260246240685C"
+    },
+    "items": [
+        {
+            "line_id": 1,
+            "name": "BNLS/SL BRST",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 22.2
+        },
+        {
+            "line_id": 2,
+            "name": "GRAPE TOMATO",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 6.0
+        },
+        {
+            "line_id": 3,
+            "name": "BUTTER KS",
+            "quantity": null,
+            "unit_price": null,
+            "item_total": 11.39
+        }
+    ],
+    "evaluation_metadata": {
+        "currency": "USD",
+        "visible_payment_info": true,
+        "has_discounts_or_coupons": false,
+        "quality": "clean",
+        "notes": "Transaction date 2019-11-20 selected over the 2025 print date. Receipt appears to be a generated sample."
+    }
+}

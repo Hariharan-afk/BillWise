@@ -1,0 +1,87 @@
+{
+  "receipt_id": "target-7",
+  "image_file": "target-7.jpg",
+  "fields": {
+    "merchant_name": "OTARGET",
+    "date": "2018-08-17",
+    "time": "08:36 PM",
+    "subtotal": null,
+    "tax": 7.0,
+    "total": 15.1,
+    "payment_method": "card",
+    "card_last4": "2140",
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "T $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 2,
+      "name": "Refund Value",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.34
+    },
+    {
+      "line_id": 3,
+      "name": "Refund Value",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 4.34
+    },
+    {
+      "line_id": 4,
+      "name": "T $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 11.99
+    },
+    {
+      "line_id": 5,
+      "name": "T $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 11.99
+    },
+    {
+      "line_id": 6,
+      "name": "Refund Value",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 8.68
+    },
+    {
+      "line_id": 7,
+      "name": "T $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.19
+    },
+    {
+      "line_id": 8,
+      "name": "Refund Value",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 6.65
+    },
+    {
+      "line_id": 9,
+      "name": "T $",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.19
+    },
+    {
+      "line_id": 10,
+      "name": "Refund Value",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 6.65
+    }
+  ]
+}

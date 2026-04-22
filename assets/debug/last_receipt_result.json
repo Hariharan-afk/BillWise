@@ -1,0 +1,6858 @@
+{
+  "image_path": "assets/sample_receipt.jpg",
+  "image_width": 720,
+  "image_height": 1280,
+  "fields": [
+    {
+      "field_name": "merchant_name",
+      "value": "TARGET",
+      "confidence": 0.9882353872060776,
+      "bbox": [
+        309,
+        0,
+        468,
+        39
+      ],
+      "source": "layoutlm",
+      "ocr_confidence": 0.9969422221183777,
+      "model_confidence": 0.9835470914840698,
+      "token_ids": [
+        0
+      ]
+    },
+    {
+      "field_name": "date",
+      "value": "03/06/2016",
+      "confidence": 0.999,
+      "bbox": [
+        186,
+        64,
+        350,
+        95
+      ],
+      "source": "layoutlm",
+      "ocr_confidence": 0.9866213202476501,
+      "model_confidence": 0.9888284802436829,
+      "token_ids": [
+        2
+      ]
+    },
+    {
+      "field_name": "time",
+      "value": "05:25 PM",
+      "confidence": 0.9846023762226106,
+      "bbox": [
+        347,
+        78,
+        376,
+        94
+      ],
+      "source": "layoutlm",
+      "ocr_confidence": 0.979193925857544,
+      "model_confidence": 0.9259761571884155,
+      "token_ids": [
+        3
+      ]
+    },
+    {
+      "field_name": "subtotal",
+      "value": "$246.00",
+      "confidence": 0.999,
+      "bbox": [
+        478,
+        1182,
+        554,
+        1206
+      ],
+      "source": "layoutlm",
+      "ocr_confidence": 0.9948083758354187,
+      "model_confidence": 0.9789711236953735,
+      "token_ids": [
+        187
+      ]
+    },
+    {
+      "field_name": "tax",
+      "value": "$4.55",
+      "confidence": 0.962617502808571,
+      "bbox": [
+        497,
+        1231,
+        554,
+        1256
+      ],
+      "source": "layoutlm",
+      "ocr_confidence": 0.9874480962753296,
+      "model_confidence": 0.9184779524803162,
+      "token_ids": [
+        195
+      ]
+    },
+    {
+      "field_name": "total",
+      "value": "$251.83",
+      "confidence": 0.999,
+      "bbox": [
+        477,
+        1248,
+        553,
+        1273
+      ],
+      "source": "layoutlm",
+      "ocr_confidence": 0.9922497868537903,
+      "model_confidence": 0.9735808372497559,
+      "token_ids": [
+        197
+      ]
+    }
+  ],
+  "items": [
+    {
+      "description": {
+        "value": "UPUP HOUSEH",
+        "confidence": 0.9899326026439667,
+        "bbox": [
+          303,
+          175,
+          418,
+          203
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$1.94",
+        "confidence": 0.9927026569843292,
+        "bbox": [
+          494,
+          186,
+          548,
+          210
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "OREO COOKIE",
+        "confidence": 0.9823342770338058,
+        "bbox": [
+          304,
+          228,
+          417,
+          253
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$5.98",
+        "confidence": 0.9937321990728378,
+        "bbox": [
+          496,
+          235,
+          550,
+          261
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "NATVAL ENER",
+        "confidence": 0.9863201349973678,
+        "bbox": [
+          303,
+          265,
+          418,
+          290
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$5.89",
+        "confidence": 0.9942094504833221,
+        "bbox": [
+          497,
+          270,
+          551,
+          294
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "MOTTS FRTSN",
+        "confidence": 0.9851385116577148,
+        "bbox": [
+          304,
+          283,
+          417,
+          308
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$1.50",
+        "confidence": 0.992196974158287,
+        "bbox": [
+          497,
+          287,
+          552,
+          311
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "MOTTSFRTSN",
+        "confidence": 0.9950530022382736,
+        "bbox": [
+          305,
+          319,
+          417,
+          342
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$4.50",
+        "confidence": 0.9928556621074677,
+        "bbox": [
+          498,
+          321,
+          553,
+          346
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "V8",
+        "confidence": 0.986017605662346,
+        "bbox": [
+          305,
+          374,
+          331,
+          395
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$4.19",
+        "confidence": 0.9919082283973694,
+        "bbox": [
+          499,
+          376,
+          552,
+          397
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "OSCAR MAYER",
+        "confidence": 0.9861806988716126,
+        "bbox": [
+          306,
+          393,
+          418,
+          413
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$2.50",
+        "confidence": 0.9914848655462265,
+        "bbox": [
+          499,
+          393,
+          552,
+          415
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "OSCAR MAYER",
+        "confidence": 0.9871285885572434,
+        "bbox": [
+          306,
+          411,
+          418,
+          432
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$3.07",
+        "confidence": 0.9943128615617752,
+        "bbox": [
+          501,
+          413,
+          551,
+          432
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "NAKED",
+        "confidence": 0.9960982769727706,
+        "bbox": [
+          306,
+          447,
+          360,
+          468
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$2.50",
+        "confidence": 0.9930209815502167,
+        "bbox": [
+          500,
+          447,
+          553,
+          468
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "TOMATO",
+        "confidence": 0.9956788152456283,
+        "bbox": [
+          306,
+          465,
+          370,
+          486
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$0.99",
+        "confidence": 0.9938591480255127,
+        "bbox": [
+          499,
+          464,
+          553,
+          486
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "LETTUCE",
+        "confidence": 0.9963195860385895,
+        "bbox": [
+          307,
+          483,
+          378,
+          504
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$1.49",
+        "confidence": 0.9935313731431961,
+        "bbox": [
+          498,
+          481,
+          554,
+          505
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "KC MASTERPC",
+        "confidence": 0.9939160078763962,
+        "bbox": [
+          307,
+          501,
+          417,
+          522
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$3.39",
+        "confidence": 0.9941571027040481,
+        "bbox": [
+          498,
+          499,
+          554,
+          523
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "MARKET PANT",
+        "confidence": 0.986777862906456,
+        "bbox": [
+          307,
+          519,
+          416,
+          539
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$3.29",
+        "confidence": 0.9941590607166291,
+        "bbox": [
+          499,
+          517,
+          553,
+          539
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "BC SDNLY SL",
+        "confidence": 0.9749600261449813,
+        "bbox": [
+          306,
+          537,
+          415,
+          557
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$1.72",
+        "confidence": 0.9926028400659561,
+        "bbox": [
+          498,
+          535,
+          553,
+          556
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "PEPPERIDGE",
+        "confidence": 0.9967032760381698,
+        "bbox": [
+          308,
+          572,
+          406,
+          590
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$2.99",
+        "confidence": 0.9937242537736892,
+        "bbox": [
+          498,
+          570,
+          554,
+          592
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "SMUCKERS",
+        "confidence": 0.994732877612114,
+        "bbox": [
+          308,
+          590,
+          388,
+          608
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$2.09",
+        "confidence": 0.9913116753101349,
+        "bbox": [
+          498,
+          586,
+          555,
+          610
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "JENNIE-O",
+        "confidence": 0.9821791589260102,
+        "bbox": [
+          309,
+          607,
+          388,
+          625
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$2.99",
+        "confidence": 0.9911536067724227,
+        "bbox": [
+          499,
+          605,
+          554,
+          627
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "LEAN CUISIN",
+        "confidence": 0.9878041833639144,
+        "bbox": [
+          306,
+          623,
+          418,
+          643
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$2.45",
+        "confidence": 0.9893239080905913,
+        "bbox": [
+          500,
+          623,
+          555,
+          644
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "LEAN CUISIN",
+        "confidence": 0.9814491420984268,
+        "bbox": [
+          307,
+          658,
+          418,
+          681
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$2.14",
+        "confidence": 0.9923549592494965,
+        "bbox": [
+          500,
+          659,
+          555,
+          681
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "LEAN CUISIN",
+        "confidence": 0.985416829586029,
+        "bbox": [
+          307,
+          675,
+          418,
+          698
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$2.89",
+        "confidence": 0.9925719588994979,
+        "bbox": [
+          499,
+          676,
+          555,
+          697
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "LEAN CUISIN",
+        "confidence": 0.9917304813861847,
+        "bbox": [
+          307,
+          691,
+          419,
+          715
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$2.45",
+        "confidence": 0.9925022035837173,
+        "bbox": [
+          499,
+          694,
+          556,
+          715
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "EVOL",
+        "confidence": 0.9934262633323669,
+        "bbox": [
+          308,
+          728,
+          350,
+          747
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$5.59",
+        "confidence": 0.9928799927234649,
+        "bbox": [
+          500,
+          730,
+          556,
+          752
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "BIRD SUBB H",
+        "confidence": 0.9667214155197144,
+        "bbox": [
+          308,
+          761,
+          420,
+          784
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$4.09",
+        "confidence": 0.9930045127868653,
+        "bbox": [
+          501,
+          765,
+          557,
+          787
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "MP EGGS",
+        "confidence": 0.9815298110246659,
+        "bbox": [
+          309,
+          781,
+          379,
+          799
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$1.89",
+        "confidence": 0.9914225399494171,
+        "bbox": [
+          500,
+          782,
+          558,
+          806
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "REDDI WIP",
+        "confidence": 0.9831796765327454,
+        "bbox": [
+          310,
+          815,
+          399,
+          836
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$3.72",
+        "confidence": 0.993473693728447,
+        "bbox": [
+          500,
+          818,
+          558,
+          842
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "MPHANDH",
+        "confidence": 0.9963236510753632,
+        "bbox": [
+          309,
+          833,
+          411,
+          854
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$1.41",
+        "confidence": 0.9916509300470352,
+        "bbox": [
+          500,
+          836,
+          557,
+          861
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "CHOBANI",
+        "confidence": 0.9947721987962723,
+        "bbox": [
+          309,
+          867,
+          381,
+          891
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$1.00",
+        "confidence": 0.9910002887248992,
+        "bbox": [
+          500,
+          871,
+          558,
+          896
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "CHOBANI",
+        "confidence": 0.9949045032262802,
+        "bbox": [
+          309,
+          885,
+          380,
+          909
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$1.00",
+        "confidence": 0.9908460229635239,
+        "bbox": [
+          500,
+          889,
+          558,
+          913
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "CHOBANI",
+        "confidence": 0.9957594364881515,
+        "bbox": [
+          310,
+          905,
+          380,
+          926
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$1.00",
+        "confidence": 0.989848741889,
+        "bbox": [
+          501,
+          906,
+          558,
+          931
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "CHOBANI",
+        "confidence": 0.9942672789096831,
+        "bbox": [
+          309,
+          922,
+          381,
+          945
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$2.00",
+        "confidence": 0.9926249563694001,
+        "bbox": [
+          501,
+          924,
+          558,
+          949
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "BREYERS",
+        "confidence": 0.9945790499448776,
+        "bbox": [
+          311,
+          959,
+          380,
+          977
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$3.49",
+        "confidence": 0.9939904928207397,
+        "bbox": [
+          501,
+          959,
+          558,
+          984
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "BREYERS",
+        "confidence": 0.9945423156023026,
+        "bbox": [
+          311,
+          994,
+          381,
+          1012
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$3.49",
+        "confidence": 0.9941218942403793,
+        "bbox": [
+          502,
+          997,
+          557,
+          1019
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "AQUAF2PK",
+        "confidence": 0.9957389026880265,
+        "bbox": [
+          310,
+          1061,
+          401,
+          1084
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$4.89",
+        "confidence": 0.9934239327907562,
+        "bbox": [
+          501,
+          1067,
+          556,
+          1089
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "SONICARE",
+        "confidence": 0.9948007792234421,
+        "bbox": [
+          309,
+          1077,
+          391,
+          1102
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$21.99",
+        "confidence": 0.9937217265367508,
+        "bbox": [
+          491,
+          1083,
+          556,
+          1107
+        ]
+      }
+    },
+    {
+      "description": {
+        "value": "BISSELL",
+        "confidence": 0.9952827662229538,
+        "bbox": [
+          307,
+          1127,
+          379,
+          1152
+        ]
+      },
+      "quantity": null,
+      "price": {
+        "value": "$129.99",
+        "confidence": 0.9927499949932098,
+        "bbox": [
+          479,
+          1132,
+          556,
+          1156
+        ]
+      }
+    }
+  ],
+  "raw_ocr": [
+    {
+      "id": 0,
+      "text": "TARGET",
+      "bbox": [
+        309,
+        0,
+        468,
+        39
+      ],
+      "poly": [
+        [
+          312,
+          0
+        ],
+        [
+          468,
+          4
+        ],
+        [
+          466,
+          39
+        ],
+        [
+          309,
+          27
+        ]
+      ],
+      "ocr_confidence": 0.9969422221183777,
+      "det_confidence": null
+    },
+    {
+      "id": 1,
+      "text": "EXPECTMOREPAYLESS:",
+      "bbox": [
+        314,
+        23,
+        466,
+        51
+      ],
+      "poly": [
+        [
+          315,
+          23
+        ],
+        [
+          466,
+          34
+        ],
+        [
+          464,
+          51
+        ],
+        [
+          314,
+          40
+        ]
+      ],
+      "ocr_confidence": 0.9709680080413818,
+      "det_confidence": null
+    },
+    {
+      "id": 2,
+      "text": "03/06/201605:25",
+      "bbox": [
+        186,
+        64,
+        350,
+        95
+      ],
+      "poly": [
+        [
+          187,
+          64
+        ],
+        [
+          350,
+          74
+        ],
+        [
+          349,
+          95
+        ],
+        [
+          186,
+          85
+        ]
+      ],
+      "ocr_confidence": 0.9866213202476501,
+      "det_confidence": null
+    },
+    {
+      "id": 3,
+      "text": "PM",
+      "bbox": [
+        347,
+        78,
+        376,
+        94
+      ],
+      "poly": [
+        [
+          347,
+          78
+        ],
+        [
+          376,
+          78
+        ],
+        [
+          376,
+          94
+        ],
+        [
+          347,
+          94
+        ]
+      ],
+      "ocr_confidence": 0.979193925857544,
+      "det_confidence": null
+    },
+    {
+      "id": 4,
+      "text": "EXPIRES 06/04/16",
+      "bbox": [
+        388,
+        77,
+        543,
+        109
+      ],
+      "poly": [
+        [
+          390,
+          77
+        ],
+        [
+          543,
+          89
+        ],
+        [
+          541,
+          109
+        ],
+        [
+          388,
+          97
+        ]
+      ],
+      "ocr_confidence": 0.9724935293197632,
+      "det_confidence": null
+    },
+    {
+      "id": 5,
+      "text": "CLEANING SUPPLIES",
+      "bbox": [
+        147,
+        153,
+        320,
+        178
+      ],
+      "poly": [
+        [
+          148,
+          153
+        ],
+        [
+          320,
+          157
+        ],
+        [
+          320,
+          178
+        ],
+        [
+          147,
+          174
+        ]
+      ],
+      "ocr_confidence": 0.9818543791770935,
+      "det_confidence": null
+    },
+    {
+      "id": 6,
+      "text": "003050132",
+      "bbox": [
+        147,
+        172,
+        241,
+        195
+      ],
+      "poly": [
+        [
+          147,
+          174
+        ],
+        [
+          240,
+          172
+        ],
+        [
+          241,
+          193
+        ],
+        [
+          148,
+          195
+        ]
+      ],
+      "ocr_confidence": 0.9986517429351807,
+      "det_confidence": null
+    },
+    {
+      "id": 7,
+      "text": "UPUP HOUSEH",
+      "bbox": [
+        303,
+        175,
+        418,
+        203
+      ],
+      "poly": [
+        [
+          305,
+          175
+        ],
+        [
+          418,
+          181
+        ],
+        [
+          416,
+          203
+        ],
+        [
+          303,
+          197
+        ]
+      ],
+      "ocr_confidence": 0.9801540970802307,
+      "det_confidence": null
+    },
+    {
+      "id": 8,
+      "text": "T",
+      "bbox": [
+        449,
+        185,
+        463,
+        202
+      ],
+      "poly": [
+        [
+          449,
+          185
+        ],
+        [
+          463,
+          185
+        ],
+        [
+          463,
+          202
+        ],
+        [
+          449,
+          202
+        ]
+      ],
+      "ocr_confidence": 0.9985687732696533,
+      "det_confidence": null
+    },
+    {
+      "id": 9,
+      "text": "$1.94",
+      "bbox": [
+        494,
+        186,
+        548,
+        210
+      ],
+      "poly": [
+        [
+          495,
+          186
+        ],
+        [
+          548,
+          188
+        ],
+        [
+          546,
+          210
+        ],
+        [
+          494,
+          208
+        ]
+      ],
+      "ocr_confidence": 0.9895704388618469,
+      "det_confidence": null
+    },
+    {
+      "id": 10,
+      "text": "GROCERY",
+      "bbox": [
+        148,
+        208,
+        221,
+        233
+      ],
+      "poly": [
+        [
+          148,
+          211
+        ],
+        [
+          220,
+          208
+        ],
+        [
+          221,
+          230
+        ],
+        [
+          149,
+          233
+        ]
+      ],
+      "ocr_confidence": 0.9941778182983398,
+      "det_confidence": null
+    },
+    {
+      "id": 11,
+      "text": "071090012",
+      "bbox": [
+        148,
+        226,
+        241,
+        251
+      ],
+      "poly": [
+        [
+          148,
+          230
+        ],
+        [
+          240,
+          226
+        ],
+        [
+          241,
+          247
+        ],
+        [
+          149,
+          251
+        ]
+      ],
+      "ocr_confidence": 0.9987765550613403,
+      "det_confidence": null
+    },
+    {
+      "id": 12,
+      "text": "OREO COOKIE",
+      "bbox": [
+        304,
+        228,
+        417,
+        253
+      ],
+      "poly": [
+        [
+          305,
+          228
+        ],
+        [
+          417,
+          232
+        ],
+        [
+          416,
+          253
+        ],
+        [
+          304,
+          249
+        ]
+      ],
+      "ocr_confidence": 0.9576852321624756,
+      "det_confidence": null
+    },
+    {
+      "id": 13,
+      "text": "FC",
+      "bbox": [
+        439,
+        234,
+        465,
+        255
+      ],
+      "poly": [
+        [
+          439,
+          234
+        ],
+        [
+          465,
+          234
+        ],
+        [
+          465,
+          255
+        ],
+        [
+          439,
+          255
+        ]
+      ],
+      "ocr_confidence": 0.9853934049606323,
+      "det_confidence": null
+    },
+    {
+      "id": 14,
+      "text": "$5.98",
+      "bbox": [
+        496,
+        235,
+        550,
+        261
+      ],
+      "poly": [
+        [
+          497,
+          235
+        ],
+        [
+          550,
+          238
+        ],
+        [
+          548,
+          261
+        ],
+        [
+          496,
+          258
+        ]
+      ],
+      "ocr_confidence": 0.992316722869873,
+      "det_confidence": null
+    },
+    {
+      "id": 15,
+      "text": "20 $2.99 ea",
+      "bbox": [
+        294,
+        247,
+        418,
+        272
+      ],
+      "poly": [
+        [
+          295,
+          247
+        ],
+        [
+          418,
+          251
+        ],
+        [
+          417,
+          272
+        ],
+        [
+          294,
+          268
+        ]
+      ],
+      "ocr_confidence": 0.842624306678772,
+      "det_confidence": null
+    },
+    {
+      "id": 16,
+      "text": "071200113",
+      "bbox": [
+        149,
+        264,
+        241,
+        288
+      ],
+      "poly": [
+        [
+          149,
+          267
+        ],
+        [
+          240,
+          264
+        ],
+        [
+          241,
+          285
+        ],
+        [
+          150,
+          288
+        ]
+      ],
+      "ocr_confidence": 0.9991509914398193,
+      "det_confidence": null
+    },
+    {
+      "id": 17,
+      "text": "NATVAL ENER",
+      "bbox": [
+        303,
+        265,
+        418,
+        290
+      ],
+      "poly": [
+        [
+          304,
+          265
+        ],
+        [
+          418,
+          269
+        ],
+        [
+          417,
+          290
+        ],
+        [
+          303,
+          286
+        ]
+      ],
+      "ocr_confidence": 0.9690321087837219,
+      "det_confidence": null
+    },
+    {
+      "id": 18,
+      "text": "FC",
+      "bbox": [
+        437,
+        267,
+        466,
+        292
+      ],
+      "poly": [
+        [
+          439,
+          267
+        ],
+        [
+          466,
+          270
+        ],
+        [
+          464,
+          292
+        ],
+        [
+          437,
+          289
+        ]
+      ],
+      "ocr_confidence": 0.9799350500106812,
+      "det_confidence": null
+    },
+    {
+      "id": 19,
+      "text": "$5.89",
+      "bbox": [
+        497,
+        270,
+        551,
+        294
+      ],
+      "poly": [
+        [
+          498,
+          270
+        ],
+        [
+          551,
+          272
+        ],
+        [
+          549,
+          294
+        ],
+        [
+          497,
+          292
+        ]
+      ],
+      "ocr_confidence": 0.9932332038879395,
+      "det_confidence": null
+    },
+    {
+      "id": 20,
+      "text": "071201388",
+      "bbox": [
+        149,
+        283,
+        242,
+        307
+      ],
+      "poly": [
+        [
+          149,
+          286
+        ],
+        [
+          241,
+          283
+        ],
+        [
+          242,
+          304
+        ],
+        [
+          150,
+          307
+        ]
+      ],
+      "ocr_confidence": 0.9985746741294861,
+      "det_confidence": null
+    },
+    {
+      "id": 21,
+      "text": "MOTTS FRTSN",
+      "bbox": [
+        304,
+        283,
+        417,
+        308
+      ],
+      "poly": [
+        [
+          305,
+          283
+        ],
+        [
+          417,
+          287
+        ],
+        [
+          416,
+          308
+        ],
+        [
+          304,
+          304
+        ]
+      ],
+      "ocr_confidence": 0.9660659432411194,
+      "det_confidence": null
+    },
+    {
+      "id": 22,
+      "text": "FC",
+      "bbox": [
+        440,
+        288,
+        466,
+        308
+      ],
+      "poly": [
+        [
+          440,
+          288
+        ],
+        [
+          466,
+          288
+        ],
+        [
+          466,
+          308
+        ],
+        [
+          440,
+          308
+        ]
+      ],
+      "ocr_confidence": 0.9914773106575012,
+      "det_confidence": null
+    },
+    {
+      "id": 23,
+      "text": "$1.50",
+      "bbox": [
+        497,
+        287,
+        552,
+        311
+      ],
+      "poly": [
+        [
+          498,
+          287
+        ],
+        [
+          552,
+          289
+        ],
+        [
+          550,
+          311
+        ],
+        [
+          497,
+          309
+        ]
+      ],
+      "ocr_confidence": 0.988261342048645,
+      "det_confidence": null
+    },
+    {
+      "id": 24,
+      "text": "19273023",
+      "bbox": [
+        150,
+        301,
+        232,
+        325
+      ],
+      "poly": [
+        [
+          150,
+          304
+        ],
+        [
+          232,
+          301
+        ],
+        [
+          232,
+          322
+        ],
+        [
+          151,
+          325
+        ]
+      ],
+      "ocr_confidence": 0.9988395571708679,
+      "det_confidence": null
+    },
+    {
+      "id": 25,
+      "text": "Cartwheel MfrCpn",
+      "bbox": [
+        294,
+        300,
+        457,
+        327
+      ],
+      "poly": [
+        [
+          295,
+          300
+        ],
+        [
+          457,
+          306
+        ],
+        [
+          457,
+          327
+        ],
+        [
+          294,
+          321
+        ]
+      ],
+      "ocr_confidence": 0.9673736095428467,
+      "det_confidence": null
+    },
+    {
+      "id": 26,
+      "text": "-",
+      "bbox": [
+        565,
+        296,
+        573,
+        309
+      ],
+      "poly": [
+        [
+          565,
+          296
+        ],
+        [
+          573,
+          296
+        ],
+        [
+          573,
+          309
+        ],
+        [
+          565,
+          309
+        ]
+      ],
+      "ocr_confidence": 0.24864839017391205,
+      "det_confidence": null
+    },
+    {
+      "id": 27,
+      "text": "$0.50-",
+      "bbox": [
+        498,
+        306,
+        555,
+        327
+      ],
+      "poly": [
+        [
+          498,
+          306
+        ],
+        [
+          555,
+          306
+        ],
+        [
+          555,
+          327
+        ],
+        [
+          498,
+          327
+        ]
+      ],
+      "ocr_confidence": 0.9493138790130615,
+      "det_confidence": null
+    },
+    {
+      "id": 28,
+      "text": "071201388",
+      "bbox": [
+        150,
+        319,
+        242,
+        344
+      ],
+      "poly": [
+        [
+          150,
+          322
+        ],
+        [
+          241,
+          319
+        ],
+        [
+          242,
+          341
+        ],
+        [
+          151,
+          344
+        ]
+      ],
+      "ocr_confidence": 0.9978777766227722,
+      "det_confidence": null
+    },
+    {
+      "id": 29,
+      "text": "MOTTSFRTSN",
+      "bbox": [
+        305,
+        319,
+        417,
+        342
+      ],
+      "poly": [
+        [
+          305,
+          319
+        ],
+        [
+          417,
+          321
+        ],
+        [
+          417,
+          342
+        ],
+        [
+          305,
+          340
+        ]
+      ],
+      "ocr_confidence": 0.9944985508918762,
+      "det_confidence": null
+    },
+    {
+      "id": 30,
+      "text": "FC",
+      "bbox": [
+        441,
+        324,
+        465,
+        341
+      ],
+      "poly": [
+        [
+          441,
+          324
+        ],
+        [
+          465,
+          324
+        ],
+        [
+          465,
+          341
+        ],
+        [
+          441,
+          341
+        ]
+      ],
+      "ocr_confidence": 0.9816298484802246,
+      "det_confidence": null
+    },
+    {
+      "id": 31,
+      "text": "$4.50",
+      "bbox": [
+        498,
+        321,
+        553,
+        346
+      ],
+      "poly": [
+        [
+          499,
+          321
+        ],
+        [
+          553,
+          323
+        ],
+        [
+          551,
+          346
+        ],
+        [
+          498,
+          344
+        ]
+      ],
+      "ocr_confidence": 0.990426242351532,
+      "det_confidence": null
+    },
+    {
+      "id": 32,
+      "text": "3@ $1.50ea",
+      "bbox": [
+        294,
+        337,
+        417,
+        361
+      ],
+      "poly": [
+        [
+          295,
+          337
+        ],
+        [
+          417,
+          340
+        ],
+        [
+          417,
+          361
+        ],
+        [
+          294,
+          358
+        ]
+      ],
+      "ocr_confidence": 0.9187971949577332,
+      "det_confidence": null
+    },
+    {
+      "id": 33,
+      "text": "Saved $1.71 off $6.21",
+      "bbox": [
+        295,
+        356,
+        502,
+        379
+      ],
+      "poly": [
+        [
+          296,
+          356
+        ],
+        [
+          502,
+          358
+        ],
+        [
+          502,
+          379
+        ],
+        [
+          295,
+          377
+        ]
+      ],
+      "ocr_confidence": 0.9481279253959656,
+      "det_confidence": null
+    },
+    {
+      "id": 34,
+      "text": "203140116",
+      "bbox": [
+        151,
+        375,
+        243,
+        398
+      ],
+      "poly": [
+        [
+          151,
+          377
+        ],
+        [
+          242,
+          375
+        ],
+        [
+          243,
+          396
+        ],
+        [
+          152,
+          398
+        ]
+      ],
+      "ocr_confidence": 0.9992419481277466,
+      "det_confidence": null
+    },
+    {
+      "id": 35,
+      "text": "V8",
+      "bbox": [
+        305,
+        374,
+        331,
+        395
+      ],
+      "poly": [
+        [
+          305,
+          374
+        ],
+        [
+          331,
+          374
+        ],
+        [
+          331,
+          395
+        ],
+        [
+          305,
+          395
+        ]
+      ],
+      "ocr_confidence": 0.9790485501289368,
+      "det_confidence": null
+    },
+    {
+      "id": 36,
+      "text": "FC",
+      "bbox": [
+        442,
+        376,
+        467,
+        397
+      ],
+      "poly": [
+        [
+          442,
+          376
+        ],
+        [
+          467,
+          376
+        ],
+        [
+          467,
+          397
+        ],
+        [
+          442,
+          397
+        ]
+      ],
+      "ocr_confidence": 0.9818809032440186,
+      "det_confidence": null
+    },
+    {
+      "id": 37,
+      "text": "$4.19",
+      "bbox": [
+        499,
+        376,
+        552,
+        397
+      ],
+      "poly": [
+        [
+          499,
+          376
+        ],
+        [
+          552,
+          376
+        ],
+        [
+          552,
+          397
+        ],
+        [
+          499,
+          397
+        ]
+      ],
+      "ocr_confidence": 0.9862360954284668,
+      "det_confidence": null
+    },
+    {
+      "id": 38,
+      "text": "\u2193",
+      "bbox": [
+        565,
+        381,
+        577,
+        397
+      ],
+      "poly": [
+        [
+          565,
+          381
+        ],
+        [
+          577,
+          381
+        ],
+        [
+          577,
+          397
+        ],
+        [
+          565,
+          397
+        ]
+      ],
+      "ocr_confidence": 0.9714010953903198,
+      "det_confidence": null
+    },
+    {
+      "id": 39,
+      "text": "210110240",
+      "bbox": [
+        151,
+        393,
+        244,
+        416
+      ],
+      "poly": [
+        [
+          151,
+          395
+        ],
+        [
+          243,
+          393
+        ],
+        [
+          244,
+          414
+        ],
+        [
+          152,
+          416
+        ]
+      ],
+      "ocr_confidence": 0.9991216659545898,
+      "det_confidence": null
+    },
+    {
+      "id": 40,
+      "text": "OSCAR MAYER",
+      "bbox": [
+        306,
+        393,
+        418,
+        413
+      ],
+      "poly": [
+        [
+          306,
+          393
+        ],
+        [
+          418,
+          393
+        ],
+        [
+          418,
+          413
+        ],
+        [
+          306,
+          413
+        ]
+      ],
+      "ocr_confidence": 0.968984842300415,
+      "det_confidence": null
+    },
+    {
+      "id": 41,
+      "text": "FC",
+      "bbox": [
+        442,
+        392,
+        466,
+        415
+      ],
+      "poly": [
+        [
+          442,
+          392
+        ],
+        [
+          466,
+          392
+        ],
+        [
+          466,
+          415
+        ],
+        [
+          442,
+          415
+        ]
+      ],
+      "ocr_confidence": 0.9864459037780762,
+      "det_confidence": null
+    },
+    {
+      "id": 42,
+      "text": "$2.50",
+      "bbox": [
+        499,
+        393,
+        552,
+        415
+      ],
+      "poly": [
+        [
+          499,
+          393
+        ],
+        [
+          552,
+          393
+        ],
+        [
+          552,
+          415
+        ],
+        [
+          499,
+          415
+        ]
+      ],
+      "ocr_confidence": 0.9855860471725464,
+      "det_confidence": null
+    },
+    {
+      "id": 43,
+      "text": "\u2193",
+      "bbox": [
+        567,
+        399,
+        576,
+        412
+      ],
+      "poly": [
+        [
+          567,
+          399
+        ],
+        [
+          576,
+          399
+        ],
+        [
+          576,
+          412
+        ],
+        [
+          567,
+          412
+        ]
+      ],
+      "ocr_confidence": 0.9580550193786621,
+      "det_confidence": null
+    },
+    {
+      "id": 44,
+      "text": "210110375",
+      "bbox": [
+        153,
+        413,
+        244,
+        434
+      ],
+      "poly": [
+        [
+          153,
+          413
+        ],
+        [
+          244,
+          413
+        ],
+        [
+          244,
+          434
+        ],
+        [
+          153,
+          434
+        ]
+      ],
+      "ocr_confidence": 0.9985570907592773,
+      "det_confidence": null
+    },
+    {
+      "id": 45,
+      "text": "OSCAR MAYER",
+      "bbox": [
+        306,
+        411,
+        418,
+        432
+      ],
+      "poly": [
+        [
+          306,
+          411
+        ],
+        [
+          418,
+          411
+        ],
+        [
+          418,
+          432
+        ],
+        [
+          306,
+          432
+        ]
+      ],
+      "ocr_confidence": 0.9715791940689087,
+      "det_confidence": null
+    },
+    {
+      "id": 46,
+      "text": "FC",
+      "bbox": [
+        441,
+        410,
+        465,
+        433
+      ],
+      "poly": [
+        [
+          441,
+          410
+        ],
+        [
+          465,
+          410
+        ],
+        [
+          465,
+          433
+        ],
+        [
+          441,
+          433
+        ]
+      ],
+      "ocr_confidence": 0.982380747795105,
+      "det_confidence": null
+    },
+    {
+      "id": 47,
+      "text": "$3.07",
+      "bbox": [
+        501,
+        413,
+        551,
+        432
+      ],
+      "poly": [
+        [
+          501,
+          413
+        ],
+        [
+          551,
+          413
+        ],
+        [
+          551,
+          432
+        ],
+        [
+          501,
+          432
+        ]
+      ],
+      "ocr_confidence": 0.9946367144584656,
+      "det_confidence": null
+    },
+    {
+      "id": 48,
+      "text": "Cartwheel 15%",
+      "bbox": [
+        297,
+        430,
+        428,
+        450
+      ],
+      "poly": [
+        [
+          297,
+          430
+        ],
+        [
+          428,
+          430
+        ],
+        [
+          428,
+          450
+        ],
+        [
+          297,
+          450
+        ]
+      ],
+      "ocr_confidence": 0.9593241810798645,
+      "det_confidence": null
+    },
+    {
+      "id": 49,
+      "text": "off",
+      "bbox": [
+        433,
+        430,
+        465,
+        450
+      ],
+      "poly": [
+        [
+          433,
+          430
+        ],
+        [
+          465,
+          430
+        ],
+        [
+          465,
+          450
+        ],
+        [
+          433,
+          450
+        ]
+      ],
+      "ocr_confidence": 0.9958159923553467,
+      "det_confidence": null
+    },
+    {
+      "id": 50,
+      "text": "$3.62",
+      "bbox": [
+        469,
+        429,
+        525,
+        451
+      ],
+      "poly": [
+        [
+          469,
+          429
+        ],
+        [
+          525,
+          429
+        ],
+        [
+          525,
+          451
+        ],
+        [
+          469,
+          451
+        ]
+      ],
+      "ocr_confidence": 0.9859920740127563,
+      "det_confidence": null
+    },
+    {
+      "id": 51,
+      "text": "211080156",
+      "bbox": [
+        152,
+        447,
+        245,
+        470
+      ],
+      "poly": [
+        [
+          153,
+          447
+        ],
+        [
+          245,
+          449
+        ],
+        [
+          244,
+          470
+        ],
+        [
+          152,
+          468
+        ]
+      ],
+      "ocr_confidence": 0.9987200498580933,
+      "det_confidence": null
+    },
+    {
+      "id": 52,
+      "text": "NAKED",
+      "bbox": [
+        306,
+        447,
+        360,
+        468
+      ],
+      "poly": [
+        [
+          306,
+          447
+        ],
+        [
+          360,
+          447
+        ],
+        [
+          360,
+          468
+        ],
+        [
+          306,
+          468
+        ]
+      ],
+      "ocr_confidence": 0.996752142906189,
+      "det_confidence": null
+    },
+    {
+      "id": 53,
+      "text": "FC",
+      "bbox": [
+        443,
+        449,
+        464,
+        468
+      ],
+      "poly": [
+        [
+          443,
+          449
+        ],
+        [
+          464,
+          449
+        ],
+        [
+          464,
+          468
+        ],
+        [
+          443,
+          468
+        ]
+      ],
+      "ocr_confidence": 0.9923731088638306,
+      "det_confidence": null
+    },
+    {
+      "id": 54,
+      "text": "$2.50",
+      "bbox": [
+        500,
+        447,
+        553,
+        468
+      ],
+      "poly": [
+        [
+          500,
+          447
+        ],
+        [
+          553,
+          447
+        ],
+        [
+          553,
+          468
+        ],
+        [
+          500,
+          468
+        ]
+      ],
+      "ocr_confidence": 0.9896367788314819,
+      "det_confidence": null
+    },
+    {
+      "id": 55,
+      "text": "211124798",
+      "bbox": [
+        154,
+        467,
+        243,
+        485
+      ],
+      "poly": [
+        [
+          154,
+          467
+        ],
+        [
+          243,
+          467
+        ],
+        [
+          243,
+          485
+        ],
+        [
+          154,
+          485
+        ]
+      ],
+      "ocr_confidence": 0.9984749555587769,
+      "det_confidence": null
+    },
+    {
+      "id": 56,
+      "text": "TOMATO",
+      "bbox": [
+        306,
+        465,
+        370,
+        486
+      ],
+      "poly": [
+        [
+          306,
+          465
+        ],
+        [
+          370,
+          465
+        ],
+        [
+          370,
+          486
+        ],
+        [
+          306,
+          486
+        ]
+      ],
+      "ocr_confidence": 0.9953538775444031,
+      "det_confidence": null
+    },
+    {
+      "id": 57,
+      "text": "FC",
+      "bbox": [
+        443,
+        467,
+        464,
+        485
+      ],
+      "poly": [
+        [
+          443,
+          467
+        ],
+        [
+          464,
+          467
+        ],
+        [
+          464,
+          485
+        ],
+        [
+          443,
+          485
+        ]
+      ],
+      "ocr_confidence": 0.9895755052566528,
+      "det_confidence": null
+    },
+    {
+      "id": 58,
+      "text": "$0.99",
+      "bbox": [
+        499,
+        464,
+        553,
+        486
+      ],
+      "poly": [
+        [
+          499,
+          464
+        ],
+        [
+          553,
+          464
+        ],
+        [
+          553,
+          486
+        ],
+        [
+          499,
+          486
+        ]
+      ],
+      "ocr_confidence": 0.9920310974121094,
+      "det_confidence": null
+    },
+    {
+      "id": 59,
+      "text": "211214061",
+      "bbox": [
+        152,
+        482,
+        244,
+        505
+      ],
+      "poly": [
+        [
+          153,
+          482
+        ],
+        [
+          244,
+          484
+        ],
+        [
+          243,
+          505
+        ],
+        [
+          152,
+          503
+        ]
+      ],
+      "ocr_confidence": 0.996267557144165,
+      "det_confidence": null
+    },
+    {
+      "id": 60,
+      "text": "LETTUCE",
+      "bbox": [
+        307,
+        483,
+        378,
+        504
+      ],
+      "poly": [
+        [
+          307,
+          483
+        ],
+        [
+          378,
+          483
+        ],
+        [
+          378,
+          504
+        ],
+        [
+          307,
+          504
+        ]
+      ],
+      "ocr_confidence": 0.9970182776451111,
+      "det_confidence": null
+    },
+    {
+      "id": 61,
+      "text": "FC",
+      "bbox": [
+        443,
+        484,
+        463,
+        503
+      ],
+      "poly": [
+        [
+          443,
+          484
+        ],
+        [
+          463,
+          484
+        ],
+        [
+          463,
+          503
+        ],
+        [
+          443,
+          503
+        ]
+      ],
+      "ocr_confidence": 0.9940881729125977,
+      "det_confidence": null
+    },
+    {
+      "id": 62,
+      "text": "$1.49",
+      "bbox": [
+        498,
+        481,
+        554,
+        505
+      ],
+      "poly": [
+        [
+          498,
+          483
+        ],
+        [
+          553,
+          481
+        ],
+        [
+          554,
+          503
+        ],
+        [
+          499,
+          505
+        ]
+      ],
+      "ocr_confidence": 0.9911442995071411,
+      "det_confidence": null
+    },
+    {
+      "id": 63,
+      "text": "212040401",
+      "bbox": [
+        152,
+        500,
+        245,
+        523
+      ],
+      "poly": [
+        [
+          153,
+          500
+        ],
+        [
+          245,
+          502
+        ],
+        [
+          244,
+          523
+        ],
+        [
+          152,
+          521
+        ]
+      ],
+      "ocr_confidence": 0.9987390041351318,
+      "det_confidence": null
+    },
+    {
+      "id": 64,
+      "text": "KC MASTERPC",
+      "bbox": [
+        307,
+        501,
+        417,
+        522
+      ],
+      "poly": [
+        [
+          307,
+          501
+        ],
+        [
+          417,
+          501
+        ],
+        [
+          417,
+          522
+        ],
+        [
+          307,
+          522
+        ]
+      ],
+      "ocr_confidence": 0.9904714822769165,
+      "det_confidence": null
+    },
+    {
+      "id": 65,
+      "text": "FC",
+      "bbox": [
+        441,
+        501,
+        465,
+        522
+      ],
+      "poly": [
+        [
+          441,
+          501
+        ],
+        [
+          465,
+          501
+        ],
+        [
+          465,
+          522
+        ],
+        [
+          441,
+          522
+        ]
+      ],
+      "ocr_confidence": 0.9785009622573853,
+      "det_confidence": null
+    },
+    {
+      "id": 66,
+      "text": "$3.39",
+      "bbox": [
+        498,
+        499,
+        554,
+        523
+      ],
+      "poly": [
+        [
+          498,
+          501
+        ],
+        [
+          553,
+          499
+        ],
+        [
+          554,
+          521
+        ],
+        [
+          499,
+          523
+        ]
+      ],
+      "ocr_confidence": 0.9926169514656067,
+      "det_confidence": null
+    },
+    {
+      "id": 67,
+      "text": "212080427",
+      "bbox": [
+        154,
+        520,
+        244,
+        538
+      ],
+      "poly": [
+        [
+          154,
+          520
+        ],
+        [
+          244,
+          520
+        ],
+        [
+          244,
+          538
+        ],
+        [
+          154,
+          538
+        ]
+      ],
+      "ocr_confidence": 0.9985933303833008,
+      "det_confidence": null
+    },
+    {
+      "id": 68,
+      "text": "MARKET PANT",
+      "bbox": [
+        307,
+        519,
+        416,
+        539
+      ],
+      "poly": [
+        [
+          307,
+          519
+        ],
+        [
+          416,
+          519
+        ],
+        [
+          416,
+          539
+        ],
+        [
+          307,
+          539
+        ]
+      ],
+      "ocr_confidence": 0.9700897336006165,
+      "det_confidence": null
+    },
+    {
+      "id": 69,
+      "text": "FC",
+      "bbox": [
+        441,
+        518,
+        465,
+        539
+      ],
+      "poly": [
+        [
+          441,
+          518
+        ],
+        [
+          465,
+          518
+        ],
+        [
+          465,
+          539
+        ],
+        [
+          441,
+          539
+        ]
+      ],
+      "ocr_confidence": 0.9902341365814209,
+      "det_confidence": null
+    },
+    {
+      "id": 70,
+      "text": "$3.29",
+      "bbox": [
+        499,
+        517,
+        553,
+        539
+      ],
+      "poly": [
+        [
+          499,
+          517
+        ],
+        [
+          553,
+          517
+        ],
+        [
+          553,
+          539
+        ],
+        [
+          499,
+          539
+        ]
+      ],
+      "ocr_confidence": 0.9926247596740723,
+      "det_confidence": null
+    },
+    {
+      "id": 71,
+      "text": "212140031",
+      "bbox": [
+        154,
+        538,
+        244,
+        556
+      ],
+      "poly": [
+        [
+          154,
+          538
+        ],
+        [
+          244,
+          538
+        ],
+        [
+          244,
+          556
+        ],
+        [
+          154,
+          556
+        ]
+      ],
+      "ocr_confidence": 0.9989129304885864,
+      "det_confidence": null
+    },
+    {
+      "id": 72,
+      "text": "BC SDNLY SL",
+      "bbox": [
+        306,
+        537,
+        415,
+        557
+      ],
+      "poly": [
+        [
+          306,
+          537
+        ],
+        [
+          415,
+          537
+        ],
+        [
+          415,
+          557
+        ],
+        [
+          306,
+          557
+        ]
+      ],
+      "ocr_confidence": 0.9368491768836975,
+      "det_confidence": null
+    },
+    {
+      "id": 73,
+      "text": "FC",
+      "bbox": [
+        442,
+        537,
+        464,
+        555
+      ],
+      "poly": [
+        [
+          442,
+          537
+        ],
+        [
+          464,
+          537
+        ],
+        [
+          464,
+          555
+        ],
+        [
+          442,
+          555
+        ]
+      ],
+      "ocr_confidence": 0.9932714700698853,
+      "det_confidence": null
+    },
+    {
+      "id": 74,
+      "text": "$1.72",
+      "bbox": [
+        498,
+        535,
+        553,
+        556
+      ],
+      "poly": [
+        [
+          498,
+          535
+        ],
+        [
+          553,
+          535
+        ],
+        [
+          553,
+          556
+        ],
+        [
+          498,
+          556
+        ]
+      ],
+      "ocr_confidence": 0.9888019561767578,
+      "det_confidence": null
+    },
+    {
+      "id": 75,
+      "text": "Cartwheel 10%",
+      "bbox": [
+        297,
+        552,
+        428,
+        573
+      ],
+      "poly": [
+        [
+          297,
+          552
+        ],
+        [
+          428,
+          552
+        ],
+        [
+          428,
+          573
+        ],
+        [
+          297,
+          573
+        ]
+      ],
+      "ocr_confidence": 0.9674667119979858,
+      "det_confidence": null
+    },
+    {
+      "id": 76,
+      "text": "off",
+      "bbox": [
+        431,
+        554,
+        466,
+        573
+      ],
+      "poly": [
+        [
+          431,
+          554
+        ],
+        [
+          466,
+          554
+        ],
+        [
+          466,
+          573
+        ],
+        [
+          431,
+          573
+        ]
+      ],
+      "ocr_confidence": 0.9966438412666321,
+      "det_confidence": null
+    },
+    {
+      "id": 77,
+      "text": "$1.92",
+      "bbox": [
+        467,
+        553,
+        526,
+        574
+      ],
+      "poly": [
+        [
+          467,
+          553
+        ],
+        [
+          526,
+          553
+        ],
+        [
+          526,
+          574
+        ],
+        [
+          467,
+          574
+        ]
+      ],
+      "ocr_confidence": 0.9896995425224304,
+      "det_confidence": null
+    },
+    {
+      "id": 78,
+      "text": "261011548",
+      "bbox": [
+        154,
+        572,
+        245,
+        590
+      ],
+      "poly": [
+        [
+          154,
+          572
+        ],
+        [
+          245,
+          572
+        ],
+        [
+          245,
+          590
+        ],
+        [
+          154,
+          590
+        ]
+      ],
+      "ocr_confidence": 0.9988980889320374,
+      "det_confidence": null
+    },
+    {
+      "id": 79,
+      "text": "PEPPERIDGE",
+      "bbox": [
+        308,
+        572,
+        406,
+        590
+      ],
+      "poly": [
+        [
+          308,
+          572
+        ],
+        [
+          406,
+          572
+        ],
+        [
+          406,
+          590
+        ],
+        [
+          308,
+          590
+        ]
+      ],
+      "ocr_confidence": 0.998031735420227,
+      "det_confidence": null
+    },
+    {
+      "id": 80,
+      "text": "FC",
+      "bbox": [
+        441,
+        571,
+        465,
+        592
+      ],
+      "poly": [
+        [
+          441,
+          571
+        ],
+        [
+          465,
+          571
+        ],
+        [
+          465,
+          592
+        ],
+        [
+          441,
+          592
+        ]
+      ],
+      "ocr_confidence": 0.9834457635879517,
+      "det_confidence": null
+    },
+    {
+      "id": 81,
+      "text": "$2.99",
+      "bbox": [
+        498,
+        570,
+        554,
+        592
+      ],
+      "poly": [
+        [
+          498,
+          570
+        ],
+        [
+          554,
+          570
+        ],
+        [
+          554,
+          592
+        ],
+        [
+          498,
+          592
+        ]
+      ],
+      "ocr_confidence": 0.9920833706855774,
+      "det_confidence": null
+    },
+    {
+      "id": 82,
+      "text": "261090048",
+      "bbox": [
+        155,
+        590,
+        245,
+        608
+      ],
+      "poly": [
+        [
+          155,
+          590
+        ],
+        [
+          245,
+          590
+        ],
+        [
+          245,
+          608
+        ],
+        [
+          155,
+          608
+        ]
+      ],
+      "ocr_confidence": 0.9993059635162354,
+      "det_confidence": null
+    },
+    {
+      "id": 83,
+      "text": "SMUCKERS",
+      "bbox": [
+        308,
+        590,
+        388,
+        608
+      ],
+      "poly": [
+        [
+          308,
+          590
+        ],
+        [
+          388,
+          590
+        ],
+        [
+          388,
+          608
+        ],
+        [
+          308,
+          608
+        ]
+      ],
+      "ocr_confidence": 0.9925113916397095,
+      "det_confidence": null
+    },
+    {
+      "id": 84,
+      "text": "FC",
+      "bbox": [
+        441,
+        589,
+        465,
+        610
+      ],
+      "poly": [
+        [
+          441,
+          589
+        ],
+        [
+          465,
+          589
+        ],
+        [
+          465,
+          610
+        ],
+        [
+          441,
+          610
+        ]
+      ],
+      "ocr_confidence": 0.9846752882003784,
+      "det_confidence": null
+    },
+    {
+      "id": 85,
+      "text": "$2.09",
+      "bbox": [
+        498,
+        586,
+        555,
+        610
+      ],
+      "poly": [
+        [
+          498,
+          588
+        ],
+        [
+          554,
+          586
+        ],
+        [
+          555,
+          608
+        ],
+        [
+          499,
+          610
+        ]
+      ],
+      "ocr_confidence": 0.9849665760993958,
+      "det_confidence": null
+    },
+    {
+      "id": 86,
+      "text": "268050036",
+      "bbox": [
+        154,
+        608,
+        245,
+        625
+      ],
+      "poly": [
+        [
+          154,
+          608
+        ],
+        [
+          245,
+          608
+        ],
+        [
+          245,
+          625
+        ],
+        [
+          154,
+          625
+        ]
+      ],
+      "ocr_confidence": 0.9989825487136841,
+      "det_confidence": null
+    },
+    {
+      "id": 87,
+      "text": "JENNIE-O",
+      "bbox": [
+        309,
+        607,
+        388,
+        625
+      ],
+      "poly": [
+        [
+          309,
+          607
+        ],
+        [
+          388,
+          607
+        ],
+        [
+          388,
+          625
+        ],
+        [
+          309,
+          625
+        ]
+      ],
+      "ocr_confidence": 0.9568208456039429,
+      "det_confidence": null
+    },
+    {
+      "id": 88,
+      "text": "FC",
+      "bbox": [
+        443,
+        606,
+        464,
+        625
+      ],
+      "poly": [
+        [
+          443,
+          606
+        ],
+        [
+          464,
+          606
+        ],
+        [
+          464,
+          625
+        ],
+        [
+          443,
+          625
+        ]
+      ],
+      "ocr_confidence": 0.9888008832931519,
+      "det_confidence": null
+    },
+    {
+      "id": 89,
+      "text": "$2.99",
+      "bbox": [
+        499,
+        605,
+        554,
+        627
+      ],
+      "poly": [
+        [
+          499,
+          605
+        ],
+        [
+          554,
+          605
+        ],
+        [
+          554,
+          627
+        ],
+        [
+          499,
+          627
+        ]
+      ],
+      "ocr_confidence": 0.9850093126296997,
+      "det_confidence": null
+    },
+    {
+      "id": 90,
+      "text": "270020350",
+      "bbox": [
+        152,
+        622,
+        247,
+        645
+      ],
+      "poly": [
+        [
+          152,
+          624
+        ],
+        [
+          246,
+          622
+        ],
+        [
+          247,
+          643
+        ],
+        [
+          153,
+          645
+        ]
+      ],
+      "ocr_confidence": 0.998375654220581,
+      "det_confidence": null
+    },
+    {
+      "id": 91,
+      "text": "LEAN CUISIN",
+      "bbox": [
+        306,
+        623,
+        418,
+        643
+      ],
+      "poly": [
+        [
+          306,
+          623
+        ],
+        [
+          418,
+          623
+        ],
+        [
+          418,
+          643
+        ],
+        [
+          306,
+          643
+        ]
+      ],
+      "ocr_confidence": 0.9728233814239502,
+      "det_confidence": null
+    },
+    {
+      "id": 92,
+      "text": "FC",
+      "bbox": [
+        443,
+        624,
+        464,
+        643
+      ],
+      "poly": [
+        [
+          443,
+          624
+        ],
+        [
+          464,
+          624
+        ],
+        [
+          464,
+          643
+        ],
+        [
+          443,
+          643
+        ]
+      ],
+      "ocr_confidence": 0.9904441833496094,
+      "det_confidence": null
+    },
+    {
+      "id": 93,
+      "text": "$2.45",
+      "bbox": [
+        500,
+        623,
+        555,
+        644
+      ],
+      "poly": [
+        [
+          500,
+          623
+        ],
+        [
+          555,
+          623
+        ],
+        [
+          555,
+          644
+        ],
+        [
+          500,
+          644
+        ]
+      ],
+      "ocr_confidence": 0.9802996516227722,
+      "det_confidence": null
+    },
+    {
+      "id": 94,
+      "text": "Cartwheel 15%",
+      "bbox": [
+        300,
+        642,
+        428,
+        662
+      ],
+      "poly": [
+        [
+          300,
+          642
+        ],
+        [
+          428,
+          642
+        ],
+        [
+          428,
+          662
+        ],
+        [
+          300,
+          662
+        ]
+      ],
+      "ocr_confidence": 0.9668206572532654,
+      "det_confidence": null
+    },
+    {
+      "id": 95,
+      "text": "off",
+      "bbox": [
+        432,
+        642,
+        466,
+        662
+      ],
+      "poly": [
+        [
+          432,
+          642
+        ],
+        [
+          466,
+          642
+        ],
+        [
+          466,
+          662
+        ],
+        [
+          432,
+          662
+        ]
+      ],
+      "ocr_confidence": 0.9961234927177429,
+      "det_confidence": null
+    },
+    {
+      "id": 96,
+      "text": "$2.89",
+      "bbox": [
+        468,
+        641,
+        527,
+        662
+      ],
+      "poly": [
+        [
+          468,
+          641
+        ],
+        [
+          527,
+          641
+        ],
+        [
+          527,
+          662
+        ],
+        [
+          468,
+          662
+        ]
+      ],
+      "ocr_confidence": 0.989165186882019,
+      "det_confidence": null
+    },
+    {
+      "id": 97,
+      "text": "270021296",
+      "bbox": [
+        153,
+        657,
+        247,
+        680
+      ],
+      "poly": [
+        [
+          153,
+          659
+        ],
+        [
+          246,
+          657
+        ],
+        [
+          247,
+          678
+        ],
+        [
+          154,
+          680
+        ]
+      ],
+      "ocr_confidence": 0.9983506798744202,
+      "det_confidence": null
+    },
+    {
+      "id": 98,
+      "text": "LEAN CUISIN",
+      "bbox": [
+        307,
+        658,
+        418,
+        681
+      ],
+      "poly": [
+        [
+          307,
+          658
+        ],
+        [
+          418,
+          660
+        ],
+        [
+          418,
+          681
+        ],
+        [
+          307,
+          679
+        ]
+      ],
+      "ocr_confidence": 0.9550138115882874,
+      "det_confidence": null
+    },
+    {
+      "id": 99,
+      "text": "FCEC",
+      "bbox": [
+        441,
+        657,
+        467,
+        719
+      ],
+      "poly": [
+        [
+          441,
+          657
+        ],
+        [
+          467,
+          657
+        ],
+        [
+          467,
+          719
+        ],
+        [
+          441,
+          719
+        ]
+      ],
+      "ocr_confidence": 0.6508924961090088,
+      "det_confidence": null
+    },
+    {
+      "id": 100,
+      "text": "$2.14",
+      "bbox": [
+        500,
+        659,
+        555,
+        681
+      ],
+      "poly": [
+        [
+          500,
+          659
+        ],
+        [
+          555,
+          659
+        ],
+        [
+          555,
+          681
+        ],
+        [
+          500,
+          681
+        ]
+      ],
+      "ocr_confidence": 0.9890590906143188,
+      "det_confidence": null
+    },
+    {
+      "id": 101,
+      "text": "270021326",
+      "bbox": [
+        152,
+        675,
+        247,
+        698
+      ],
+      "poly": [
+        [
+          152,
+          677
+        ],
+        [
+          246,
+          675
+        ],
+        [
+          247,
+          696
+        ],
+        [
+          153,
+          698
+        ]
+      ],
+      "ocr_confidence": 0.998713493347168,
+      "det_confidence": null
+    },
+    {
+      "id": 102,
+      "text": "LEAN CUISIN",
+      "bbox": [
+        307,
+        675,
+        418,
+        698
+      ],
+      "poly": [
+        [
+          307,
+          675
+        ],
+        [
+          418,
+          677
+        ],
+        [
+          418,
+          698
+        ],
+        [
+          307,
+          696
+        ]
+      ],
+      "ocr_confidence": 0.9663560390472412,
+      "det_confidence": null
+    },
+    {
+      "id": 103,
+      "text": "$2.89",
+      "bbox": [
+        499,
+        676,
+        555,
+        697
+      ],
+      "poly": [
+        [
+          499,
+          676
+        ],
+        [
+          555,
+          676
+        ],
+        [
+          555,
+          697
+        ],
+        [
+          499,
+          697
+        ]
+      ],
+      "ocr_confidence": 0.9897215962409973,
+      "det_confidence": null
+    },
+    {
+      "id": 104,
+      "text": "270021477",
+      "bbox": [
+        152,
+        693,
+        247,
+        716
+      ],
+      "poly": [
+        [
+          152,
+          695
+        ],
+        [
+          246,
+          693
+        ],
+        [
+          247,
+          714
+        ],
+        [
+          153,
+          716
+        ]
+      ],
+      "ocr_confidence": 0.9974087476730347,
+      "det_confidence": null
+    },
+    {
+      "id": 105,
+      "text": "LEAN CUISIN",
+      "bbox": [
+        307,
+        691,
+        419,
+        715
+      ],
+      "poly": [
+        [
+          307,
+          691
+        ],
+        [
+          419,
+          694
+        ],
+        [
+          418,
+          715
+        ],
+        [
+          307,
+          712
+        ]
+      ],
+      "ocr_confidence": 0.9845324158668518,
+      "det_confidence": null
+    },
+    {
+      "id": 106,
+      "text": "$2.45",
+      "bbox": [
+        499,
+        694,
+        556,
+        715
+      ],
+      "poly": [
+        [
+          499,
+          694
+        ],
+        [
+          556,
+          694
+        ],
+        [
+          556,
+          715
+        ],
+        [
+          499,
+          715
+        ]
+      ],
+      "ocr_confidence": 0.989895224571228,
+      "det_confidence": null
+    },
+    {
+      "id": 107,
+      "text": "Cartwheel 15%",
+      "bbox": [
+        297,
+        709,
+        429,
+        732
+      ],
+      "poly": [
+        [
+          298,
+          709
+        ],
+        [
+          429,
+          711
+        ],
+        [
+          428,
+          732
+        ],
+        [
+          297,
+          730
+        ]
+      ],
+      "ocr_confidence": 0.959973931312561,
+      "det_confidence": null
+    },
+    {
+      "id": 108,
+      "text": "off",
+      "bbox": [
+        433,
+        712,
+        468,
+        732
+      ],
+      "poly": [
+        [
+          433,
+          712
+        ],
+        [
+          468,
+          712
+        ],
+        [
+          468,
+          732
+        ],
+        [
+          433,
+          732
+        ]
+      ],
+      "ocr_confidence": 0.9947275519371033,
+      "det_confidence": null
+    },
+    {
+      "id": 109,
+      "text": "$2.89",
+      "bbox": [
+        468,
+        712,
+        528,
+        733
+      ],
+      "poly": [
+        [
+          468,
+          712
+        ],
+        [
+          528,
+          712
+        ],
+        [
+          528,
+          733
+        ],
+        [
+          468,
+          733
+        ]
+      ],
+      "ocr_confidence": 0.984832763671875,
+      "det_confidence": null
+    },
+    {
+      "id": 110,
+      "text": "270110029",
+      "bbox": [
+        152,
+        728,
+        247,
+        752
+      ],
+      "poly": [
+        [
+          152,
+          730
+        ],
+        [
+          246,
+          728
+        ],
+        [
+          247,
+          750
+        ],
+        [
+          153,
+          752
+        ]
+      ],
+      "ocr_confidence": 0.9988230466842651,
+      "det_confidence": null
+    },
+    {
+      "id": 111,
+      "text": "EVOL",
+      "bbox": [
+        308,
+        728,
+        350,
+        747
+      ],
+      "poly": [
+        [
+          308,
+          728
+        ],
+        [
+          350,
+          728
+        ],
+        [
+          350,
+          747
+        ],
+        [
+          308,
+          747
+        ]
+      ],
+      "ocr_confidence": 0.9887709021568298,
+      "det_confidence": null
+    },
+    {
+      "id": 112,
+      "text": "FC",
+      "bbox": [
+        442,
+        730,
+        467,
+        751
+      ],
+      "poly": [
+        [
+          442,
+          730
+        ],
+        [
+          467,
+          730
+        ],
+        [
+          467,
+          751
+        ],
+        [
+          442,
+          751
+        ]
+      ],
+      "ocr_confidence": 0.9860012531280518,
+      "det_confidence": null
+    },
+    {
+      "id": 113,
+      "text": "$5.59",
+      "bbox": [
+        500,
+        730,
+        556,
+        752
+      ],
+      "poly": [
+        [
+          500,
+          730
+        ],
+        [
+          556,
+          730
+        ],
+        [
+          556,
+          752
+        ],
+        [
+          500,
+          752
+        ]
+      ],
+      "ocr_confidence": 0.9906447529792786,
+      "det_confidence": null
+    },
+    {
+      "id": 114,
+      "text": "Cartwheel 30%",
+      "bbox": [
+        299,
+        745,
+        430,
+        768
+      ],
+      "poly": [
+        [
+          299,
+          745
+        ],
+        [
+          430,
+          747
+        ],
+        [
+          429,
+          768
+        ],
+        [
+          299,
+          766
+        ]
+      ],
+      "ocr_confidence": 0.9756699800491333,
+      "det_confidence": null
+    },
+    {
+      "id": 115,
+      "text": "off",
+      "bbox": [
+        433,
+        748,
+        468,
+        768
+      ],
+      "poly": [
+        [
+          433,
+          748
+        ],
+        [
+          468,
+          748
+        ],
+        [
+          468,
+          768
+        ],
+        [
+          433,
+          768
+        ]
+      ],
+      "ocr_confidence": 0.9956158995628357,
+      "det_confidence": null
+    },
+    {
+      "id": 116,
+      "text": "$7.99",
+      "bbox": [
+        466,
+        748,
+        528,
+        769
+      ],
+      "poly": [
+        [
+          466,
+          748
+        ],
+        [
+          528,
+          748
+        ],
+        [
+          528,
+          769
+        ],
+        [
+          466,
+          769
+        ]
+      ],
+      "ocr_confidence": 0.9893356561660767,
+      "det_confidence": null
+    },
+    {
+      "id": 117,
+      "text": "270110217",
+      "bbox": [
+        152,
+        764,
+        247,
+        787
+      ],
+      "poly": [
+        [
+          152,
+          766
+        ],
+        [
+          246,
+          764
+        ],
+        [
+          247,
+          785
+        ],
+        [
+          153,
+          787
+        ]
+      ],
+      "ocr_confidence": 0.9982497096061707,
+      "det_confidence": null
+    },
+    {
+      "id": 118,
+      "text": "BIRD SUBB H",
+      "bbox": [
+        308,
+        761,
+        420,
+        784
+      ],
+      "poly": [
+        [
+          308,
+          761
+        ],
+        [
+          420,
+          763
+        ],
+        [
+          420,
+          784
+        ],
+        [
+          308,
+          782
+        ]
+      ],
+      "ocr_confidence": 0.9133668541908264,
+      "det_confidence": null
+    },
+    {
+      "id": 119,
+      "text": "FC",
+      "bbox": [
+        441,
+        765,
+        468,
+        785
+      ],
+      "poly": [
+        [
+          441,
+          765
+        ],
+        [
+          468,
+          765
+        ],
+        [
+          468,
+          785
+        ],
+        [
+          441,
+          785
+        ]
+      ],
+      "ocr_confidence": 0.9718633890151978,
+      "det_confidence": null
+    },
+    {
+      "id": 120,
+      "text": "$4.09",
+      "bbox": [
+        501,
+        765,
+        557,
+        787
+      ],
+      "poly": [
+        [
+          501,
+          765
+        ],
+        [
+          557,
+          765
+        ],
+        [
+          557,
+          787
+        ],
+        [
+          501,
+          787
+        ]
+      ],
+      "ocr_confidence": 0.9906432032585144,
+      "det_confidence": null
+    },
+    {
+      "id": 121,
+      "text": "284031157",
+      "bbox": [
+        152,
+        782,
+        247,
+        806
+      ],
+      "poly": [
+        [
+          152,
+          785
+        ],
+        [
+          246,
+          782
+        ],
+        [
+          247,
+          803
+        ],
+        [
+          153,
+          806
+        ]
+      ],
+      "ocr_confidence": 0.9983698725700378,
+      "det_confidence": null
+    },
+    {
+      "id": 122,
+      "text": "MP EGGS",
+      "bbox": [
+        309,
+        781,
+        379,
+        799
+      ],
+      "poly": [
+        [
+          309,
+          781
+        ],
+        [
+          379,
+          781
+        ],
+        [
+          379,
+          799
+        ],
+        [
+          309,
+          799
+        ]
+      ],
+      "ocr_confidence": 0.9546855092048645,
+      "det_confidence": null
+    },
+    {
+      "id": 123,
+      "text": "FC",
+      "bbox": [
+        442,
+        782,
+        468,
+        803
+      ],
+      "poly": [
+        [
+          442,
+          782
+        ],
+        [
+          468,
+          782
+        ],
+        [
+          468,
+          803
+        ],
+        [
+          442,
+          803
+        ]
+      ],
+      "ocr_confidence": 0.988579273223877,
+      "det_confidence": null
+    },
+    {
+      "id": 124,
+      "text": "$1.89",
+      "bbox": [
+        500,
+        782,
+        558,
+        806
+      ],
+      "poly": [
+        [
+          501,
+          782
+        ],
+        [
+          558,
+          784
+        ],
+        [
+          557,
+          806
+        ],
+        [
+          500,
+          804
+        ]
+      ],
+      "ocr_confidence": 0.9858065843582153,
+      "det_confidence": null
+    },
+    {
+      "id": 125,
+      "text": "Cartwheel 5%",
+      "bbox": [
+        300,
+        798,
+        421,
+        819
+      ],
+      "poly": [
+        [
+          300,
+          798
+        ],
+        [
+          421,
+          798
+        ],
+        [
+          421,
+          819
+        ],
+        [
+          300,
+          819
+        ]
+      ],
+      "ocr_confidence": 0.9713385105133057,
+      "det_confidence": null
+    },
+    {
+      "id": 126,
+      "text": "off $1.99",
+      "bbox": [
+        422,
+        798,
+        518,
+        821
+      ],
+      "poly": [
+        [
+          423,
+          798
+        ],
+        [
+          518,
+          800
+        ],
+        [
+          517,
+          821
+        ],
+        [
+          422,
+          819
+        ]
+      ],
+      "ocr_confidence": 0.9531755447387695,
+      "det_confidence": null
+    },
+    {
+      "id": 127,
+      "text": "284050033",
+      "bbox": [
+        152,
+        817,
+        247,
+        841
+      ],
+      "poly": [
+        [
+          152,
+          820
+        ],
+        [
+          246,
+          817
+        ],
+        [
+          247,
+          838
+        ],
+        [
+          153,
+          841
+        ]
+      ],
+      "ocr_confidence": 0.9988791346549988,
+      "det_confidence": null
+    },
+    {
+      "id": 128,
+      "text": "REDDI WIP",
+      "bbox": [
+        310,
+        815,
+        399,
+        836
+      ],
+      "poly": [
+        [
+          310,
+          815
+        ],
+        [
+          399,
+          815
+        ],
+        [
+          399,
+          836
+        ],
+        [
+          310,
+          836
+        ]
+      ],
+      "ocr_confidence": 0.9597551822662354,
+      "det_confidence": null
+    },
+    {
+      "id": 129,
+      "text": "FC",
+      "bbox": [
+        440,
+        815,
+        469,
+        839
+      ],
+      "poly": [
+        [
+          442,
+          815
+        ],
+        [
+          469,
+          818
+        ],
+        [
+          467,
+          839
+        ],
+        [
+          440,
+          836
+        ]
+      ],
+      "ocr_confidence": 0.9848538041114807,
+      "det_confidence": null
+    },
+    {
+      "id": 130,
+      "text": "$3.72",
+      "bbox": [
+        500,
+        818,
+        558,
+        842
+      ],
+      "poly": [
+        [
+          501,
+          818
+        ],
+        [
+          558,
+          820
+        ],
+        [
+          557,
+          842
+        ],
+        [
+          500,
+          840
+        ]
+      ],
+      "ocr_confidence": 0.9916142225265503,
+      "det_confidence": null
+    },
+    {
+      "id": 131,
+      "text": "284062204",
+      "bbox": [
+        152,
+        836,
+        247,
+        860
+      ],
+      "poly": [
+        [
+          152,
+          839
+        ],
+        [
+          246,
+          836
+        ],
+        [
+          247,
+          857
+        ],
+        [
+          153,
+          860
+        ]
+      ],
+      "ocr_confidence": 0.9980157017707825,
+      "det_confidence": null
+    },
+    {
+      "id": 132,
+      "text": "MPHANDH",
+      "bbox": [
+        309,
+        833,
+        411,
+        854
+      ],
+      "poly": [
+        [
+          309,
+          833
+        ],
+        [
+          411,
+          833
+        ],
+        [
+          411,
+          854
+        ],
+        [
+          309,
+          854
+        ]
+      ],
+      "ocr_confidence": 0.9970995187759399,
+      "det_confidence": null
+    },
+    {
+      "id": 133,
+      "text": "FC",
+      "bbox": [
+        440,
+        832,
+        468,
+        856
+      ],
+      "poly": [
+        [
+          443,
+          832
+        ],
+        [
+          468,
+          836
+        ],
+        [
+          466,
+          856
+        ],
+        [
+          440,
+          852
+        ]
+      ],
+      "ocr_confidence": 0.9827455282211304,
+      "det_confidence": null
+    },
+    {
+      "id": 134,
+      "text": "$1.41",
+      "bbox": [
+        500,
+        836,
+        557,
+        861
+      ],
+      "poly": [
+        [
+          501,
+          836
+        ],
+        [
+          557,
+          839
+        ],
+        [
+          555,
+          861
+        ],
+        [
+          500,
+          858
+        ]
+      ],
+      "ocr_confidence": 0.9874988794326782,
+      "det_confidence": null
+    },
+    {
+      "id": 135,
+      "text": "Cartwheel",
+      "bbox": [
+        298,
+        850,
+        391,
+        873
+      ],
+      "poly": [
+        [
+          298,
+          852
+        ],
+        [
+          390,
+          850
+        ],
+        [
+          391,
+          871
+        ],
+        [
+          299,
+          873
+        ]
+      ],
+      "ocr_confidence": 0.9913547039031982,
+      "det_confidence": null
+    },
+    {
+      "id": 136,
+      "text": "5%",
+      "bbox": [
+        396,
+        853,
+        418,
+        869
+      ],
+      "poly": [
+        [
+          396,
+          853
+        ],
+        [
+          418,
+          853
+        ],
+        [
+          418,
+          869
+        ],
+        [
+          396,
+          869
+        ]
+      ],
+      "ocr_confidence": 0.9910097718238831,
+      "det_confidence": null
+    },
+    {
+      "id": 137,
+      "text": "off $1.49",
+      "bbox": [
+        421,
+        851,
+        518,
+        875
+      ],
+      "poly": [
+        [
+          422,
+          851
+        ],
+        [
+          518,
+          854
+        ],
+        [
+          517,
+          875
+        ],
+        [
+          421,
+          872
+        ]
+      ],
+      "ocr_confidence": 0.9630250930786133,
+      "det_confidence": null
+    },
+    {
+      "id": 138,
+      "text": "284101094",
+      "bbox": [
+        152,
+        871,
+        247,
+        895
+      ],
+      "poly": [
+        [
+          152,
+          874
+        ],
+        [
+          246,
+          871
+        ],
+        [
+          247,
+          892
+        ],
+        [
+          153,
+          895
+        ]
+      ],
+      "ocr_confidence": 0.9985487461090088,
+      "det_confidence": null
+    },
+    {
+      "id": 139,
+      "text": "CHOBANI",
+      "bbox": [
+        309,
+        867,
+        381,
+        891
+      ],
+      "poly": [
+        [
+          309,
+          869
+        ],
+        [
+          380,
+          867
+        ],
+        [
+          381,
+          889
+        ],
+        [
+          309,
+          891
+        ]
+      ],
+      "ocr_confidence": 0.9944646954536438,
+      "det_confidence": null
+    },
+    {
+      "id": 140,
+      "text": "FC",
+      "bbox": [
+        440,
+        867,
+        469,
+        893
+      ],
+      "poly": [
+        [
+          443,
+          867
+        ],
+        [
+          469,
+          871
+        ],
+        [
+          466,
+          893
+        ],
+        [
+          440,
+          889
+        ]
+      ],
+      "ocr_confidence": 0.9872787594795227,
+      "det_confidence": null
+    },
+    {
+      "id": 141,
+      "text": "$1.00",
+      "bbox": [
+        500,
+        871,
+        558,
+        896
+      ],
+      "poly": [
+        [
+          501,
+          871
+        ],
+        [
+          558,
+          874
+        ],
+        [
+          556,
+          896
+        ],
+        [
+          500,
+          893
+        ]
+      ],
+      "ocr_confidence": 0.9903135299682617,
+      "det_confidence": null
+    },
+    {
+      "id": 142,
+      "text": "284101095",
+      "bbox": [
+        152,
+        890,
+        247,
+        914
+      ],
+      "poly": [
+        [
+          152,
+          893
+        ],
+        [
+          246,
+          890
+        ],
+        [
+          247,
+          911
+        ],
+        [
+          153,
+          914
+        ]
+      ],
+      "ocr_confidence": 0.9986191987991333,
+      "det_confidence": null
+    },
+    {
+      "id": 143,
+      "text": "CHOBANI",
+      "bbox": [
+        309,
+        885,
+        380,
+        909
+      ],
+      "poly": [
+        [
+          309,
+          887
+        ],
+        [
+          379,
+          885
+        ],
+        [
+          380,
+          907
+        ],
+        [
+          309,
+          909
+        ]
+      ],
+      "ocr_confidence": 0.9947931170463562,
+      "det_confidence": null
+    },
+    {
+      "id": 144,
+      "text": "FC",
+      "bbox": [
+        444,
+        886,
+        467,
+        909
+      ],
+      "poly": [
+        [
+          444,
+          886
+        ],
+        [
+          467,
+          886
+        ],
+        [
+          467,
+          909
+        ],
+        [
+          444,
+          909
+        ]
+      ],
+      "ocr_confidence": 0.9846101999282837,
+      "det_confidence": null
+    },
+    {
+      "id": 145,
+      "text": "$1.00",
+      "bbox": [
+        500,
+        889,
+        558,
+        913
+      ],
+      "poly": [
+        [
+          501,
+          889
+        ],
+        [
+          558,
+          891
+        ],
+        [
+          557,
+          913
+        ],
+        [
+          500,
+          911
+        ]
+      ],
+      "ocr_confidence": 0.9893375635147095,
+      "det_confidence": null
+    },
+    {
+      "id": 146,
+      "text": "284101157",
+      "bbox": [
+        152,
+        907,
+        247,
+        932
+      ],
+      "poly": [
+        [
+          152,
+          911
+        ],
+        [
+          246,
+          907
+        ],
+        [
+          247,
+          928
+        ],
+        [
+          153,
+          932
+        ]
+      ],
+      "ocr_confidence": 0.9974666237831116,
+      "det_confidence": null
+    },
+    {
+      "id": 147,
+      "text": "CHOBANI",
+      "bbox": [
+        310,
+        905,
+        380,
+        926
+      ],
+      "poly": [
+        [
+          310,
+          905
+        ],
+        [
+          380,
+          905
+        ],
+        [
+          380,
+          926
+        ],
+        [
+          310,
+          926
+        ]
+      ],
+      "ocr_confidence": 0.996954619884491,
+      "det_confidence": null
+    },
+    {
+      "id": 148,
+      "text": "FC",
+      "bbox": [
+        445,
+        906,
+        466,
+        924
+      ],
+      "poly": [
+        [
+          445,
+          906
+        ],
+        [
+          466,
+          906
+        ],
+        [
+          466,
+          924
+        ],
+        [
+          445,
+          924
+        ]
+      ],
+      "ocr_confidence": 0.9891297817230225,
+      "det_confidence": null
+    },
+    {
+      "id": 149,
+      "text": "$1.00",
+      "bbox": [
+        501,
+        906,
+        558,
+        931
+      ],
+      "poly": [
+        [
+          502,
+          906
+        ],
+        [
+          558,
+          909
+        ],
+        [
+          556,
+          931
+        ],
+        [
+          501,
+          928
+        ]
+      ],
+      "ocr_confidence": 0.9856036305427551,
+      "det_confidence": null
+    },
+    {
+      "id": 150,
+      "text": "CHOBANI",
+      "bbox": [
+        309,
+        922,
+        381,
+        945
+      ],
+      "poly": [
+        [
+          309,
+          924
+        ],
+        [
+          380,
+          922
+        ],
+        [
+          381,
+          943
+        ],
+        [
+          309,
+          945
+        ]
+      ],
+      "ocr_confidence": 0.9922795295715332,
+      "det_confidence": null
+    },
+    {
+      "id": 151,
+      "text": "FC",
+      "bbox": [
+        441,
+        919,
+        470,
+        945
+      ],
+      "poly": [
+        [
+          444,
+          919
+        ],
+        [
+          470,
+          923
+        ],
+        [
+          467,
+          945
+        ],
+        [
+          441,
+          941
+        ]
+      ],
+      "ocr_confidence": 0.9859333634376526,
+      "det_confidence": null
+    },
+    {
+      "id": 152,
+      "text": "284101488",
+      "bbox": [
+        152,
+        925,
+        247,
+        950
+      ],
+      "poly": [
+        [
+          152,
+          929
+        ],
+        [
+          246,
+          925
+        ],
+        [
+          247,
+          946
+        ],
+        [
+          153,
+          950
+        ]
+      ],
+      "ocr_confidence": 0.9982448220252991,
+      "det_confidence": null
+    },
+    {
+      "id": 153,
+      "text": "$2.00",
+      "bbox": [
+        501,
+        924,
+        558,
+        949
+      ],
+      "poly": [
+        [
+          502,
+          924
+        ],
+        [
+          558,
+          927
+        ],
+        [
+          556,
+          949
+        ],
+        [
+          501,
+          946
+        ]
+      ],
+      "ocr_confidence": 0.9870559573173523,
+      "det_confidence": null
+    },
+    {
+      "id": 154,
+      "text": "2@ $1.00ea",
+      "bbox": [
+        300,
+        940,
+        420,
+        961
+      ],
+      "poly": [
+        [
+          300,
+          940
+        ],
+        [
+          420,
+          940
+        ],
+        [
+          420,
+          961
+        ],
+        [
+          300,
+          961
+        ]
+      ],
+      "ocr_confidence": 0.8953679203987122,
+      "det_confidence": null
+    },
+    {
+      "id": 155,
+      "text": "288070759",
+      "bbox": [
+        152,
+        959,
+        247,
+        985
+      ],
+      "poly": [
+        [
+          152,
+          964
+        ],
+        [
+          246,
+          959
+        ],
+        [
+          247,
+          980
+        ],
+        [
+          153,
+          985
+        ]
+      ],
+      "ocr_confidence": 0.9980776906013489,
+      "det_confidence": null
+    },
+    {
+      "id": 156,
+      "text": "BREYERS",
+      "bbox": [
+        311,
+        959,
+        380,
+        977
+      ],
+      "poly": [
+        [
+          311,
+          959
+        ],
+        [
+          380,
+          959
+        ],
+        [
+          380,
+          977
+        ],
+        [
+          311,
+          977
+        ]
+      ],
+      "ocr_confidence": 0.9941549301147461,
+      "det_confidence": null
+    },
+    {
+      "id": 157,
+      "text": "FC",
+      "bbox": [
+        441,
+        956,
+        470,
+        980
+      ],
+      "poly": [
+        [
+          443,
+          956
+        ],
+        [
+          470,
+          958
+        ],
+        [
+          468,
+          980
+        ],
+        [
+          441,
+          978
+        ]
+      ],
+      "ocr_confidence": 0.9890782833099365,
+      "det_confidence": null
+    },
+    {
+      "id": 158,
+      "text": "$3.49",
+      "bbox": [
+        501,
+        959,
+        558,
+        984
+      ],
+      "poly": [
+        [
+          502,
+          959
+        ],
+        [
+          558,
+          962
+        ],
+        [
+          556,
+          984
+        ],
+        [
+          501,
+          981
+        ]
+      ],
+      "ocr_confidence": 0.991204559803009,
+      "det_confidence": null
+    },
+    {
+      "id": 159,
+      "text": "Saved $0.60",
+      "bbox": [
+        300,
+        975,
+        412,
+        995
+      ],
+      "poly": [
+        [
+          300,
+          975
+        ],
+        [
+          412,
+          975
+        ],
+        [
+          412,
+          995
+        ],
+        [
+          300,
+          995
+        ]
+      ],
+      "ocr_confidence": 0.9617500901222229,
+      "det_confidence": null
+    },
+    {
+      "id": 160,
+      "text": "off $4.09",
+      "bbox": [
+        413,
+        973,
+        508,
+        998
+      ],
+      "poly": [
+        [
+          414,
+          973
+        ],
+        [
+          508,
+          977
+        ],
+        [
+          507,
+          998
+        ],
+        [
+          413,
+          994
+        ]
+      ],
+      "ocr_confidence": 0.9649060368537903,
+      "det_confidence": null
+    },
+    {
+      "id": 161,
+      "text": "\u2192",
+      "bbox": [
+        575,
+        968,
+        585,
+        983
+      ],
+      "poly": [
+        [
+          575,
+          968
+        ],
+        [
+          585,
+          968
+        ],
+        [
+          585,
+          983
+        ],
+        [
+          575,
+          983
+        ]
+      ],
+      "ocr_confidence": 0.7807475924491882,
+      "det_confidence": null
+    },
+    {
+      "id": 162,
+      "text": "288070788",
+      "bbox": [
+        152,
+        994,
+        247,
+        1020
+      ],
+      "poly": [
+        [
+          152,
+          999
+        ],
+        [
+          246,
+          994
+        ],
+        [
+          247,
+          1015
+        ],
+        [
+          153,
+          1020
+        ]
+      ],
+      "ocr_confidence": 0.9982569217681885,
+      "det_confidence": null
+    },
+    {
+      "id": 163,
+      "text": "BREYERS",
+      "bbox": [
+        311,
+        994,
+        381,
+        1012
+      ],
+      "poly": [
+        [
+          311,
+          994
+        ],
+        [
+          381,
+          994
+        ],
+        [
+          381,
+          1012
+        ],
+        [
+          311,
+          1012
+        ]
+      ],
+      "ocr_confidence": 0.9940159916877747,
+      "det_confidence": null
+    },
+    {
+      "id": 164,
+      "text": "FC",
+      "bbox": [
+        441,
+        990,
+        470,
+        1015
+      ],
+      "poly": [
+        [
+          444,
+          990
+        ],
+        [
+          470,
+          994
+        ],
+        [
+          468,
+          1015
+        ],
+        [
+          441,
+          1011
+        ]
+      ],
+      "ocr_confidence": 0.9869488477706909,
+      "det_confidence": null
+    },
+    {
+      "id": 165,
+      "text": "$3.49",
+      "bbox": [
+        502,
+        997,
+        557,
+        1019
+      ],
+      "poly": [
+        [
+          502,
+          997
+        ],
+        [
+          557,
+          997
+        ],
+        [
+          557,
+          1019
+        ],
+        [
+          502,
+          1019
+        ]
+      ],
+      "ocr_confidence": 0.9915449023246765,
+      "det_confidence": null
+    },
+    {
+      "id": 166,
+      "text": "Saved $0.60",
+      "bbox": [
+        301,
+        1011,
+        413,
+        1032
+      ],
+      "poly": [
+        [
+          301,
+          1011
+        ],
+        [
+          413,
+          1011
+        ],
+        [
+          413,
+          1032
+        ],
+        [
+          301,
+          1032
+        ]
+      ],
+      "ocr_confidence": 0.9592427611351013,
+      "det_confidence": null
+    },
+    {
+      "id": 167,
+      "text": "off $4.09",
+      "bbox": [
+        413,
+        1008,
+        508,
+        1036
+      ],
+      "poly": [
+        [
+          414,
+          1008
+        ],
+        [
+          508,
+          1012
+        ],
+        [
+          506,
+          1036
+        ],
+        [
+          413,
+          1032
+        ]
+      ],
+      "ocr_confidence": 0.9668346047401428,
+      "det_confidence": null
+    },
+    {
+      "id": 168,
+      "text": "\u2193",
+      "bbox": [
+        573,
+        1002,
+        585,
+        1018
+      ],
+      "poly": [
+        [
+          573,
+          1002
+        ],
+        [
+          585,
+          1002
+        ],
+        [
+          585,
+          1018
+        ],
+        [
+          573,
+          1018
+        ]
+      ],
+      "ocr_confidence": 0.9807462692260742,
+      "det_confidence": null
+    },
+    {
+      "id": 169,
+      "text": "HEALTH-BEAUTY-COSMETICS",
+      "bbox": [
+        153,
+        1042,
+        383,
+        1073
+      ],
+      "poly": [
+        [
+          153,
+          1049
+        ],
+        [
+          382,
+          1042
+        ],
+        [
+          383,
+          1066
+        ],
+        [
+          154,
+          1073
+        ]
+      ],
+      "ocr_confidence": 0.9845661520957947,
+      "det_confidence": null
+    },
+    {
+      "id": 170,
+      "text": "049090323",
+      "bbox": [
+        154,
+        1066,
+        247,
+        1090
+      ],
+      "poly": [
+        [
+          154,
+          1069
+        ],
+        [
+          246,
+          1066
+        ],
+        [
+          247,
+          1087
+        ],
+        [
+          155,
+          1090
+        ]
+      ],
+      "ocr_confidence": 0.9978556036949158,
+      "det_confidence": null
+    },
+    {
+      "id": 171,
+      "text": "AQUAF2PK",
+      "bbox": [
+        310,
+        1061,
+        401,
+        1084
+      ],
+      "poly": [
+        [
+          310,
+          1063
+        ],
+        [
+          401,
+          1061
+        ],
+        [
+          401,
+          1082
+        ],
+        [
+          310,
+          1084
+        ]
+      ],
+      "ocr_confidence": 0.9961107969284058,
+      "det_confidence": null
+    },
+    {
+      "id": 172,
+      "text": "T",
+      "bbox": [
+        453,
+        1065,
+        467,
+        1082
+      ],
+      "poly": [
+        [
+          453,
+          1065
+        ],
+        [
+          467,
+          1065
+        ],
+        [
+          467,
+          1082
+        ],
+        [
+          453,
+          1082
+        ]
+      ],
+      "ocr_confidence": 0.9987629652023315,
+      "det_confidence": null
+    },
+    {
+      "id": 173,
+      "text": "$4.89",
+      "bbox": [
+        501,
+        1067,
+        556,
+        1089
+      ],
+      "poly": [
+        [
+          501,
+          1067
+        ],
+        [
+          556,
+          1067
+        ],
+        [
+          556,
+          1089
+        ],
+        [
+          501,
+          1089
+        ]
+      ],
+      "ocr_confidence": 0.9894827604293823,
+      "det_confidence": null
+    },
+    {
+      "id": 174,
+      "text": "SONICARE",
+      "bbox": [
+        309,
+        1077,
+        391,
+        1102
+      ],
+      "poly": [
+        [
+          309,
+          1080
+        ],
+        [
+          390,
+          1077
+        ],
+        [
+          391,
+          1099
+        ],
+        [
+          310,
+          1102
+        ]
+      ],
+      "ocr_confidence": 0.9936188459396362,
+      "det_confidence": null
+    },
+    {
+      "id": 175,
+      "text": "\u2193",
+      "bbox": [
+        571,
+        1071,
+        583,
+        1088
+      ],
+      "poly": [
+        [
+          571,
+          1071
+        ],
+        [
+          583,
+          1071
+        ],
+        [
+          583,
+          1088
+        ],
+        [
+          571,
+          1088
+        ]
+      ],
+      "ocr_confidence": 0.9798407554626465,
+      "det_confidence": null
+    },
+    {
+      "id": 176,
+      "text": "049110079",
+      "bbox": [
+        154,
+        1083,
+        248,
+        1108
+      ],
+      "poly": [
+        [
+          154,
+          1087
+        ],
+        [
+          247,
+          1083
+        ],
+        [
+          248,
+          1104
+        ],
+        [
+          155,
+          1108
+        ]
+      ],
+      "ocr_confidence": 0.9977661967277527,
+      "det_confidence": null
+    },
+    {
+      "id": 177,
+      "text": "T",
+      "bbox": [
+        453,
+        1083,
+        465,
+        1100
+      ],
+      "poly": [
+        [
+          453,
+          1083
+        ],
+        [
+          465,
+          1083
+        ],
+        [
+          465,
+          1100
+        ],
+        [
+          453,
+          1100
+        ]
+      ],
+      "ocr_confidence": 0.947598934173584,
+      "det_confidence": null
+    },
+    {
+      "id": 178,
+      "text": "$21.99",
+      "bbox": [
+        491,
+        1083,
+        556,
+        1107
+      ],
+      "poly": [
+        [
+          492,
+          1083
+        ],
+        [
+          556,
+          1085
+        ],
+        [
+          555,
+          1107
+        ],
+        [
+          491,
+          1105
+        ]
+      ],
+      "ocr_confidence": 0.9905301928520203,
+      "det_confidence": null
+    },
+    {
+      "id": 179,
+      "text": "HOME",
+      "bbox": [
+        153,
+        1117,
+        202,
+        1141
+      ],
+      "poly": [
+        [
+          153,
+          1119
+        ],
+        [
+          201,
+          1117
+        ],
+        [
+          202,
+          1139
+        ],
+        [
+          154,
+          1141
+        ]
+      ],
+      "ocr_confidence": 0.99257493019104,
+      "det_confidence": null
+    },
+    {
+      "id": 180,
+      "text": "072071302",
+      "bbox": [
+        155,
+        1133,
+        248,
+        1157
+      ],
+      "poly": [
+        [
+          155,
+          1135
+        ],
+        [
+          247,
+          1133
+        ],
+        [
+          248,
+          1155
+        ],
+        [
+          156,
+          1157
+        ]
+      ],
+      "ocr_confidence": 0.996566891670227,
+      "det_confidence": null
+    },
+    {
+      "id": 181,
+      "text": "Saved $20.00 off $149.99",
+      "bbox": [
+        296,
+        1140,
+        538,
+        1175
+      ],
+      "poly": [
+        [
+          297,
+          1140
+        ],
+        [
+          538,
+          1144
+        ],
+        [
+          538,
+          1175
+        ],
+        [
+          296,
+          1171
+        ]
+      ],
+      "ocr_confidence": 0.912015438079834,
+      "det_confidence": null
+    },
+    {
+      "id": 182,
+      "text": "BISSELL",
+      "bbox": [
+        307,
+        1127,
+        379,
+        1152
+      ],
+      "poly": [
+        [
+          307,
+          1131
+        ],
+        [
+          377,
+          1127
+        ],
+        [
+          379,
+          1148
+        ],
+        [
+          309,
+          1152
+        ]
+      ],
+      "ocr_confidence": 0.9949742555618286,
+      "det_confidence": null
+    },
+    {
+      "id": 183,
+      "text": "I",
+      "bbox": [
+        454,
+        1135,
+        469,
+        1150
+      ],
+      "poly": [
+        [
+          454,
+          1135
+        ],
+        [
+          469,
+          1135
+        ],
+        [
+          469,
+          1150
+        ],
+        [
+          454,
+          1150
+        ]
+      ],
+      "ocr_confidence": 0.4002090096473694,
+      "det_confidence": null
+    },
+    {
+      "id": 184,
+      "text": "$129.99",
+      "bbox": [
+        479,
+        1132,
+        556,
+        1156
+      ],
+      "poly": [
+        [
+          480,
+          1132
+        ],
+        [
+          556,
+          1134
+        ],
+        [
+          555,
+          1156
+        ],
+        [
+          479,
+          1154
+        ]
+      ],
+      "ocr_confidence": 0.9955838918685913,
+      "det_confidence": null
+    },
+    {
+      "id": 185,
+      "text": "SUBTOTAL",
+      "bbox": [
+        384,
+        1175,
+        466,
+        1202
+      ],
+      "poly": [
+        [
+          386,
+          1175
+        ],
+        [
+          466,
+          1180
+        ],
+        [
+          464,
+          1202
+        ],
+        [
+          384,
+          1197
+        ]
+      ],
+      "ocr_confidence": 0.9946430921554565,
+      "det_confidence": null
+    },
+    {
+      "id": 186,
+      "text": "Your REDcard Savings",
+      "bbox": [
+        269,
+        1191,
+        469,
+        1221
+      ],
+      "poly": [
+        [
+          269,
+          1191
+        ],
+        [
+          469,
+          1193
+        ],
+        [
+          468,
+          1221
+        ],
+        [
+          269,
+          1219
+        ]
+      ],
+      "ocr_confidence": 0.9226164817810059,
+      "det_confidence": null
+    },
+    {
+      "id": 187,
+      "text": "$246.00",
+      "bbox": [
+        478,
+        1182,
+        554,
+        1206
+      ],
+      "poly": [
+        [
+          479,
+          1182
+        ],
+        [
+          554,
+          1185
+        ],
+        [
+          553,
+          1206
+        ],
+        [
+          478,
+          1203
+        ]
+      ],
+      "ocr_confidence": 0.9948083758354187,
+      "det_confidence": null
+    },
+    {
+      "id": 188,
+      "text": "8.4750% on $151.37",
+      "bbox": [
+        287,
+        1209,
+        468,
+        1236
+      ],
+      "poly": [
+        [
+          287,
+          1209
+        ],
+        [
+          468,
+          1209
+        ],
+        [
+          468,
+          1236
+        ],
+        [
+          287,
+          1236
+        ]
+      ],
+      "ocr_confidence": 0.9675482511520386,
+      "det_confidence": null
+    },
+    {
+      "id": 189,
+      "text": "$11.55",
+      "bbox": [
+        489,
+        1201,
+        557,
+        1221
+      ],
+      "poly": [
+        [
+          489,
+          1201
+        ],
+        [
+          557,
+          1203
+        ],
+        [
+          556,
+          1221
+        ],
+        [
+          489,
+          1219
+        ]
+      ],
+      "ocr_confidence": 0.9920840859413147,
+      "det_confidence": null
+    },
+    {
+      "id": 190,
+      "text": "I=MO TAX",
+      "bbox": [
+        174,
+        1213,
+        279,
+        1243
+      ],
+      "poly": [
+        [
+          174,
+          1218
+        ],
+        [
+          277,
+          1213
+        ],
+        [
+          279,
+          1238
+        ],
+        [
+          176,
+          1243
+        ]
+      ],
+      "ocr_confidence": 0.8758877515792847,
+      "det_confidence": null
+    },
+    {
+      "id": 191,
+      "text": "$12.83",
+      "bbox": [
+        488,
+        1215,
+        555,
+        1238
+      ],
+      "poly": [
+        [
+          488,
+          1215
+        ],
+        [
+          555,
+          1217
+        ],
+        [
+          554,
+          1238
+        ],
+        [
+          488,
+          1236
+        ]
+      ],
+      "ocr_confidence": 0.9838677048683167,
+      "det_confidence": null
+    },
+    {
+      "id": 192,
+      "text": "5.4750%on",
+      "bbox": [
+        287,
+        1223,
+        394,
+        1252
+      ],
+      "poly": [
+        [
+          287,
+          1228
+        ],
+        [
+          393,
+          1223
+        ],
+        [
+          394,
+          1247
+        ],
+        [
+          288,
+          1252
+        ]
+      ],
+      "ocr_confidence": 0.9848458766937256,
+      "det_confidence": null
+    },
+    {
+      "id": 193,
+      "text": "$83.08",
+      "bbox": [
+        400,
+        1225,
+        467,
+        1251
+      ],
+      "poly": [
+        [
+          402,
+          1225
+        ],
+        [
+          467,
+          1230
+        ],
+        [
+          465,
+          1251
+        ],
+        [
+          400,
+          1246
+        ]
+      ],
+      "ocr_confidence": 0.9913051724433899,
+      "det_confidence": null
+    },
+    {
+      "id": 194,
+      "text": "C=MO TAX",
+      "bbox": [
+        174,
+        1231,
+        280,
+        1260
+      ],
+      "poly": [
+        [
+          174,
+          1236
+        ],
+        [
+          278,
+          1231
+        ],
+        [
+          280,
+          1255
+        ],
+        [
+          176,
+          1260
+        ]
+      ],
+      "ocr_confidence": 0.9196202754974365,
+      "det_confidence": null
+    },
+    {
+      "id": 195,
+      "text": "$4.55",
+      "bbox": [
+        497,
+        1231,
+        554,
+        1256
+      ],
+      "poly": [
+        [
+          498,
+          1231
+        ],
+        [
+          554,
+          1234
+        ],
+        [
+          552,
+          1256
+        ],
+        [
+          497,
+          1253
+        ]
+      ],
+      "ocr_confidence": 0.9874480962753296,
+      "det_confidence": null
+    },
+    {
+      "id": 196,
+      "text": "TOTAL",
+      "bbox": [
+        411,
+        1241,
+        468,
+        1269
+      ],
+      "poly": [
+        [
+          413,
+          1241
+        ],
+        [
+          468,
+          1247
+        ],
+        [
+          466,
+          1269
+        ],
+        [
+          411,
+          1263
+        ]
+      ],
+      "ocr_confidence": 0.9941940307617188,
+      "det_confidence": null
+    },
+    {
+      "id": 197,
+      "text": "$251.83",
+      "bbox": [
+        477,
+        1248,
+        553,
+        1273
+      ],
+      "poly": [
+        [
+          479,
+          1248
+        ],
+        [
+          553,
+          1252
+        ],
+        [
+          551,
+          1273
+        ],
+        [
+          477,
+          1269
+        ]
+      ],
+      "ocr_confidence": 0.9922497868537903,
+      "det_confidence": null
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "receipt_id": "traderjoes-11",
+  "image_file": "traderjoes-11.jpg",
+  "fields": {
+    "merchant_name": "TRADER JOE'S",
+    "date": "2022-02-04",
+    "time": null,
+    "subtotal": 28.9,
+    "tax": null,
+    "total": 28.97,
+    "payment_method": "other",
+    "card_last4": null,
+    "receipt_number": "192198"
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "BLUEBERRIES 18 OZ",
+      "quantity": 1.0,
+      "unit_price": 6.99,
+      "item_total": 6.99
+    },
+    {
+      "line_id": 2,
+      "name": "HARVEST CHILI BUTTERNUT",
+      "quantity": 1.0,
+      "unit_price": 4.69,
+      "item_total": 4.69
+    },
+    {
+      "line_id": 3,
+      "name": "BANANA ORG EACH",
+      "quantity": 5.0,
+      "unit_price": 0.25,
+      "item_total": 1.25
+    },
+    {
+      "line_id": 4,
+      "name": "BAR DK CHOC TRUFFLE ORG",
+      "quantity": 1.0,
+      "unit_price": 1.99,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 5,
+      "name": "BAR DK CHOC TRUFFLE ORG",
+      "quantity": 1.0,
+      "unit_price": 1.99,
+      "item_total": 1.99
+    },
+    {
+      "line_id": 6,
+      "name": "ORGANIC MANGO CHUNKS",
+      "quantity": 1.0,
+      "unit_price": 2.49,
+      "item_total": 2.49
+    },
+    {
+      "line_id": 7,
+      "name": "VERY CHERRY BERRY BLEND",
+      "quantity": 1.0,
+      "unit_price": 3.49,
+      "item_total": 3.49
+    },
+    {
+      "line_id": 8,
+      "name": "ORGANIC ROASTED VEG PIZZ",
+      "quantity": 1.0,
+      "unit_price": 4.79,
+      "item_total": 4.79
+    },
+    {
+      "line_id": 9,
+      "name": "FZN BRUSSELS SPROUTS",
+      "quantity": 1.0,
+      "unit_price": 1.29,
+      "item_total": 1.29
+    }
+  ],
+  "review_required": true,
+  "review_reasons": [
+    "date_disagreement"
+  ],
+  "field_sources": {
+    "merchant_name": "vlm",
+    "date": "vlm",
+    "receipt_number": "vlm",
+    "time": "vlm",
+    "subtotal": "ocr_layoutlm",
+    "tax": "vlm",
+    "total": "vlm",
+    "card_last4": "none",
+    "payment_method": "vlm"
+  },
+  "item_source": "vlm",
+  "ocr_layoutlm_status": "ok",
+  "vlm_status": "ok"
+}

@@ -125,7 +125,7 @@ def render_review_preview(image_path: str, payload: Dict[str, Any], selected_fie
     draw = ImageDraw.Draw(image)
 
     field = payload["fields"][selected_field]
-    proto = field.get("prototype") or {}
+    proto = field.get("ocr_layoutlm") or {}
 
     bbox = proto.get("bbox")
     conf = proto.get("confidence")
@@ -143,8 +143,8 @@ def render_review_preview(image_path: str, payload: Dict[str, Any], selected_fie
 
 def build_review_field_explanation(payload: Dict[str, Any], field_name: str) -> str:
     field = payload["fields"][field_name]
-    proto = field.get("prototype") or {}
-    groq = field.get("groq") or {}
+    proto = field.get("ocr_layoutlm") or {}
+    groq = field.get("vlm") or {}
 
     lines = [
         f"Field: {field_name}",
@@ -152,22 +152,22 @@ def build_review_field_explanation(payload: Dict[str, Any], field_name: str) -> 
         f"Chosen source: {field.get('final_source')}",
         f"Final confidence: {field.get('final_confidence')}",
         "",
-        "Prototype candidate:",
+        "OCR+LayoutLM candidate:",
         f"  value: {proto.get('value')}",
         f"  confidence: {proto.get('confidence')}",
         f"  bbox: {proto.get('bbox')}",
         "",
-        "Groq candidate:",
+        "VLM candidate:",
         f"  value: {groq.get('value')}",
         "  confidence: semantic-only",
         "  bbox: None",
     ]
 
-    if field.get("final_source") == "groq":
+    if field.get("final_source") == "vlm":
         lines += [
             "",
-            "Note: final value came from Groq semantic extraction.",
-            "Any prototype bbox shown is supporting evidence only.",
+            "Note: final value came from VLM semantic extraction.",
+            "Any OCR+LayoutLM bbox shown is supporting evidence only.",
         ]
 
     return "\n".join(lines)
@@ -251,8 +251,8 @@ def save_review_feedback(
         "review_required_before_edit": review_payload.get("review_required"),
         "review_reasons_before_edit": review_payload.get("review_reasons", []),
         "original_hybrid_output": review_payload["hybrid_canonical_output"],
-        "prototype_output": review_payload["prototype_canonical_output"],
-        "groq_output": review_payload["groq_canonical_output"],
+        "ocr_layoutlm_output": review_payload["ocr_layoutlm_canonical_output"],
+        "groq_output": review_payload["vlm_canonical_output"],
         "corrected_output": corrected,
     }
 
@@ -672,8 +672,8 @@ def run_all_pipelines(image_path: str):
         review_reasons,
         *review_field_values,
         review_items_df,
-        review_payload["prototype_canonical_output"],
-        review_payload["groq_canonical_output"],
+        review_payload["ocr_layoutlm_canonical_output"],
+        review_payload["vlm_canonical_output"],
         review_payload["hybrid_canonical_output"],
         annotation_preview,
         gr.update(choices=token_choices, value=default_token),
@@ -734,9 +734,9 @@ def create_app():
                             label="Editable Final Items",
                         )
 
-                with gr.Accordion("Prototype Output", open=False):
+                with gr.Accordion("OCR+LayoutLM Output", open=False):
                     prototype_json = gr.JSON()
-                with gr.Accordion("Groq Output", open=False):
+                with gr.Accordion("VLM Output", open=False):
                     groq_json = gr.JSON()
                 with gr.Accordion("Hybrid Output", open=False):
                     hybrid_json = gr.JSON()

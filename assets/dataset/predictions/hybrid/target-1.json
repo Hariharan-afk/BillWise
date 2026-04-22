@@ -1,0 +1,77 @@
+{
+  "receipt_id": "target-1",
+  "image_file": "target-1.jpg",
+  "fields": {
+    "merchant_name": "TARGET",
+    "date": "2017-12-09",
+    "time": null,
+    "subtotal": 27.34,
+    "tax": 1.7,
+    "total": 29.04,
+    "payment_method": "card",
+    "card_last4": "6548",
+    "receipt_number": "261120238"
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "KISSES BUTTERFINGER",
+      "quantity": 1.0,
+      "unit_price": 1.0,
+      "item_total": 1.0
+    },
+    {
+      "line_id": 2,
+      "name": "3 EA 3 00 EA",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 9.0
+    },
+    {
+      "line_id": 3,
+      "name": "FOOD COLOR",
+      "quantity": 1.0,
+      "unit_price": 2.99,
+      "item_total": 2.99
+    },
+    {
+      "line_id": 4,
+      "name": "COMAIR HEADB",
+      "quantity": 1.0,
+      "unit_price": 3.59,
+      "item_total": 3.59
+    },
+    {
+      "line_id": 5,
+      "name": "CONTRAST LIP",
+      "quantity": 1.0,
+      "unit_price": 3.99,
+      "item_total": 3.99
+    },
+    {
+      "line_id": 6,
+      "name": "CHAPSTICK 2",
+      "quantity": 1.0,
+      "unit_price": 1.98,
+      "item_total": 1.98
+    }
+  ],
+  "review_required": true,
+  "review_reasons": [
+    "item_semantic_disagreement"
+  ],
+  "field_sources": {
+    "merchant_name": "vlm",
+    "date": "vlm",
+    "receipt_number": "vlm",
+    "time": "vlm",
+    "subtotal": "ocr_layoutlm",
+    "tax": "ocr_layoutlm",
+    "total": "ocr_layoutlm",
+    "card_last4": "vlm",
+    "payment_method": "vlm"
+  },
+  "item_source": "vlm",
+  "ocr_layoutlm_status": "ok",
+  "vlm_status": "ok"
+}

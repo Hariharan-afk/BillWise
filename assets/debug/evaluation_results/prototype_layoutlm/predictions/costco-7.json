@@ -1,0 +1,38 @@
+{
+  "receipt_id": "costco-7",
+  "image_file": "costco-7.jpg",
+  "fields": {
+    "merchant_name": "COSTCO",
+    "date": "03/31/2019",
+    "time": null,
+    "subtotal": 38.48,
+    "tax": 0.0,
+    "total": 38.48,
+    "payment_method": "other",
+    "card_last4": "9090",
+    "receipt_number": null
+  },
+  "items": [
+    {
+      "line_id": 1,
+      "name": "33841 BNLS/SL BRST",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 22.1
+    },
+    {
+      "line_id": 2,
+      "name": "77053 GRAPE TOMATO",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 5.99
+    },
+    {
+      "line_id": 3,
+      "name": "384881 KS BUTTER",
+      "quantity": null,
+      "unit_price": null,
+      "item_total": 10.39
+    }
+  ]
+}
