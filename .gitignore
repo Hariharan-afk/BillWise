@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.env
+.env.local
+
+main_workflow/logs/
+main_workflow/data/smoke_test_result.json
+
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# model / runtime caches
+.paddlex/
+.cache/BillWise-Dashboard.zip
+_dashboard_src/
+checkpoints/
+data/Processed_Datasets/
