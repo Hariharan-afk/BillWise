@@ -18,6 +18,9 @@ Thumbs.db
 .vscode/
 .idea/
 
+# evaluation/debug assets (may contain API keys)
+assets/debug/
+
 # model / runtime caches
 .paddlex/
 .cache/BillWise-Dashboard.zip

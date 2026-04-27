@@ -13,7 +13,9 @@ BillWise is a production-oriented pipeline that helps restaurant operators track
 <!-- Then replace this comment block with: -->
 <!-- ![BillWise Architecture](docs/images/architecture_diagram.png) -->
 ![BillWise Architecture](docs/images/architecture_diagram.png)
+
 ---
+
 
 ## Table of Contents
 
