@@ -21,6 +21,7 @@ Thumbs.db
 # model / runtime caches
 .paddlex/
 .cache/BillWise-Dashboard.zip
+BillWise-Dashboard.zip
 _dashboard_src/
 checkpoints/
 data/Processed_Datasets/
