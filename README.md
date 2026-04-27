@@ -12,7 +12,7 @@ BillWise is a production-oriented pipeline that helps restaurant operators track
 <!-- Recommended: export your diagram as architecture_diagram.png and place it in docs/images/ -->
 <!-- Then replace this comment block with: -->
 <!-- ![BillWise Architecture](docs/images/architecture_diagram.png) -->
-
+![BillWise Architecture](docs/images/architecture_diagram.png)
 ---
 
 ## Table of Contents
